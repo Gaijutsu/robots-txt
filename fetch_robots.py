@@ -115,9 +115,9 @@ def update_spreadsheet(urls):
 
     for row in ws.iter_rows(min_row=2, min_col=2):  # Skip header and index column
         for cell in row:
-            if cell.value == '✅':
+            if cell.value == '1':
                 cell.fill = green_fill
-            elif cell.value == '❌':
+            elif cell.value == '':
                 cell.fill = red_fill
 
     # Auto-fit columns
