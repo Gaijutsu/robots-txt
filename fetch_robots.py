@@ -83,9 +83,9 @@ def update_spreadsheet(urls):
             
             # We check if the user agent can fetch the root of the site
             if rp.can_fetch(ua, '/'):
-                row[domain] = '✅'
+                row[domain] = '1'
             else:
-                row[domain] = '❌'
+                row[domain] = '0'
         data.append(row)
 
     if not data:
@@ -117,7 +117,7 @@ def update_spreadsheet(urls):
         for cell in row:
             if cell.value == '1':
                 cell.fill = green_fill
-            elif cell.value == '':
+            elif cell.value == '0':
                 cell.fill = red_fill
 
     # Auto-fit columns
