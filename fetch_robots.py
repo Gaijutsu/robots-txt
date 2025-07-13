@@ -9,6 +9,8 @@ from openpyxl import load_workbook
 from openpyxl.styles import PatternFill
 from openpyxl.utils import get_column_letter
 
+ROBOTS_DIR = 'robots_files'
+
 def clean_url(url):
     """Cleans a URL to be used as a filename."""
     # Remove protocol and www.
@@ -19,6 +21,7 @@ def clean_url(url):
 
 def fetch_and_save_robots_txt(urls):
     """Reads URLs from config.txt, fetches robots.txt, and saves them."""
+    os.makedirs(ROBOTS_DIR, exist_ok=True)
     for url in urls:
         try:
             robots_url = f"{url.rstrip('/')}/robots.txt"
@@ -26,7 +29,7 @@ def fetch_and_save_robots_txt(urls):
             response.raise_for_status()  # Raise an exception for bad status codes
 
             filename_base = clean_url(url)
-            filename = f"{filename_base}.robots.txt"
+            filename = os.path.join(ROBOTS_DIR, f"{filename_base}.robots.txt")
 
             with open(filename, 'w', encoding='utf-8') as out_file:
                 out_file.write(response.text)
@@ -55,7 +58,7 @@ def update_spreadsheet(urls):
     spreadsheet_name = 'robots-analysis.xlsx'
     domains = [clean_url(u) for u in urls]
     domain_to_url = dict(zip(domains, urls))
-    robot_files = [f"{d}.robots.txt" for d in domains]
+    robot_files = [os.path.join(ROBOTS_DIR, f"{d}.robots.txt") for d in domains]
     
     if not any(os.path.exists(f) for f in robot_files):
         print("No robots.txt files found to analyze.")
@@ -67,7 +70,7 @@ def update_spreadsheet(urls):
     for ua in user_agents:
         row = {'User-Agent': ua}
         for domain in domains:
-            robot_file_path = f"{domain}.robots.txt"
+            robot_file_path = os.path.join(ROBOTS_DIR, f"{domain}.robots.txt")
             if not os.path.exists(robot_file_path):
                 row[domain] = '❓'
                 continue
@@ -94,17 +97,19 @@ def update_spreadsheet(urls):
     
     sheet_name = datetime.now().strftime('%Y-%m-%d')
 
-    try:
-        book = load_workbook(spreadsheet_name)
-        writer = pd.ExcelWriter(spreadsheet_name, engine='openpyxl')
-        writer.book = book
-    except FileNotFoundError:
-        writer = pd.ExcelWriter(spreadsheet_name, engine='openpyxl')
+    mode = 'a' if os.path.exists(spreadsheet_name) else 'w'
+    with pd.ExcelWriter(
+        spreadsheet_name,
+        engine='openpyxl',
+        mode=mode,
+        if_sheet_exists='replace'
+    ) as writer:
+        df.to_excel(writer, sheet_name=sheet_name)
 
-    df.to_excel(writer, sheet_name=sheet_name)
+    # Re-open with openpyxl to apply styles
+    book = load_workbook(spreadsheet_name)
+    ws = book[sheet_name]
     
-    # Apply styling
-    ws = writer.sheets[sheet_name]
     green_fill = PatternFill(start_color='C6EFCE', end_color='C6EFCE', fill_type='solid')
     red_fill = PatternFill(start_color='FFC7CE', end_color='FFC7CE', fill_type='solid')
 
@@ -128,7 +133,7 @@ def update_spreadsheet(urls):
         adjusted_width = (max_length + 2)
         ws.column_dimensions[column].width = adjusted_width
         
-    writer.close()
+    book.save(spreadsheet_name)
     print(f"Spreadsheet '{spreadsheet_name}' updated with new sheet '{sheet_name}'.")
 
 def main():
