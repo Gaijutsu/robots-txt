@@ -1,0 +1,165 @@
+# Bei Fragen zu diesen Regeln oder Aenderungswuenschen koennen sie sich an das SEO-Team wenden, erreichbar unter 030 / 2591 79232
+
+User-agent: Googlebot-News
+Disallow: /partner/
+Disallow: /community/
+Disallow: /vorprod/
+Disallow: /test_stage/
+Disallow: /test/
+
+User-agent: Googlebot
+Disallow: /community/
+Disallow: /vorprod/
+Disallow: /test_stage/
+Disallow: /test/
+
+User-agent: Googlebot-Video
+Disallow: /community/
+Disallow: /vorprod/
+Disallow: /test_stage/
+Disallow: /test/
+
+User-agent: Googlebot-Image
+Disallow: /community/
+Disallow: /vorprod/
+Disallow: /test_stage/
+Disallow: /test/
+
+User-agent: Mediapartners-Google
+Disallow: /community/
+Disallow: /vorprod/
+Disallow: /test_stage/
+Disallow: /test/
+
+User-agent: Lizard
+Disallow: /community/
+Disallow: /vorprod/
+Disallow: /test_stage/
+Disallow: /test/
+
+User-agent: bingbot
+Disallow: /community/
+Disallow: /vorprod/
+Disallow: /test_stage/
+Disallow: /test/
+
+User-agent: Google-Sitemaps
+Disallow: /vorprod/
+Disallow: /test_stage/
+Disallow: /test/
+
+User-agent: Google_InspectionTool
+Disallow: /community/
+Disallow: /vorprod/
+Disallow: /test_stage/
+Disallow: /test/
+
+# OpenAI ChatGPT
+User-agent: GPTBot
+Disallow: /
+ 
+# Google Bard
+User-agent: Google-Extended
+Disallow: /
+ 
+# Common Crawl Foundation
+User-agent: CCBot
+Disallow: /
+ 
+# Flamingo Search Engine
+User-agent: Flamingo_SearchEngine 
+Disallow: /
+ 
+# ClaudeBot
+User-agent: ClaudeBot
+Disallow: /
+ 
+# Anthropic AI
+User-agent: anthropic-ai
+Disallow: /
+ 
+# Claude-Web
+User-agent: Claude-Web
+Disallow: /
+ 
+# Applebot-Extended
+User-agent: Applebot-Extended
+Disallow: /
+ 
+# Magpie Crawler
+User-agent: magpie-crawler
+Disallow: /
+ 
+# IA Archiver
+User-agent: ia_archiver
+Disallow: /
+ 
+# Omgili
+User-agent: omgili
+Disallow: /
+ 
+# OmgiliBot
+User-agent: omgilibot
+Disallow: /
+ 
+# Baidu Spider
+User-agent: Baiduspider
+Disallow: /
+ 
+# Ahrefs Bot
+User-agent: AhrefsBot
+Disallow: /
+ 
+# DataForSeo Bot
+User-agent: DataForSeoBot
+Disallow: /
+ 
+# Yeti
+User-agent: Yeti
+Disallow: /
+ 
+# Semrush Bot
+User-agent: SemrushBot
+Disallow: /
+ 
+# Senti Bot
+User-agent: sentibot
+Disallow: /
+ 
+# MJ12 Bot
+User-agent: MJ12bot
+Disallow: /
+ 
+# Byte Spider
+User-agent: Bytespider
+Disallow: /
+ 
+# Sirdata Bot
+User-agent: SirdataBot
+Disallow: /
+ 
+# LCC
+User-agent: LCC
+Disallow: /
+ 
+# Turnitin Bot
+User-agent: TurnitinBot
+Disallow: /
+ 
+# BLEX Bot
+User-agent: BLEXBot
+Disallow: /
+ 
+# Dot Bot
+User-agent: dotbot
+Disallow: /
+ 
+# ImageSift Bot
+User-agent: ImagesiftBot
+Disallow: /
+
+# Sitemaps
+Sitemap: https://www.bild.de/sitemap-news.xml
+Sitemap: https://www.bild.de/sitemap-video.xml
+Sitemap: https://www.bild.de/sitemap-index.xml
+Sitemap: https://www.bild.de/sitemap-category.xml

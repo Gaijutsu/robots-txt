@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /rss_mobile/ 
+Disallow: /*.php$
+Sitemap: http://en.people.cn/sitemap_index.xml

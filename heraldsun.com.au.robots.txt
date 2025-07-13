@@ -1,0 +1,106 @@
+# NOTICE: Collection of content and other data on www.heraldsun.com.au through automated means is prohibited unless you have express written permission from the publisher of the website and may only be conducted for the limited purpose contained in said permission.
+
+# Website Terms of Use may be found at https://www.heraldsun.com.au/more-information/terms-and-conditions
+
+#Agent Specific Disallowed Sections
+User-agent: NewsNow
+Disallow: /
+
+User-agent: CCBot
+Disallow: / 
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User 
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: anthropic-ai 
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: / 
+
+User-agent: ia_archiver 
+Disallow: / 
+
+User-agent: MJ12bot 
+Disallow: / 
+
+User-agent: PiplBot
+Disallow: / 
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-Agent: PerplexityBot 
+
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: Meta-ExternalFetcher
+Disallow: /
+
+User-agent: *
+
+Disallow: /*/comments-*
+Disallow: /*/print/
+Disallow: /*SIT*
+Disallow: /*.swf
+Disallow: /printpage/
+Disallow: /404
+Disallow: /akam/
+
+Disallow: /sport/superracing/form-guide
+Disallow: /sport/superracing/form-guide/horse-statistics
+Disallow: /sport/superracing/form-guide/jockey-statistics
+Disallow: /sport/superracing/form-guide/trainer-statistics
+Disallow: /sport/superracing/form-guide/races
+Disallow: /sport/superracing/form-guide/race-card
+
+Disallow: /*match?matchid=
+Disallow: /classifieds/*?sort=
+Disallow: /classifieds/*?show=
+Disallow: /classifieds/*?page=
+Disallow: /*?fbclid=
+Disallow: /*&fbclid=
+Disallow: /*?nk=
+
+Disallow: /tributes/*?page=
+Disallow: /tributes/*?sort=
+Disallow: /tributes/*?show=
+Disallow: /tributes/*?nk=
+
+Disallow: /archive/
+Disallow: /business-unify/
+Disallow: /classifieds-unify/
+Disallow: /entertainment-unify/
+Disallow: /help-unify/
+Disallow: /home-unify-hs/
+Disallow: /money-unify/
+Disallow: /news-unify/
+Disallow: /pagenotfound-unify/
+Disallow: /realestate-unify/
+Disallow: /sport-unify/
+Disallow: /technology-unify/
+Disallow: /travel-unify/
+Disallow: /nocookies-unify/
+Disallow: /shop-unify/
+Disallow: /Hstest/
+Disallow: /activity-centre/
+Disallow: /it-test-only/
+Disallow: /enewsletters/
+
+Sitemap: https://www.heraldsun.com.au/sitemap.xml
+Sitemap: https://www.heraldsun.com.au/news-sitemap.xml

@@ -1,0 +1,67 @@
+User-agent: *
+
+Disallow: *quizResult=
+Disallow: *.pdf
+Disallow: *globeTest_
+Disallow: *globeNoTest
+Disallow: *globeResource
+Disallow: *?kw
+Disallow: /embed?
+Disallow: /shop/
+Disallow: /authentication/
+Disallow: /account/
+Disallow: /newsletters/preferences/manage
+Disallow: /newsletters/preferences/unsubscribe
+
+User-agent: Pinterest
+Disallow:
+
+User-agent: Pinterestbot
+Disallow:
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /thmb/
+
+User-agent: OAI-SearchBot
+Disallow: /thmb/
+
+User-agent: GPTBot
+Disallow: /thmb/
+
+User-agent: news-please
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: ImagesiftBot
+Disallow: /
+
+User-agent: FriendlyCrawler
+Disallow: /
+
+User-agent: Quora-Bot
+Disallow: /
+
+User-agent: omgilibot
+Disallow: /
+
+User-agent: omgili
+Disallow: /
+
+
+Sitemap: https://people.com/sitemap.xml
+
+Sitemap: https://people.com/google-news-sitemap.xml
