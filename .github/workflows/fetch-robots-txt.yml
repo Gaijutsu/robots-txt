@@ -20,7 +20,7 @@ jobs:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install requests pandas openpyxl
 
       - name: Fetch robots.txt files
         run: python fetch_robots.py
@@ -30,4 +30,4 @@ jobs:
         with:
           default_author: github_actions
           message: 'Update robots.txt files'
-          add: '*.robots.txt' 
+          add: '*.robots.txt, robots-analysis.xlsx' 
