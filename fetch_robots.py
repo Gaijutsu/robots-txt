@@ -72,7 +72,7 @@ def update_spreadsheet(urls):
         for domain in domains:
             robot_file_path = os.path.join(ROBOTS_DIR, f"{domain}.robots.txt")
             if not os.path.exists(robot_file_path):
-                row[domain] = '❓'
+                row[domain] = ''
                 continue
 
             rp = RobotFileParser()
@@ -83,9 +83,9 @@ def update_spreadsheet(urls):
             
             # We check if the user agent can fetch the root of the site
             if rp.can_fetch(ua, '/'):
-                row[domain] = '1'
+                row[domain] = 1
             else:
-                row[domain] = '0'
+                row[domain] = 0
         data.append(row)
 
     if not data:
@@ -115,9 +115,9 @@ def update_spreadsheet(urls):
 
     for row in ws.iter_rows(min_row=2, min_col=2):  # Skip header and index column
         for cell in row:
-            if cell.value == '1':
+            if cell.value == 1:
                 cell.fill = green_fill
-            elif cell.value == '0':
+            elif cell.value == 0:
                 cell.fill = red_fill
 
     # Auto-fit columns
