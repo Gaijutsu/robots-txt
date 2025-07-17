@@ -45,8 +45,8 @@ def get_user_agents_from_files(robot_files):
         try:
             with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
                 for line in f:
-                    if line.strip().lower().startswith('user-agent:'):
-                        agent = line.split(':', 1)[1].strip()
+                    if line.strip().lower().startswith('user-agent:')
+                        agent = line.split(':', 1)[1].strip().lower()
                         agent = agent.split('#', 1)[0].strip()         # remove comments from name
                         agent = agent.split('Disallow:', 1)[0].strip() # remove Disallow commands
                         if agent:
