@@ -7,7 +7,6 @@ Disallow: *globeNoTest
 Disallow: *globeResource
 Disallow: *?kw
 Disallow: /embed?
-Disallow: /shop/
 Disallow: /authentication/
 Disallow: /account/
 Disallow: /newsletters/preferences/manage
@@ -59,6 +58,12 @@ User-agent: omgilibot
 Disallow: /
 
 User-agent: omgili
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: Perplexity-User
 Disallow: /
 
 
