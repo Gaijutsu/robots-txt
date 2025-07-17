@@ -48,7 +48,7 @@ def get_user_agents_from_files(robot_files):
                     if line.strip().lower().startswith('user-agent:'):
                         agent = line.split(':', 1)[1].strip().lower()
                         agent = agent.split('#', 1)[0].strip()         # remove comments from name
-                        agent = agent.split('Disallow:', 1)[0].strip() # remove Disallow commands
+                        agent = agent.split('disallow:', 1)[0].strip() # remove Disallow commands
                         if agent:
                             user_agents.add(agent)
         except FileNotFoundError:
