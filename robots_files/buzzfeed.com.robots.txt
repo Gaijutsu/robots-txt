@@ -57,6 +57,9 @@ Disallow: /
 User-agent: CCBot
 Disallow: /
 
+User-agent: ChatGPT-User
+Disallow: /
+
 User-agent: ClaudeBot
 Disallow: /
 
@@ -97,6 +100,9 @@ User-agent: magpie-crawler
 Disallow: /
 
 User-agent: meta-externalagent
+Disallow: /
+
+User-agent: Meta-ExternalFetcher
 Disallow: /
 
 User-agent: OAI-SearchBot

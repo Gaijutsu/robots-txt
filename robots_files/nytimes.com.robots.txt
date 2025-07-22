@@ -304,6 +304,7 @@ Sitemap: https://www.nytimes.com/athletic/sitemap-authors.xml
 Sitemap: https://www.nytimes.com/athletic/sitemap-verticals.xml
 Sitemap: https://www.nytimes.com/athletic/sitemap-teams.xml
 Sitemap: https://www.nytimes.com/athletic/sitemap-cities.xml
+Sitemap: https://www.nytimes.com/athletic/sitemap-players.xml
 Sitemap: https://www.nytimes.com/athletic/sitemap-tags.xml
 Sitemap: https://www.nytimes.com/athletic/sitemap-stats.xml
 Sitemap: https://www.nytimes.com/athletic/sitemap-schedule.xml

@@ -811,6 +811,7 @@ Disallow: /UsernameValidation
 Disallow: /UserPage
 Disallow: /UserReview
 Disallow: /users
+Disallow: /UserTip
 Disallow: /UserTrackingRecord
 Disallow: /VacationRentalIdeas
 Disallow: /VacationRentalInquiry

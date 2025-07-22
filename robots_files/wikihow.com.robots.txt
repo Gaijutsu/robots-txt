@@ -15,11 +15,11 @@
 #
 # NOTICE: All crawlers and bots, regardless of whether or not they are
 # specified below, are strictly prohibited from using our content for the
-# purposes of training AI models or similar machine learning systems, except
-# where explicit prior permission has been granted by wikiHow through a
-# contractual licensing agreement. Any use of our content for such purposes
-# without our explicit contractual permission is a violation of our terms of
-# service and intellectual property rights.
+# purposes of training or retrieval for AI models or similar machine learning
+# systems, except where explicit prior permission has been granted by wikiHow
+# through a contractual licensing agreement. Any use of our content for such
+# purposes without our explicit contractual permission is a violation of our
+# terms of service and intellectual property rights.
 
 User-agent: Ai2Bot
 Disallow: /
