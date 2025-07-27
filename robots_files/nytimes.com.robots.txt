@@ -168,6 +168,12 @@ Disallow: /
 User-agent: ClaudeBot
 Disallow: /
 
+User-agent: Claude-SearchBot
+Disallow: /
+
+User-agent: Claude-User
+Disallow: /
+
 User-agent: Claude-Web
 Disallow: /
 
@@ -244,6 +250,9 @@ Disallow: /
 User-agent: PerplexityBot
 Disallow: /
 
+User-agent: Perplexity-User
+Disallow: /
+
 User-agent: Poseidon Research Crawler
 Disallow: /
 
@@ -304,7 +313,6 @@ Sitemap: https://www.nytimes.com/athletic/sitemap-authors.xml
 Sitemap: https://www.nytimes.com/athletic/sitemap-verticals.xml
 Sitemap: https://www.nytimes.com/athletic/sitemap-teams.xml
 Sitemap: https://www.nytimes.com/athletic/sitemap-cities.xml
-Sitemap: https://www.nytimes.com/athletic/sitemap-players.xml
 Sitemap: https://www.nytimes.com/athletic/sitemap-tags.xml
 Sitemap: https://www.nytimes.com/athletic/sitemap-stats.xml
 Sitemap: https://www.nytimes.com/athletic/sitemap-schedule.xml
