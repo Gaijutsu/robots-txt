@@ -63,91 +63,32 @@ Sitemap: http://www.theguardian.com/sitemaps/news.xml
 Sitemap: http://www.theguardian.com/sitemaps/video.xml
 
 User-agent: NewsNow
-Disallow: /
-
 User-agent: CCBot
-Disallow: /
-
 User-agent: TurnitinBot
-Disallow: /
-
 User-agent: PetalBot
-Disallow: /
-
 User-agent: MoodleBot
-Disallow: /
-
 User-agent: FacebookBot
-Disallow: /
-
 User-agent: Bytespider
-Disallow: /
-
-User-agent: Google-Extended
-Disallow: /
-
 User-agent: Mojeek
-Disallow: /
-
 User-agent: JenkersBot
-Disallow: /
-
 User-agent: Seekr
-Disallow: /
-
 User-agent: YouBot
-Disallow: /
-
 User-agent: Arquivo-web-crawler
-Disallow: /
-
 User-agent: coccocbot-web
-Disallow: /
-
 User-agent: SeznamBot
-Disallow: /
-
 User-Agent: PerplexityBot
-Disallow: /
-
 User-Agent: yacy
-Disallow: /
-
 User-agent: anthropic-ai
-Disallow: /
-
 User-agent: ClaudeBot
-Disallow: /
-
 User-agent: bingbot
-Disallow: /
-
 User-agent: AwarioRssBot
-Disallow: /
-
 User-agent: AwarioSmartBot
-Disallow: /
-
 User-agent: SentiOne
-Disallow: /
-
 User-agent: ImageSift
-Disallow: /
-
 User-agent: Applebot-Extended
-Disallow: /
-
 User-agent: YandexAdditional
-Disallow: /
-
 User-agent: YandexAdditionalBot
-Disallow: /
-
 User-agent: scalepostAI
-Disallow: /
-
 User-agent: Buck
-Disallow: /
-
 User-agent: meta-externalagent
-Disallow: /        
+Disallow: /

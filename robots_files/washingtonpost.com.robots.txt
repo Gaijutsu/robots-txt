@@ -129,7 +129,6 @@ Allow: /wp-apps/imrs.php
 User-agent: AhrefsBot
 Disallow: /
 
-
 User-agent: anthropic-ai
 Disallow: /
 
@@ -176,9 +175,6 @@ User-agent: europarchive.org
 Disallow: /
 
 User-agent: FacebookBot
-Disallow: /
-
-User-agent: Google-Extended
 Disallow: /
 
 User-agent: heritrix

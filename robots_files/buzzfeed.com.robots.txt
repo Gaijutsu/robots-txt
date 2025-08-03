@@ -186,17 +186,13 @@ Disallow: /cms_preview_ui/
 Disallow: /cms_preview_ui_static/
 Disallow: /search/
 
-Sitemap: https://www.buzzfeed.com/sitemap/asis.xml
 Sitemap: https://www.buzzfeed.com/sitemap/buzzfeed.xml
 Sitemap: https://www.buzzfeed.com/sitemap/tasty.xml
 Sitemap: https://www.buzzfeed.com/sitemap/video.xml
 Sitemap: https://www.buzzfeed.com/sitemap/shopping.xml
-Sitemap: https://www.buzzfeed.com/sitemap/topics.xml
-Sitemap: https://www.buzzfeed.com/sitemap/travel.xml
 Sitemap: https://www.buzzfeed.com/sitemap/news.xml
 Sitemap: https://www.buzzfeed.com/sitemap/buzzfeed-community.xml
 Sitemap: https://www.buzzfeed.com/sitemap/editions.xml
-Sitemap: https://www.buzzfeed.com/webstories/sitemap.xml
 
 User-agent: yacybot
 Disallow: /
