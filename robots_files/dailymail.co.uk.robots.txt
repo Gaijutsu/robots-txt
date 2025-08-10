@@ -1,4 +1,4 @@
-# Robots.txt for https://www.dailymail.co.uk/ updated 16/07/2025
+# Robots.txt for https://www.dailymail.co.uk/ updated 08/08/2025
 #
 #
 # All Robots
@@ -64,6 +64,7 @@ User-agent: GoogleOther
 User-agent: GoogleOther-Image
 User-agent: GoogleOther-Video
 User-agent: GPTBot
+User-agent: Grok
 User-agent: iaskspider/2.0
 User-agent: ICC-Crawler
 User-agent: ImagesiftBot
