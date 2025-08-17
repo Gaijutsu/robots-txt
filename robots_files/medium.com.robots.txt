@@ -14,19 +14,19 @@ Disallow: /search?q=
 Disallow: /*/search?q=
 Disallow: /*/search/*?q=
 Disallow: /*/*source=
-Allow: /_/
 Allow: /_/api/users/*/meta
 Allow: /_/api/users/*/profile/stream
 Allow: /_/api/posts/*/responses
 Allow: /_/api/posts/*/responsesStream
 Allow: /_/api/posts/*/related
-Sitemap: https://medium.com/sitemap/sitemap.xml
+User-Agent: Amazonbot
 User-Agent: Applebot-Extended
 User-Agent: Bytespider
 User-Agent: ClaudeBot
 User-Agent: FacebookBot
 User-Agent: GoogleOther
 User-Agent: GPTBot
+User-Agent: meta-externalagent
 Disallow: /
 Allow: /about
 Allow: /business
@@ -35,4 +35,5 @@ Allow: /gift
 Allow: /membership
 Allow: /partner-program
 Allow: /verified-authors
+Sitemap: https://medium.com/sitemap/sitemap.xml
 License: https://medium.com/license.xml

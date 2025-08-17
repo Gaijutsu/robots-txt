@@ -109,6 +109,7 @@ Disallow: /wirecutter/*&xid=
 Disallow: /wirecutter/*?q=
 Disallow: /wirecutter/*?l=
 Disallow: /wirecutter/*?merchant=
+Disallow: /wirecutter/out/
 Disallow: /search
 Disallow: /subscription/*?*source=
 Disallow: /subscription/*?*onboarded=
@@ -118,6 +119,10 @@ Disallow: /*?*utm_source=
 Allow: /wirecutter/*?*utm_source=
 Allow: /ads/public/
 Allow: /svc/news/v3/all/pshb.rss
+Allow: /wirecutter/reviews/*?*utm_source=
+Allow: /wirecutter/blog/*?*utm_source=
+Allow: /wirecutter/lists/*?*utm_source=
+Allow: /wirecutter/gifts/*?*utm_source=
 
 
 # Googlebot Specific Rules
@@ -319,4 +324,3 @@ Sitemap: https://www.nytimes.com/athletic/sitemap-schedule.xml
 Sitemap: https://www.nytimes.com/athletic/sitemap-roster.xml
 Sitemap: https://www.nytimes.com/athletic/sitemap.xml
 Sitemap: https://www.nytimes.com/games-assets/v2/assets/sitemap/games.xml
-

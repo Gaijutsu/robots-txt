@@ -708,3 +708,33 @@ Disallow: /
 
 User-agent: SemrushBot-OCOB
 Disallow: /
+
+User-agent: AddSearchBot
+Disallow: /
+
+User-agent: bigsur.ai
+Disallow: /
+
+User-agent: Claude-SearchBot
+Disallow: /
+
+User-agent: Claude-User
+Disallow: /
+
+User-agent: CloudVertexBot
+Disallow: /
+
+User-agent: Gemini-Deep-Research
+Disallow: /
+
+User-agent: GoogleOther
+Disallow: /
+
+User-agent: LinerBot
+Disallow: /
+
+User-agent: netEstate Imprint Crawler
+Disallow: /
+
+User-agent: QualifiedBot
+Disallow: /
