@@ -54,9 +54,6 @@ Disallow: /
 User-agent: MJ12bot
 Disallow: /
 
-User-agent: GPTBot
-Disallow: /
-
 User-agent: 008
 Disallow: /
 

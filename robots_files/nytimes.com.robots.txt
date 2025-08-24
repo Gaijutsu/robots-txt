@@ -43,9 +43,7 @@ Disallow: /athletic/betmgm-redirect*
 Disallow: /athletic/cdn-cgi/
 Disallow: /athletic/verizon/*
 Disallow: /athletic/forgot-password/*
-Allow: /athletic/forgot-password/$
 Disallow: /athletic/forgot-password2/*
-Allow: /athletic/forgot-password2/$
 Disallow: /athletic/amp-social-login*
 Disallow: /athletic/track-analytics/
 Disallow: /athletic/amp-auth/

@@ -1,5 +1,5 @@
 
-# version: c6c2d0415f0c1d97565a01952c7b2146e2abe17f
+# version: 1dfc8adda004d476ae7ef4d813d6a142bf6e1c31
 
 # HTTPS www.bbc.co.uk
 
@@ -144,3 +144,7 @@ Disallow: /
 
 User-agent: TurnitinBot
 Disallow: /
+
+User-agent: Googlebot
+Allow: /iplayer
+
