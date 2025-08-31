@@ -87,6 +87,10 @@ Disallow: /
 User-agent: Google-Extended
 Disallow: /
 
+User-agent: Googlebot
+Disallow: /comments-api/
+Disallow: /content-reactions-api/
+
 User-agent: GPTBot
 Disallow: /
 

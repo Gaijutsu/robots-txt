@@ -264,6 +264,84 @@ Disallow: /
 User-agent: ia_archiver-web.archive.org
 Disallow: /
 
+User-agent: aiHitBot
+Disallow: /
+
+User-agent: Amazon Kendra
+Disallow: /
+
+User-agent: Big Sur AI
+Disallow: /
+
+User-agent: Brandwatch
+Disallow: /
+
+User-agent: Bravest
+Disallow: /
+
+User-agent: ChatGPT Operator
+Disallow: /
+
+User-agent: Cotoyogi
+Disallow: /
+
+User-agent: DigitalOceanGenAICrawler
+Disallow: /
+
+User-agent: Echobot Bot
+Disallow: /
+
+User-agent: EchoboxBot
+Disallow: /
+
+User-agent: Factset_spyderbot
+Disallow: /
+
+User-agent: Grok
+Disallow: /
+
+User-agent: iaskspider
+Disallow: /
+
+User-agent: ICC Crawler
+Disallow: /
+
+User-agent: imgproxy
+Disallow: /
+
+User-agent: LINER Bot
+Disallow: /
+
+User-agent: MistralAI-User
+Disallow: /
+
+User-agent: netEstate Imprint Crawler
+Disallow: /
+
+User-agent: NovaAct
+Disallow: /
+
+User-agent: QualifiedBot
+Disallow: /
+
+User-agent: SBIntuitionsBot
+Disallow: /
+
+User-agent: SemrushBot-OCOB
+Disallow: /
+
+User-agent: SemrushBotSwa
+Disallow: /
+
+User-agent: Sidetrade
+Disallow: /
+
+User-agent: TikTokSpider
+Disallow: /
+
+User-agent: WARDBot
+Disallow: /
+
 User-agent: *
 Disallow: /errors
 Disallow: /interactive/

@@ -110,6 +110,7 @@ Disallow: /blogs/*
 Disallow: /gog/*
 Disallow: /arcio/fact-checker/
 Disallow: /recipes/*?q=
+Disallow: /ripple/
 
 User-agent: Twitterbot
 Allow: /posttv-beta/

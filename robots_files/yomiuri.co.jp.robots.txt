@@ -54,6 +54,9 @@ Disallow: /
 User-agent: GoogleOther
 Disallow: /
 
+User-agent: AmazonBot
+Disallow: /
+
 User-agent: anthropic-ai
 Disallow: /
 
@@ -81,7 +84,19 @@ Disallow: /
 User-agent: ClaudeBot
 Disallow: /
 
+User-agent: Claude-SearchBot
+Disallow: /
+
+User-agent: Claude-User
+Disallow: /
+
 User-agent: cohere-ai
+Disallow: /
+
+User-agent: cohere-training-data-crawler
+Disallow: /
+
+User-agent: Diffbot
 Disallow: /
 
 User-agent: FacebookBot
@@ -91,6 +106,9 @@ User-agent: facebookexternalhit
 Disallow: /
 Allow: /teen/
 Allow: /kyoiku/support
+
+User-agent: magpie-crawler
+Disallow: /
 
 User-agent: meta-externalagent
 Disallow: /
@@ -106,6 +124,18 @@ User-agent: facebookcatalog
 Disallow: /
 Allow: /teen/
 Allow: /kyoiku/support
+
+User-agent: omgili
+Disallow: /
+
+User-agent: omgilibot
+Disallow: /
+
+User-agent: Timpibot
+Disallow: /
+
+User-agent: Webzio-Extended
+Disallow: /
 
 User-agent: *
 Disallow: /wp-admin/

@@ -12,15 +12,15 @@ Sitemap: https://www.ft.com/sitemaps/index.xml
 
 User-agent: *
 Disallow: /__
-Disallow: /search
-Disallow: /advanced-search
-Disallow: /offline/
-Disallow: /myft/
-Disallow: /cancel/
-Disallow: /preferences/cookies
-Disallow: /login
-Disallow: /page-resources
 Disallow: /_fs-ch
+Disallow: /article/e63d8640-eeb3-4473-b0ad-aa6aec16d9fe
+Disallow: /cancel/
+Disallow: /login
+Disallow: /myft/
+Disallow: /offline/
+Disallow: /page-resources
+Disallow: /preferences/manage-cookies
+Disallow: /search
 Allow: /__origami/
 Allow: /__assets/
 Crawl-Delay: 1

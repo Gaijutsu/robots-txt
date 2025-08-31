@@ -3,6 +3,7 @@ Allow: /wp-admin/admin-ajax.php/
 Disallow: /wp-admin/
 
 User-Agent: Googlebot
+Allow: /redesign/_next/image*
 Disallow: /?search*
 Disallow: */munich/index_html*
 Disallow: /*?__rmid___get___page
@@ -86,8 +87,8 @@ Disallow: /time_cover_hub
 
 Sitemap: https://time.com/sitemap.xml
 Sitemap: https://time.com/news-sitemap.xml
-Sitemap: https://time.com/personal-finance/sitemap.xml
-Sitemap: https://time.com/shopping/sitemap.xml
 Sitemap: https://time.com/video-sitemap.xml
 Sitemap: https://time.com/coupons/sitemap.xml
 Sitemap: https://time.com/archive-sitemaps.xml
+Sitemap: https://time.com/sitemap-sections.xml
+Sitemap: https://time.com/sitemap-tags.xml

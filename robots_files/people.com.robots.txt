@@ -7,8 +7,6 @@ Disallow: *globeNoTest
 Disallow: *globeResource
 Disallow: *?kw
 Disallow: /embed?
-Disallow: /authentication/
-Disallow: /account/
 Disallow: /newsletters/preferences/manage
 Disallow: /newsletters/preferences/unsubscribe
 
