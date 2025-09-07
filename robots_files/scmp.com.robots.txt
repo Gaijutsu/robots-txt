@@ -80,6 +80,8 @@ Disallow: /sites/default/files/*.pdf
 Disallow: /sites/default/files/*.doc
 Disallow: /sites/default/files/*.docx
 Disallow: /sites/default/files/*.swf
+Disallow: /sites/default/files/styles/*.jpg
+Disallow: /_next/data/*.json
 
 # Paths (clean URLs)
 Disallow: /admin/

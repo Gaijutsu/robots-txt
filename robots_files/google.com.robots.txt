@@ -190,7 +190,9 @@ Disallow: /phone/compare/?
 Disallow: /travel/clk
 Disallow: /travel/entity
 Disallow: /travel/search
+Disallow: /travel/flights/booking
 Disallow: /travel/flights/s/
+Disallow: /travel/flights/search
 Disallow: /travel/hotels/entity
 Disallow: /travel/hotels/*/entity
 Disallow: /travel/hotels/stories

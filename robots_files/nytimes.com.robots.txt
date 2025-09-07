@@ -308,6 +308,7 @@ Sitemap: https://www.nytimes.com/sitemaps/new/cooking.xml.gz
 Sitemap: https://www.nytimes.com/sitemaps/new/recipe-collects.xml.gz
 Sitemap: https://www.nytimes.com/sitemaps/new/regions.xml
 Sitemap: https://www.nytimes.com/sitemaps/new/best-sellers.xml
+Sitemap: https://www.nytimes.com/sitemaps/new/subscription-landing-pages.xml
 Sitemap: https://www.nytimes.com/sitemaps/new/weather.xml.gz
 Sitemap: https://www.nytimes.com/sitemaps/new/espanol.xml.gz
 Sitemap: https://www.nytimes.com/sitemaps/new/espanol-collects.xml.gz

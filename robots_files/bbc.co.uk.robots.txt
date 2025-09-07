@@ -1,5 +1,5 @@
 
-# version: 1dfc8adda004d476ae7ef4d813d6a142bf6e1c31
+# version: 1d23f8322a7fd702106a4cb166c3d1459aa6ad5f
 
 # HTTPS www.bbc.co.uk
 
@@ -39,6 +39,7 @@ Disallow: /iplayer/cbeebies/search
 Disallow: /iplayer/search
 Disallow: /indepthtoolkit/smallprox$
 Disallow: /indepthtoolkit/smallprox/
+Disallow: /moderation/reports/
 Disallow: /modules/musicnav/language/
 Disallow: /news/0
 Disallow: /radio/aod/
@@ -144,7 +145,4 @@ Disallow: /
 
 User-agent: TurnitinBot
 Disallow: /
-
-User-agent: Googlebot
-Allow: /iplayer
 
