@@ -1,6 +1,3 @@
-Sitemap: https://timesofindia.indiatimes.com/staticsitemap/toi/news/sitemap-today.xml
-Sitemap: https://timesofindia.indiatimes.com/staticsitemap/toi/news/sitemap-yesterday.xml
-
 User-agent: *
 Allow: /
 Disallow: /PDATOI/

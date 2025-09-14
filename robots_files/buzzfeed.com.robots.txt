@@ -124,6 +124,24 @@ Disallow: /
 User-agent: Timpibot
 Disallow: /
 
+User-agent: Ai2Bot-Dolma
+Disallow: /
+
+User-agent: Claude-SearchBot
+Disallow: /
+
+User-agent: Claude-User
+Disallow: /
+
+User-agent: omgilibot
+Disallow: /
+
+User-agent: TtoYouBot
+Disallow: /
+
+User-agent: WebGPTBot
+Disallow: /
+
 User-agent: Slurp
 Crawl-delay: 4
 

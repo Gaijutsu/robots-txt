@@ -1,5 +1,11 @@
 # Bei Fragen zu diesen Regeln oder Aenderungswuenschen koennen sie sich an das SEO-Team wenden, erreichbar unter 030 / 2591 79232
 
+User-agent: *
+Disallow: /dating/go/*
+Disallow: /games/go/*
+Disallow: /casinos/go/*
+Disallow: /online-apotheke/go/*
+
 User-agent: Googlebot-News
 Disallow: /partner/
 Disallow: /community/

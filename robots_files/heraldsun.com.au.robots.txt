@@ -62,6 +62,21 @@ Disallow: /printpage/
 Disallow: /404
 Disallow: /akam/
 
+Disallow: /*?campaignType=
+Disallow: /*?rsf=
+Disallow: /*?sv=
+Disallow: /*?page=
+Disallow: /*?gad_source=
+Disallow: /*?suburb=
+Disallow: /*?arena_mid=
+Disallow: /*?s=
+Disallow: /*/akam/
+Disallow: /*?advertiser=
+Disallow: /*?from=
+Disallow: /*?utm_campaign=
+Disallow: /*/add-to-calendar/
+
+
 Disallow: /sport/superracing/form-guide
 Disallow: /sport/superracing/form-guide/horse-statistics
 Disallow: /sport/superracing/form-guide/jockey-statistics
