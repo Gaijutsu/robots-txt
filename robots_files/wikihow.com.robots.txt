@@ -137,6 +137,9 @@ Disallow: /
 User-agent: Microsoft.URL.Control
 Disallow: /
 
+User-agent: MistralAI-User
+Disallow: /
+
 User-agent: MSIECrawler
 Disallow: /
 

@@ -57,6 +57,9 @@ Disallow: /
 User-agent: AmazonBot
 Disallow: /
 
+User-agent: AmazonAdBot
+Crawl-Delay: 3
+
 User-agent: anthropic-ai
 Disallow: /
 

@@ -23,22 +23,22 @@ Sitemap: https://www.tripadvisor.com/sitemap/att/en_US/sitemap_en_US_attraction_
 Sitemap: https://www.tripadvisor.com/sitemap/att/en_US/sitemap_en_US_attraction_product_review_index.xml
 Sitemap: https://www.tripadvisor.com/sitemap/att/en_US/sitemap_en_US_attractions_near_index.xml
 Sitemap: https://www.tripadvisor.com/business/sitemap.xml
-User-Agent: SentiBot
-Disallow: /
-
-User-Agent: Bytespider
-Disallow: /
-
-User-Agent: Applebot-Extended
-Disallow: /
-
-User-Agent: PetalBot
+User-Agent: Google-Extended
 Disallow: /
 
 User-Agent: magpie-crawler
 Disallow: /
 
-User-Agent: Google-Extended
+User-Agent: PetalBot
+Disallow: /
+
+User-Agent: Applebot-Extended
+Disallow: /
+
+User-Agent: Bytespider
+Disallow: /
+
+User-Agent: SentiBot
 Disallow: /
 
 User-Agent: ClaudeBot
@@ -622,7 +622,6 @@ Disallow: /ProxyToolsTokenTestTool
 Disallow: /PVLog
 Disallow: /QueryJson
 Disallow: /QuickReview
-Disallow: /rateandparity
 Disallow: /Rateit
 Disallow: /RateUserReview
 Disallow: /RatingAjax
