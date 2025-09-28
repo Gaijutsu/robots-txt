@@ -201,6 +201,7 @@ Disallow: /
 User-agent: Google-CloudVertexBot
 Disallow: /
 Allow: /wirecutter/
+Allow: /athletic/
 
 User-agent: Google-Extended
 Disallow: /

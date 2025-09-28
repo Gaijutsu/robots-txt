@@ -68,3 +68,6 @@ Allow: /*?tab=achievements&achievement=*
 Disallow: /account-login
 Disallow: /Explodingstuff/
 
+Disallow: /copilot/
+Disallow: /copilot/c/
+
