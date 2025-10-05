@@ -215,6 +215,7 @@ Sitemap: https://www.buzzfeed.com/sitemap/shopping.xml
 Sitemap: https://www.buzzfeed.com/sitemap/news.xml
 Sitemap: https://www.buzzfeed.com/sitemap/buzzfeed-community.xml
 Sitemap: https://www.buzzfeed.com/sitemap/editions.xml
+Sitemap: https://www.buzzfeed.com/sitemap/news-archive.xml
 
 User-agent: yacybot
 Disallow: /

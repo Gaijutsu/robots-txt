@@ -1,6 +1,4 @@
 User-Agent: *
-Disallow: /video/news/TKY200903050250.html
-Disallow: /kansai/news/OSK200903050055.html
 Disallow: /travel/event/search/
 Disallow: /science/index.html
 Disallow: /entertainment/index.html
@@ -14,7 +12,13 @@ Disallow: /english/sports.html
 Allow: /
 Allow: /.well-known/assetlinks.json
 
+User-agent: Googlebot
+Disallow: /*klpuid=*
+
 User-agent: CCBot
+Disallow: /
+
+User-agent: OAI-SearchBot
 Disallow: /
 
 User-agent: ChatGPT-User

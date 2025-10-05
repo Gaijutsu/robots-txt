@@ -186,6 +186,9 @@ Disallow: /
 User-agent: TeleportPro
 Disallow: /
 
+User-agent: TikTokSpider
+Disallow: /
+
 User-agent: Timpibot
 Disallow: /
 

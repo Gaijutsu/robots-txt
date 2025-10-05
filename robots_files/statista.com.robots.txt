@@ -129,7 +129,6 @@ User-agent: larbin
 User-agent: libwww
 User-agent: ZyBORG
 User-agent: Download Ninja
-User-agent: Brightbot 1.0
 Disallow: /
 
 

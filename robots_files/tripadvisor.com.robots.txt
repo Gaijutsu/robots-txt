@@ -24,27 +24,21 @@ Sitemap: https://www.tripadvisor.com/sitemap/att/en_US/sitemap_en_US_attraction_
 Sitemap: https://www.tripadvisor.com/sitemap/att/en_US/sitemap_en_US_attractions_near_index.xml
 Sitemap: https://www.tripadvisor.com/business/sitemap.xml
 User-Agent: magpie-crawler
-Disallow: /
-
-User-Agent: PetalBot
-Disallow: /
-
-User-Agent: Applebot-Extended
-Disallow: /
-
-User-Agent: Bytespider
-Disallow: /
-
-User-Agent: SentiBot
-Disallow: /
-
-User-Agent: ClaudeBot
-Disallow: /
-
 User-Agent: Google-Extended
+User-Agent: ClaudeBot
+User-Agent: Bytespider
+User-Agent: PetalBot
+User-Agent: Google-CloudVertexBot
+User-Agent: Applebot-Extended
+User-Agent: SentiBot
+User-Agent: GPTBot
 Disallow: /
 
 User-Agent: *
+User-Agent: Gemini-Deep-Research
+User-Agent: OAI-SearchBot
+User-Agent: ChatGPT-User/2.0
+User-Agent: ChatGPT-User
 User-Agent: applebot
 User-Agent: PerplexityBot
 User-Agent: bingbot
@@ -609,6 +603,7 @@ Disallow: /ProxyToolsContractDiscountTool
 Disallow: /ProxyToolsCustomerSupportForm
 Disallow: /ProxyToolsDiscountCode
 Disallow: /ProxyToolsInstantBookingManagementTool
+Disallow: /ProxyToolsInstantBookingSignupTool
 Disallow: /ProxyToolsManageUserAccessTool
 Disallow: /ProxyToolsMemberEditor
 Disallow: /ProxyToolsPhoneTrackingBulkLoader
@@ -867,6 +862,13 @@ Disallow: /ShowTopic
 
 User-Agent: bingbot
 Disallow: /LocationPhotoDirectLink
+
+User-Agent: Gemini-Deep-Research
+User-Agent: OAI-SearchBot
+User-Agent: ChatGPT-User/2.0
+User-Agent: ChatGPT-User
+Disallow: /*-g188*
+Disallow: /*-g1875*
 
 #                    :+#%@@@@@@@@@@@%*+:                     
 #               =%@@@@@@@@@@@@@@@@@@@@@@@@@#=                

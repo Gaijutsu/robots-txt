@@ -17,6 +17,7 @@ Disallow: /
 
 User-agent: ChatGPT-User
 Disallow: /
+Allow: /shopping/
 
 User-agent: Googlebot-News
 Disallow: /story/sponsor-story/
@@ -29,12 +30,14 @@ Disallow: /videos/embed/
 
 User-agent: GPTBot
 Disallow: /
+Allow: /shopping/
 
 User-agent: CCBot
 Disallow: /
 
 User-agent: Google-Extended
 Disallow: /
+Allow: /shopping/
 
 User-agent: DataForSeoBot
 Disallow: /
@@ -68,6 +71,7 @@ Disallow: /
 
 User-agent: PerplexityBot
 Disallow: /
+Allow: /shopping/
 
 User-agent: Scrapy
 Disallow: /
@@ -86,6 +90,7 @@ Disallow: /
 
 User-agent: OAI-SearchBot
 Disallow: /
+Allow: /shopping/
 
 User-agent: Bytespider
 Disallow: /
@@ -281,6 +286,7 @@ Disallow: /
 
 User-agent: ChatGPT Operator
 Disallow: /
+Allow: /shopping/
 
 User-agent: Cotoyogi
 Disallow: /
