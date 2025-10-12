@@ -98,7 +98,6 @@ Disallow: /more-info
 Disallow: /more-info/*
 Disallow: /workspace
 Disallow: /workspace/*
-Disallow: /quote/*/analyst-insights
 Disallow: /quote/*/earnings/*.html
 Allow: /quote/*/earnings/*-*-2025-*-*.html
 Allow: /quote/*/earnings/*-*-2026-*-*.html

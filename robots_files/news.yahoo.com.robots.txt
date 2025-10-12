@@ -94,5 +94,6 @@ Disallow: /
 User-agent: ZumBot
 Disallow: /
 
-Sitemap: https://news.yahoo.com/sitemaps/news-sitemap_index_US_en-US.xml.gz
-Sitemap: https://news.yahoo.com/sitemaps/news-sitemap_googlenewsindex_US_en-US.xml.gz
+Sitemap: https://www.yahoo.com/news/weather/sitemap.xml
+Sitemap: https://www.yahoo.com/news-sitemap-index.xml
+Sitemap: https://www.yahoo.com/sitemap-index.xml
