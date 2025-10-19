@@ -87,6 +87,11 @@ Disallow: /pdarla/
 Disallow: /sdarla/
 Disallow: /compare/
 Disallow: /compare?*
+Allow: /compare?comps=NVDA,INTC
+Allow: /compare?comps=NVDA,AMD
+Allow: /compare?comps=GOOG,AMZN
+Allow: /compare?comps=AAPL,MSFT
+Allow: /compare?comps=TSLA,RIVN
 Disallow: /try-new/
 Disallow: /go-back?*
 Disallow: /fp_ms/_rcv/remote?*

@@ -26,8 +26,8 @@ Sitemap: https://www.tripadvisor.com/business/sitemap.xml
 User-Agent: magpie-crawler
 User-Agent: Google-Extended
 User-Agent: ClaudeBot
-User-Agent: Bytespider
 User-Agent: PetalBot
+User-Agent: Bytespider
 User-Agent: Google-CloudVertexBot
 User-Agent: Applebot-Extended
 User-Agent: SentiBot
@@ -93,7 +93,6 @@ Disallow: /AttractionsAjax
 Disallow: /AuthCheck
 Disallow: /AuthorTool
 Disallow: /avis
-Disallow: /b2bauth
 Disallow: /B2BClickTracking
 Disallow: /BAEmailConfirmation
 Disallow: /BALinkImpressionTracking
@@ -502,7 +501,6 @@ Disallow: /MobileUpdateListing
 Disallow: /MobileUserReviewEditAjax
 Disallow: /MobileUserReviewSearchAjax
 Disallow: /MobileVacation_Packages
-Disallow: /MobileVacationRentalInquiry
 Disallow: /MobileVacationRentalReviewSearch
 Disallow: /MobileVacationRentals
 Disallow: /MobileVacationRentalSearch
@@ -794,14 +792,12 @@ Disallow: /users
 Disallow: /UserTip
 Disallow: /UserTrackingRecord
 Disallow: /VacationRentalIdeas
-Disallow: /VacationRentalInquiry
 Disallow: /VacationRentalReviewTab
 Disallow: /VacationRentalsAjax
 Disallow: /VacationRentalsBlog/?s
 Disallow: /VacationRentalSendToFriend
 Disallow: /VacationRentalsFAQ
 Disallow: /VacationRentalsPromoLander
-Disallow: /VacationRentalsTracking
 Disallow: /VacationRentalsXSiteAjax
 Disallow: /ValidateJson
 Disallow: /VerifyReview
