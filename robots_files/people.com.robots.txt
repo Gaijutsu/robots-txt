@@ -1,14 +1,7 @@
 User-agent: *
 
-Disallow: *quizResult=
 Disallow: *.pdf
-Disallow: *globeTest_
-Disallow: *globeNoTest
-Disallow: *globeResource
-Disallow: *?kw
 Disallow: /embed?
-Disallow: /newsletters/preferences/manage
-Disallow: /newsletters/preferences/unsubscribe
 
 User-agent: Pinterest
 Disallow:

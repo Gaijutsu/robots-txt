@@ -34,7 +34,7 @@ Disallow: /
 
 User-agent: Google-Extended
 Disallow: /
-Allow: /content/*?syn-25a6b1a6
+Allow: /content/*?syn-25a6b1a6=1
 
 User-agent: GoogleOther
 Disallow: /
