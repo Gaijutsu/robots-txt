@@ -1,4 +1,4 @@
-# Robots.txt for https://www.dailymail.co.uk/ updated 30/09/2025
+# Robots.txt for https://www.dailymail.co.uk/ updated 28/10/2025
 #
 #
 # All Robots
@@ -42,6 +42,7 @@ Disallow: /
 User-agent: AI2Bot
 User-agent: Ai2Bot-Dolma
 User-agent: Amazonbot
+User-agent: amazon-kendra-
 User-agent: anthropic-ai
 User-agent: Applebot-Extended
 User-agent: bedrockbot
@@ -58,8 +59,10 @@ User-agent: Cotoyogi
 User-agent: DeepSeekBot
 User-agent: Diffbot
 User-agent: DuckAssistBot
+User-agent: EchoboxBot
 User-agent: FacebookBot
 User-agent: FriendlyCrawler
+User-agent: Gemini-Deep-Research
 User-agent: Google-CloudVertexBot
 User-agent: Google-Extended
 User-agent: GoogleOther
@@ -74,6 +77,7 @@ User-agent: img2dataset
 User-agent: ISSCyberRiskCrawler
 User-agent: Kangaroo Bot
 User-agent: KunatoCrawler
+User-agent: LinerBot
 User-agent: Meltwater
 User-agent: Meta-ExternalAgent
 User-agent: Meta-ExternalFetcher
@@ -90,11 +94,13 @@ User-agent: QualifiedBot
 User-agent: Scrapy
 User-agent: Seekr
 User-agent: Sidetrade indexer bot
+User-agent: TaraGroup Intelligent Bot
 User-agent: TikTokSpider
 User-agent: Timpibot
 User-agent: VelenPublicWebCrawler
 User-agent: WARDBot
 User-agent: Webzio-Extended
+User-agent: wpbot
 User-agent: WRTNBot
 User-agent: YouBot
 Allow: /buyline/

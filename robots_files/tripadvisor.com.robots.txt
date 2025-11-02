@@ -23,22 +23,22 @@ Sitemap: https://www.tripadvisor.com/sitemap/att/en_US/sitemap_en_US_attraction_
 Sitemap: https://www.tripadvisor.com/sitemap/att/en_US/sitemap_en_US_attraction_product_review_index.xml
 Sitemap: https://www.tripadvisor.com/sitemap/att/en_US/sitemap_en_US_attractions_near_index.xml
 Sitemap: https://www.tripadvisor.com/business/sitemap.xml
-User-Agent: magpie-crawler
-User-Agent: Google-Extended
-User-Agent: ClaudeBot
-User-Agent: PetalBot
-User-Agent: Bytespider
-User-Agent: Google-CloudVertexBot
 User-Agent: Applebot-Extended
-User-Agent: SentiBot
+User-Agent: Bytespider
+User-Agent: ClaudeBot
 User-Agent: GPTBot
+User-Agent: Google-CloudVertexBot
+User-Agent: Google-Extended
+User-Agent: PetalBot
+User-Agent: SentiBot
+User-Agent: magpie-crawler
 Disallow: /
 
 User-Agent: *
+User-Agent: ChatGPT-User
+User-Agent: ChatGPT-User/2.0
 User-Agent: Gemini-Deep-Research
 User-Agent: OAI-SearchBot
-User-Agent: ChatGPT-User/2.0
-User-Agent: ChatGPT-User
 User-Agent: applebot
 User-Agent: PerplexityBot
 User-Agent: bingbot
@@ -858,12 +858,12 @@ Disallow: /ShowTopic
 User-Agent: bingbot
 Disallow: /LocationPhotoDirectLink
 
+User-Agent: ChatGPT-User
+User-Agent: ChatGPT-User/2.0
 User-Agent: Gemini-Deep-Research
 User-Agent: OAI-SearchBot
-User-Agent: ChatGPT-User/2.0
-User-Agent: ChatGPT-User
-Disallow: /*-g188*
 Disallow: /*-g1875*
+Disallow: /*-g188*
 
 #                                                                                          
 #                                        ==+*##%%%%%%%%%%%%##*+=                                     

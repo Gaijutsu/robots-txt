@@ -348,6 +348,12 @@ Disallow: /
 User-agent: WARDBot
 Disallow: /
 
+User-agent: TaraGroup Intelligent Bot V1
+Disallow: /
+
+User-agent: TaraGroup Intelligent Bot
+Disallow: /
+
 User-agent: *
 Disallow: /errors
 Disallow: /interactive/
