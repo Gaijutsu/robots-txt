@@ -140,6 +140,9 @@ Disallow: /
 User-agent: Webzio-Extended
 Disallow: /
 
+User-agent: bingbot
+Disallow: /web-search
+
 User-agent: *
 Disallow: /wp-admin/
 Disallow: /adv/*.swf$
