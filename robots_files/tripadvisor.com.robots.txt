@@ -601,7 +601,6 @@ Disallow: /ProxyToolsContractDiscountTool
 Disallow: /ProxyToolsCustomerSupportForm
 Disallow: /ProxyToolsDiscountCode
 Disallow: /ProxyToolsInstantBookingManagementTool
-Disallow: /ProxyToolsInstantBookingSignupTool
 Disallow: /ProxyToolsManageUserAccessTool
 Disallow: /ProxyToolsMemberEditor
 Disallow: /ProxyToolsPhoneTrackingBulkLoader

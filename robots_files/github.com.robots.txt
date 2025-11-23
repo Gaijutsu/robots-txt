@@ -1,5 +1,35 @@
 # If you would like to crawl GitHub contact us via https://support.github.com?tags=dotcom-robots
 # We also provide an extensive API: https://docs.github.com
+User-agent: bingbot
+Disallow: /ekansa/Open-Context-Data
+Disallow: /ekansa/opencontext-*
+Disallow: /account-login
+Disallow: */tarball/
+Disallow: */zipball/
+Disallow: /Explodingstuff/
+Disallow: /copilot/
+Disallow: /copilot/c/
+
+User-agent: adidxbot
+Disallow: /ekansa/Open-Context-Data
+Disallow: /ekansa/opencontext-*
+Disallow: /account-login
+Disallow: */tarball/
+Disallow: */zipball/
+Disallow: /Explodingstuff/
+Disallow: /copilot/
+Disallow: /copilot/c/
+
+User-agent: BingPreview
+Disallow: /ekansa/Open-Context-Data
+Disallow: /ekansa/opencontext-*
+Disallow: /account-login
+Disallow: */tarball/
+Disallow: */zipball/
+Disallow: /Explodingstuff/
+Disallow: /copilot/
+Disallow: /copilot/c/
+
 User-agent: baidu
 crawl-delay: 1
 
