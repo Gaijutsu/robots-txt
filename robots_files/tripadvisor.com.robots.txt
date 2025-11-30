@@ -759,6 +759,7 @@ Disallow: /TravelMap?
 Disallow: /TravelMapHome
 Disallow: /TripBarometer
 Disallow: /TripBuilder
+Disallow: /TripCashGiveaway
 Disallow: /TripConnectAccommodations
 Disallow: /TripConnectBadge
 Disallow: /TripConnectPartner

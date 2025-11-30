@@ -77,7 +77,7 @@ User-agent: dlvrit
 User-agent: EchoboxBot/1.0
 User-agent: flipboard
 User-agent: GrapeshotCrawler
-User-agent: Verity/1.1
+User-agent: Verity
 User-agent: HyScore/1.0
 User-agent: ia_archiver
 User-agent: Iframely
