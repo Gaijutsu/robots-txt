@@ -134,6 +134,9 @@ Disallow: /
 User-agent: Meta-ExternalFetcher
 Disallow: /
 
+User-agent: Meta-WebIndexer
+Disallow: /
+
 User-agent: Microsoft.URL.Control
 Disallow: /
 

@@ -62,7 +62,6 @@ Disallow: /athletic*/boxscore/*
 Disallow: /athletic/feed-test/
 Disallow: /athletic*/signed-mp3-redirect-url/*
 Disallow: /athletic/embedded-interactive/*
-Disallow: /athletic/interactive/*
 Disallow: /card/panel/
 Disallow: /panel/
 Disallow: /puzzles/leaderboards/invite/*

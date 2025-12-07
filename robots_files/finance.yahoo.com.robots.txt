@@ -106,6 +106,7 @@ Disallow: /workspace/*
 Disallow: /quote/*/earnings/*.html
 Allow: /quote/*/earnings/*-*-2025-*-*.html
 Allow: /quote/*/earnings/*-*-2026-*-*.html
+Disallow: /quotes/*
 
 
 Sitemap: https://finance.yahoo.com/sitemap_en-us_quotes_index.xml

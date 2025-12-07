@@ -670,7 +670,6 @@ Disallow: /screensaver/
 Disallow: /ScreensaverShade
 Disallow: /Search
 Disallow: /SelfServeAdvertising
-Disallow: /SendMessage
 Disallow: /SendToFriend
 Disallow: /SentConfirmationEmail
 Disallow: /ServiceWorker
