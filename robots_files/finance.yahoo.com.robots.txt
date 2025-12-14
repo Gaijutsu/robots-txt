@@ -110,5 +110,3 @@ Disallow: /quotes/*
 
 
 Sitemap: https://finance.yahoo.com/sitemap_en-us_quotes_index.xml
-Sitemap: https://finance.yahoo.com/sitemaps/finance-sitemap_index_US_en-US.xml.gz
-Sitemap: https://finance.yahoo.com/sitemaps/finance-sitemap_googlenewsindex_US_en-US.xml.gz

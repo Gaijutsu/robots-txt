@@ -110,7 +110,6 @@ Disallow: /blogs/*
 Disallow: /gog/*
 Disallow: /arcio/fact-checker/
 Disallow: /recipes/*?q=
-Disallow: /ripple/
 
 User-agent: Twitterbot
 Allow: /posttv-beta/
@@ -132,9 +131,11 @@ Disallow: /
 
 User-agent: anthropic-ai
 Disallow: /
+Allow: /creativegroup/
 
 User-agent: Applebot-Extended
 Disallow: /
+Allow: /creativegroup/
 
 User-agent: archive.org_bot
 Disallow: /
@@ -153,30 +154,37 @@ Disallow: /
 
 User-agent: Bytespider
 Disallow: /
+Allow: /creativegroup/
 
 User-agent: CCBot
 Disallow: /
+Allow: /creativegroup/
 
 User-agent: Claude-Web
 Disallow: /
+Allow: /creativegroup/
 
 User-agent: ClaudeBot
 Disallow: /
+Allow: /creativegroup/
 
 User-agent: cohere-training-data-crawler
 Disallow: /
+Allow: /creativegroup/
 
 User-agent: DataForSeoBot
 Disallow: /
 
 User-agent: Diffbot
 Disallow: /
+Allow: /creativegroup/
 
 User-agent: europarchive.org
 Disallow: /
 
 User-agent: FacebookBot
 Disallow: /
+Allow: /creativegroup/
 
 User-agent: heritrix
 Disallow: /
@@ -195,21 +203,26 @@ Disallow: /
 
 User-agent: meta-externalagent
 Disallow: /
+Allow: /creativegroup/
 
 User-agent: meta-externalfetcher
 Disallow: /
+Allow: /creativegroup/
 
 User-agent: Nicecrawler
 Disallow: /
 
 User-agent: omgili
 Disallow: /
+Allow: /creativegroup/
 
 User-agent: omgilibot
 Disallow: /
+Allow: /creativegroup/
 
 User-agent: PerplexityBot
 Disallow: /
+Allow: /creativegroup/
 
 User-agent: Primalbot
 Disallow: /
@@ -219,6 +232,7 @@ Disallow: /
 
 User-agent: YandexBot
 Disallow: /
+Allow: /creativegroup/
 
 Sitemap: https://www.washingtonpost.com/sitemaps/sitemap.xml.gz
 Sitemap: https://www.washingtonpost.com/sitemaps/news-sitemap.xml.gz
@@ -226,3 +240,4 @@ Sitemap: https://www.washingtonpost.com/sitemaps/author-sitemap.xml.gz
 Sitemap: https://www.washingtonpost.com/sitemaps/section-sitemap.xml.gz
 Sitemap: https://www.washingtonpost.com/elections/results/sitemap.xml
 Sitemap: https://www.washingtonpost.com/arcio/sitemap/video/index/
+Sitemap: https://www.washingtonpost.com/creativegroup/sitemaps/sitemap.xml
