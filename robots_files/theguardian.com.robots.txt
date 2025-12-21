@@ -82,7 +82,6 @@ User-agent: anthropic-ai
 User-agent: ClaudeBot
 User-agent: Claude-SearchBot
 User-agent: Claude-User
-User-agent: bingbot
 User-agent: AwarioRssBot
 User-agent: AwarioSmartBot
 User-agent: SentiOne
