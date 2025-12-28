@@ -163,6 +163,8 @@ Disallow: /requirejs/version-9,minify-1.cms*
 Disallow: /toiads_new/minify-1.cms*
 Disallow: /newsletter_rhs_js.cms*
 Disallow: /toiads_prebid_checker/adset/ve-1.cms*
+Disallow: /ext_*
+Disallow: /*_rsc=
 
 User-agent: Googlebot-News
 Allow: /
@@ -329,6 +331,8 @@ Disallow: /requirejs/version-9,minify-1.cms*
 Disallow: /toiads_new/minify-1.cms*
 Disallow: /newsletter_rhs_js.cms*
 Disallow: /toiads_prebid_checker/adset/ve-1.cms*
+Disallow: /ext_*
+Disallow: /*_rsc=
 
 Sitemap: https://timesofindia.indiatimes.com/sitemap/today
 Sitemap: https://timesofindia.indiatimes.com/sitemap/yesterday
