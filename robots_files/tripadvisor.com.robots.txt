@@ -23,15 +23,22 @@ Sitemap: https://www.tripadvisor.com/sitemap/att/en_US/sitemap_en_US_attraction_
 Sitemap: https://www.tripadvisor.com/sitemap/att/en_US/sitemap_en_US_attraction_product_review_index.xml
 Sitemap: https://www.tripadvisor.com/sitemap/att/en_US/sitemap_en_US_attractions_near_index.xml
 Sitemap: https://www.tripadvisor.com/business/sitemap.xml
+User-Agent: Amazonbot
 User-Agent: Applebot-Extended
 User-Agent: Bytespider
+User-Agent: CCBot
 User-Agent: ClaudeBot
+User-Agent: Cohere-ai
 User-Agent: GPTBot
 User-Agent: Google-CloudVertexBot
 User-Agent: Google-Extended
+User-Agent: Img2dataset
+User-Agent: PanguBot
 User-Agent: PetalBot
 User-Agent: SentiBot
+User-Agent: YouBot
 User-Agent: magpie-crawler
+User-Agent: meta-externalagent
 Disallow: /
 
 User-Agent: *
@@ -59,10 +66,6 @@ Disallow: /AirlineRegistration
 Disallow: /AirlineTips
 Disallow: /AirportFromGeoAjax
 Disallow: /AirportIP
-Disallow: /AirWatchAjaxHandler
-Disallow: /AirWatchAlertDhtmlPopup
-Disallow: /AirWatchSubscriptionAjax
-Disallow: /AirWatchSubscriptionWidget
 Disallow: /AITripBuilder
 Disallow: /AllReviews
 Disallow: /analytics
@@ -394,7 +397,6 @@ Disallow: /MobileAirlineDeals
 Disallow: /MobileAirlines
 Disallow: /MobileAirlineTips
 Disallow: /MobileAirport
-Disallow: /MobileAirwatch
 Disallow: /MobileApps
 Disallow: /MobileAttractionSearch
 Disallow: /MobileAttractionsNear
@@ -569,7 +571,6 @@ Disallow: /photosandvideos
 Disallow: /PhotoUpload
 Disallow: /Pin_Lander
 Disallow: /PlusCommerce
-Disallow: /PlusManagement
 Disallow: /PoiArea
 Disallow: /PoiDetails
 Disallow: /PoiRecommendationDashboard
@@ -577,7 +578,7 @@ Disallow: /PoiRecommendationEditor
 Disallow: /PoiRecommendationList
 Disallow: /PoiReviewDetail
 Disallow: /PoiTipDashboard
-Disallow: /PostPhotos
+Disallow: /PostPhotosHAC
 Disallow: /PostReply
 Disallow: /PostVideo
 Disallow: /Premium-
@@ -786,7 +787,13 @@ Disallow: /UserContent
 Disallow: /UserInteractionRecord
 Disallow: /UsernameValidation
 Disallow: /UserPage
-Disallow: /UserReview
+Disallow: /UserReviewController
+Disallow: /UserReviewEdit
+Disallow: /UserReviewHAC
+Disallow: /UserReviewPreview
+Disallow: /UserReviewSticker
+Disallow: /UserReviewSupport
+Disallow: /UserReviewThanks
 Disallow: /users
 Disallow: /UserTip
 Disallow: /UserTrackingRecord
@@ -835,7 +842,6 @@ Allow: /CheapFlightsHome
 Allow: /InfoCenter-a_ctr.april_en
 Allow: /js3/ta-mobile
 Allow: /js3/vr-shared
-Allow: /UserReview$
 Allow: /data/*/crosssellaccommodations
 Allow: /data/1.0/bundle
 
