@@ -79,7 +79,6 @@ Disallow: /apps
 Disallow: /AppUploadAPhoto
 Disallow: /AppUserReview
 Disallow: /ArticlesV2
-Disallow: /AsHeardOn
 Disallow: /Attraction_Products
 Disallow: /AttractionAmendTravelDate
 Disallow: /AttractionBookingApi
@@ -124,7 +123,6 @@ Disallow: /CarsComparePartners
 Disallow: /CauseTeaserPopup
 Disallow: /cds/media
 Disallow: /CDSimp
-Disallow: /Celebrate100Million
 Disallow: /CertificateOfExcellenceRequestSupport
 Disallow: /CheapFlightsCommerce
 Disallow: /CheapFlightsController
@@ -185,7 +183,9 @@ Disallow: /ExternalIdMap
 Disallow: /ExternalLinkInterstitial
 Disallow: /FacebookConnect
 Disallow: /FareCalendar
-Disallow: /Featured
+Disallow: /FeaturedRentalReview
+Disallow: /FeaturedVacationRentals
+Disallow: /FeaturedVRAjax
 Disallow: /FilterState
 Disallow: /FindRestaurants
 Disallow: /FinishAppInstall
@@ -220,8 +220,6 @@ Disallow: /GOffer
 Disallow: /GOWidget
 Disallow: /Gpits
 Disallow: /GPointCampaign
-Disallow: /GreenLeaderAjax
-Disallow: /GreenLeadersProxy
 Disallow: /GroupHomeApi
 Disallow: /GroupManagementCenter
 Disallow: /GSSAjax
@@ -566,7 +564,6 @@ Disallow: /pdfs/email/
 Disallow: /pdfs/tca/
 Disallow: /PersonalizedOnboarding
 Disallow: /PhoneTrackingOptOuts
-Disallow: /PhotoBox
 Disallow: /photosandvideos
 Disallow: /PhotoUpload
 Disallow: /Pin_Lander
@@ -757,6 +754,7 @@ Disallow: /TravellersChoice?
 Disallow: /TravelMap-
 Disallow: /TravelMap?
 Disallow: /TravelMapHome
+Disallow: /TravelMode
 Disallow: /TripBarometer
 Disallow: /TripBuilder
 Disallow: /TripCashGiveaway
