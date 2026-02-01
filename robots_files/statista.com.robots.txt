@@ -193,6 +193,9 @@ User-agent: PanguBot
 User-agent: PerplexityBot # https://docs.perplexity.ai/guides/bots#perplexity-crawlers
 User-agent: Perplexity-User #https://url.de.m.mimecastprotect.com/s/ONS8C57m38IMQALAhLt0UkiR8l?domain=docs.perplexity.ai
 
+# Liner AI
+User-agent: LinerBot # https://darkvisitors.com/agents/linerbot
+
 # Google 
 User-agent: Google-Extended # https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers#google-extended
 User-agent: GoogleOther # https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers#googleother

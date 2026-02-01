@@ -201,6 +201,7 @@ Disallow: /
 
 User-agent: bingbot
 Disallow: /web-search
+Disallow: /bosai-nippon/search
 
 User-agent: *
 Disallow: /wp-admin/
