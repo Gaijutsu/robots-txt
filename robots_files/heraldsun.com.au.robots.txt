@@ -155,7 +155,8 @@ User-agent: YandexImages
 User-agent: Yeti
 User-agent: yisouspider
 Disallow:
-
+Disallow: /*?expand_comments=true
+Disallow: /*&expand_comments=true
 Disallow: /*/comments-*
 Disallow: /*/print/
 Disallow: /*SIT*

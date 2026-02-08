@@ -134,6 +134,7 @@ Disallow: /CheapFlightsSearchResults
 Disallow: /CheapFlightsSearchSeatGuru
 Disallow: /Civ
 Disallow: /Claim
+Disallow: /claimrewards
 Disallow: /ClientLink
 Disallow: /CMSImp
 Disallow: /cmsimp
@@ -717,7 +718,6 @@ Disallow: /StaticPage
 Disallow: /StaticVelocityPage
 Disallow: /StaticVelocityXmlPage
 Disallow: /StickerRequestAjax
-Disallow: /StruttaGameAjax
 Disallow: /SubscriptionLander
 Disallow: /SubscriptionPopup
 Disallow: /Summer06Widget

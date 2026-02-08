@@ -409,6 +409,9 @@ Disallow: /money/lookup/stocks/
 Disallow: /money/blueprint/archive/
 Disallow: /money/blueprint/transfer?pname=
 
+User-agent: AmazonAdBot
+Allow: /
+
 Sitemap: https://www.usatoday.com/news-sitemap.xml
 Sitemap: https://www.usatoday.com/web-sitemap-index.xml
 Sitemap: https://www.usatoday.com/video-sitemap-index.xml
