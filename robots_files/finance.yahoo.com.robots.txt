@@ -23,49 +23,50 @@ Disallow: /nimbus_ms/remote?*
 Disallow: /lookup?s=*
 Disallow: /lookup/
 
+User-agent: ADmantX
+User-agent: AlphaBot
 User-agent: Amazonbot
-Disallow: /
-
 User-agent: anthropic-ai
-Disallow: /
-
+User-agent: AwarioRssBot
+User-agent: AwarioSmartBot
+User-agent: BLEXBot
+User-agent: Buzzbot
 User-agent: Bytespider
-Disallow: /
-
 User-agent: CCBot
-Disallow: /
-
 User-agent: ChatGPT-User
-Disallow: /
-
+User-agent: claritybot
 User-agent: ClaudeBot
-Disallow: /
-
 User-agent: Claude-Web
-Disallow: /
-
 User-agent: cohere-ai
-Disallow: /
-
 User-agent: Diffbot
-Disallow: /
-
 User-agent: FacebookBot
-Disallow: /
-
+User-agent: FriendlyCrawler
 User-agent: Google-Extended
-Disallow: /
-
 User-agent: GPTBot
-Disallow: /
-
+User-agent: huggingface
+User-agent: ImagesiftBot
+User-agent: img2dataset
+User-agent: magpie-crawler
+User-agent: Meltwater
+User-agent: Neevabot
+User-agent: news-please
+User-agent: NewsNow
+User-agent: Nutch
 User-agent: omgili
-Disallow: /
-
 User-agent: omgilibot
-Disallow: /
-
+User-agent: panscient.com
+User-agent: Perplexity-ai
 User-agent: PerplexityBot
+User-agent: PetalBot
+User-agent: PiplBot
+User-agent: scoop.it
+User-agent: Scrapy
+User-agent: Seekr
+User-agent: SentiBot
+User-agent: SeznamBot
+User-agent: TurnitinBot
+User-agent: YouBot
+User-agent: ZumBot
 Disallow: /
 
 User-agent: *

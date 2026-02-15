@@ -9,7 +9,7 @@ Disallow: /__gdpr__/
 Disallow: /__api__/api/1.0/rashi/*
 Disallow: /__api__/api/1.0/budget/*
 Allow: /
-Sitemap: https://www.bhaskar.com/sitemaps-v1--sitemap-latest-videos.xml
+Sitemap: https://www.bhaskar.com/sitemaps-v1--sitemap-latest-videos-daily-index.xml
 Sitemap: https://www.bhaskar.com/sitemaps-v1--sitemap-google-news-index.xml
 Sitemap: https://www.bhaskar.com/web-stories/sitemap.xml
 

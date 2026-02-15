@@ -16,7 +16,6 @@ User-agent: Weborama-fetcher
 User-agent: YahooAdmonitoring
 User-agent: netseer.com
 User-agent: SemrushBot
-User-agent: omgili.com
 User-agent: FacebookCrawler
 User-agent: facebookexternalhit
 User-agent: facebot
@@ -26,7 +25,6 @@ User-agent: IASbot
 User-agent: identrics
 User-agent: MeltwaterNews
 User-agent: links.streem.com.au
-User-agent: Webz-bot
 User-agent: LinkedInBot
 User-agent: WhatsApp
 User-agent: redditbot

@@ -37,7 +37,7 @@ Disallow: /blog/*/wp-login.php
 Disallow: /blog/*/wp-register.php
 Disallow: /blog/*/author/admin/
 # Recherche
-# Disallow: /recherche/?*search_keywords=*
+Disallow: /recherche/?*search_keywords=*
 # Sitemaps
 Sitemap: https://www.lemonde.fr/sitemap_news.xml
 Sitemap: https://www.lemonde.fr/sitemap_index.xml

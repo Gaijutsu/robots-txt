@@ -1,35 +1,53 @@
+Sitemap: https://www.vogue.com/sitemap.xml
+Sitemap: https://www.vogue.com/categories-sitemap.xml?hierarchy=channels
+Sitemap: https://www.vogue.com/categories-sitemap.xml?hierarchy=tags
+Sitemap: https://www.vogue.com/contributors-sitemap.xml
+Sitemap: https://www.vogue.com/bundles-sitemap.xml
+Sitemap: https://www.vogue.com/branded-sitemap.xml
+Sitemap: https://www.vogue.com/feed/google-latest-news/sitemap-google-news
+Sitemap: https://www.vogue.com/feed/rss
+Sitemap: https://www.vogue.com/feed/met-gala-feed/rss
+
 User-agent: *
-Disallow: /wp-admin/
-Disallow: /promotions/
-Disallow: /sweeps/
-Disallow: /search
-Disallow: /?s=*
-Disallow: /social/
+Disallow: /*?
+Allow: /*?*page
+Allow: /*.xml?
+Allow: /*.js
+Allow: /*.css
+Allow: /*.ico
+Allow: /verso/static
+Allow: /*.svg
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*rss?
+Allow: /*?id=
+Disallow: /auth/
+Disallow: /account/
+Disallow: /user/
+Disallow: /user-context
 Disallow: /preview/
-Disallow: /masthead/
-Disallow: */print
-Disallow: /slideshow/*-inline$
-Disallow: /video/right_rail*
-Disallow: /*?redirectURL=
-Disallow: /*{{url}}
-Disallow: /*%7B%7Burl%7D%7D
-Disallow: /auth/*
-Disallow: /account/*
-Disallow: /*{{section}}
-Disallow: /*%7B%7Bsection%7D%7D
+Disallow: /search
 Disallow: /product/
-Disallow: /services.min.js?_=
-Disallow: /user-context?referrer
-Disallow: /com.condenast/yv8*
+Disallow: /cdn-cgi/
+Disallow: /services.min.js
+Disallow: /com.condenast/yv8
+
+###
+Disallow: /slideshow/*-inline$
 Disallow: */vogue-club/perk/
 Disallow: /https://player.cnevids.com/
-
-#Storefront
-Disallow: /shopping/*?*+
-Disallow: /shopping/*sort=
-Disallow: /shopping/*?query=
 Disallow: /shopping/*?
+Allow: /shopping/*?page=
+Disallow: /shopping/*?page=*&
+###
 
+User-agent: FacebookExternalHit
+User-agent: Twitterbot
+User-agent: Pinterestbot
+User-agent: LinkedInBot
+User-agent: TikTokSpider
+User-agent: Storebot-Google
 User-agent: Google-InspectionTool
 Allow: /
 
@@ -63,11 +81,3 @@ User-agent: ia_archiver
 User-agent: ia_archiver-web.archive.org
 User-agent: heritrix
 Disallow: /
-
-Sitemap: https://www.vogue.com/sitemap.xml
-Sitemap: https://www.vogue.com/branded-sitemap.xml
-Sitemap: https://www.vogue.com/feed/google-latest-news/sitemap-google-news
-Sitemap: https://www.vogue.com/contributors-sitemap.xml
-Sitemap: https://www.vogue.com/categories-sitemap.xml
-Sitemap: https://www.vogue.com/bundles-sitemap.xml
-Sitemap: https://www.vogue.com/sitemap-archive-1.xml

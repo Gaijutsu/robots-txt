@@ -210,9 +210,6 @@ User-agent: Claude-Web
 Disallow: /
 Allow: /$
 Allow: /statistik/info$
-Allow: /aboutus/
-Allow: /a-propos/
-Allow: /acercadenosotros/
 Allow: /kontakt/
 Allow: /contact/
 Allow: /contacto/

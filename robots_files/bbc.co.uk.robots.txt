@@ -1,5 +1,22 @@
 
-# version: 945f36196057348d62861344edc121a150851e7f
+# version: 33da601c81953a45668bf5504fe0e8f8fb8aa953
+# The BBC's Terms of Use: https://www.bbc.co.uk/terms
+# - Explain the rules for using our services
+# - Tell you what you can do with our content
+#
+# In short: Please use our site like a human, not a robot.
+# That means:
+# - No scraping, crawling, or systematic extraction of content 
+# - No use of BBC content for training or fine-tuning AI models, including large language models (LLMs)
+# - No retrieval-augmented generation (RAG), AI-powered search, agentic AI or grounding using BBC content
+# - No creating datasets from BBC content
+# - No text and data mining (TDM) under Article 4 of the EU Directive on Copyright in the Digital Single Market
+# - No using BBC content to create summaries for your own use
+# - No business use without permission (details: https://www.bbc.co.uk/usingthebbc/terms/can-i-use-bbc-content-for-my-business/)
+# - The BBC reserves all rights in its content and expressly opts out of any statutory exceptions in any jurisdiction for text and data mining, as permitted by law
+ 
+# TL;DR: Browse, read, watch, enjoy - like a human.
+#
 
 # HTTPS www.bbc.co.uk
 
