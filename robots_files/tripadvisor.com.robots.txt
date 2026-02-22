@@ -90,8 +90,6 @@ Disallow: /AttractionOperatorReview
 Disallow: /AttractionPartnerRedirect
 Disallow: /AttractionProductDetail
 Disallow: /AttractionProductHighlight
-Disallow: /AttractionProductsAjax
-Disallow: /AttractionsAjax
 Disallow: /AuthCheck
 Disallow: /AuthorTool
 Disallow: /avis
@@ -399,7 +397,6 @@ Disallow: /MobileAirport
 Disallow: /MobileApps
 Disallow: /MobileAttractionSearch
 Disallow: /MobileAttractionsNear
-Disallow: /MobileAttractionToursAndTickets
 Disallow: /MobileBookingConfirmationShare
 Disallow: /MobileBookingConfirmationSMSResponse
 Disallow: /MobileBookingCustomerSupport

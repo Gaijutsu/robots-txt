@@ -66,4 +66,7 @@ Disallow: /
 User-agent: Bytespider
 Disallow: /
 
+User-agent: Gensparkbot
+Disallow: /
+
 sitemap: https://www.asahi.com/sitemap.xml

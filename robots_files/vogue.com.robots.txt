@@ -34,6 +34,7 @@ Disallow: /services.min.js
 Disallow: /com.condenast/yv8
 
 ###
+Allow: /v2/offers/voga
 Disallow: /slideshow/*-inline$
 Disallow: */vogue-club/perk/
 Disallow: /https://player.cnevids.com/
