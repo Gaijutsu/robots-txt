@@ -1,0 +1,64 @@
+User-agent: *
+
+Disallow: /images/
+Disallow: /graphics/
+Disallow: /admin/
+Disallow: /promos/
+Disallow: /ddp/
+Disallow: /dpp/
+Disallow: /programming/free/files/
+Disallow: /design/free/files/
+Disallow: /iot/free/files/
+Disallow: /data/free/files/
+Disallow: /webops-perf/free/files/
+Disallow: /web-platform/free/files/
+Disallow: /cs/
+Disallow: /test/
+Disallow: /*/?ar
+Disallow: /*/?orpq
+Disallow: /*/?discount=learn
+Disallow: /self-registration/*
+
+#11/3/2025 per nancya
+User-agent: Baiduspider
+User-agent: PetalBot
+User-agent: yisouspider
+User-agent: Yisouspider
+User-agent: 008
+Disallow: /
+
+#ITOPS-41555
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ChatGPT-User/2.0
+User-agent: GPTBot
+User-agent: anthropic-ai
+#User-agent: ClaudeBot
+#User-agent: claude-web
+User-agent: Claude-SearchBot
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Google-Extended
+User-agent: BingBot
+User-agent: Amazonbot
+User-agent: Applebot
+User-agent: Applebot-Extended
+#User-agent: FacebookBot
+User-agent: meta-externalagent
+User-agent: meta-webindexer
+#User-agent: LinkedInBot
+User-agent: Bytespider
+User-agent: DuckAssistBot
+User-agent: cohere-ai
+User-agent: AI2Bot
+User-agent: CCBot
+User-agent: Diffbot
+User-agent: omgili
+User-agent: TimpiBot
+User-agent: YouBot
+#Disallow: /library-access
+Disallow: /
+
+
+#ITOPS-41995
+Sitemap: https://www.oreilly.com/sitemap_index.xml

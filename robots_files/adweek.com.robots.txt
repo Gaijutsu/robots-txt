@@ -1,0 +1,517 @@
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/themes/
+
+User-agent: Googlebot
+Allow: /wp-content/plugins/
+Allow: /wp-content/themes/
+Allow: /wp-content/uploads/
+
+User-agent: AdsBot-Google
+Allow: /wp-content/plugins/
+Allow: /wp-content/themes/
+
+User-agent: Googlebot-Image
+Allow: /wp-content/plugins/
+Allow: /wp-content/themes/
+Allow: /wp-content/uploads/
+
+User-agent: Twitterbot
+Allow: /sponsored/
+Allow: /partner-articles/
+
+Sitemap: https://www.adweek.com/sitemap.xml
+Sitemap: https://www.adweek.com/sitemap-1.xml
+Sitemap: https://www.adweek.com/tvnewser/sitemap.xml
+Sitemap: https://www.adweek.com/tvspy/sitemap.xml
+Sitemap: https://www.adweek.com/agencyspy/sitemap.xml
+Sitemap: https://www.adweek.com/lostremote/sitemap.xml
+
+User-agent: Baiduspider
+# https://darkvisitors.com/agents/baiduspider
+Disallow: /
+
+
+# START DARK VISITORS BLOCK
+# ---------------------------
+# Scraper
+# https://knownagents.com/agents/008
+
+User-agent: 008
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/adstxtcrawler
+
+User-agent: AdsTxtCrawler
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/ai2bot-dolma
+
+User-agent: Ai2Bot-Dolma
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/amazonbot
+
+User-agent: Amazonbot
+Disallow: /
+
+# Undocumented AI Agent
+# https://knownagents.com/agents/anthropic-ai
+
+User-agent: anthropic-ai
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/applebot-extended
+
+User-agent: Applebot-Extended
+Disallow: /
+
+# Archiver
+# https://knownagents.com/agents/archive-it
+
+User-agent: Archive-It
+Disallow: /
+
+# Archiver
+# https://knownagents.com/agents/archive-org-bot
+
+User-agent: archive.org_bot
+Disallow: /
+
+# Archiver
+# https://knownagents.com/agents/arquivo-web-crawler
+
+User-agent: Arquivo-web-crawler
+Disallow: /
+
+# Archiver
+# https://knownagents.com/agents/authory
+
+User-agent: Authory
+Disallow: /
+
+# Archiver
+# https://knownagents.com/agents/bl-uk-lddc-bot
+
+User-agent: bl.uk_lddc_bot
+Disallow: /
+
+# Archiver
+# https://knownagents.com/agents/bne-es-bot
+
+User-agent: bne.es_bot
+Disallow: /
+
+# Archiver
+# https://knownagents.com/agents/bnf-fr-bot
+
+User-agent: bnf.fr_bot
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/bytespider
+
+User-agent: Bytespider
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/ccbot
+
+User-agent: CCBot
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/chatglm-spider
+
+User-agent: ChatGLM-Spider
+Disallow: /
+
+# Undocumented AI Agent
+# https://knownagents.com/agents/claude-web
+
+User-agent: Claude-Web
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/claudebot
+
+User-agent: ClaudeBot
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/cloudvertexbot
+
+User-agent: CloudVertexBot
+Disallow: /
+
+# Undocumented AI Agent
+# https://knownagents.com/agents/cohere-ai
+
+User-agent: cohere-ai
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/cohere-training-data-crawler
+
+User-agent: cohere-training-data-crawler
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/cotoyogi
+
+User-agent: Cotoyogi
+Disallow: /
+
+# Undocumented AI Agent
+# https://knownagents.com/agents/crawl4ai
+
+User-agent: Crawl4AI
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/dataprovider-com
+
+User-agent: Dataprovider.com
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/datenbank-crawler
+
+User-agent: Datenbank Crawler
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/dcrawl
+
+User-agent: dcrawl
+Disallow: /
+
+# Undocumented AI Agent
+# https://knownagents.com/agents/deepseekbot
+
+User-agent: DeepSeekBot
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/diffbot
+
+User-agent: Diffbot
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/facebookbot
+
+User-agent: FacebookBot
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/google-extended
+
+User-agent: Google-Extended
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/googleother
+
+User-agent: GoogleOther
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/gptbot
+
+User-agent: GPTBot
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/helloworkjobpostingbot
+
+User-agent: HelloworkJobPostingBot
+Disallow: /
+
+# Archiver
+# https://knownagents.com/agents/heritrix
+
+User-agent: heritrix
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/httrack
+
+User-agent: HTTrack
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/httrack-3-0
+
+User-agent: HTTrack 3.0
+Disallow: /
+
+# Archiver
+# https://knownagents.com/agents/ia-archiver
+
+User-agent: ia_archiver
+Disallow: /
+
+# Archiver
+# https://knownagents.com/agents/ia-archiver-web-archive-org
+
+User-agent: ia_archiver-web.archive.org
+Disallow: /
+
+# Archiver
+# https://knownagents.com/agents/iabot
+
+User-agent: IABot
+Disallow: /
+
+# Undocumented AI Agent
+# https://knownagents.com/agents/iaskbot
+
+User-agent: iAskBot
+Disallow: /
+
+# Undocumented AI Agent
+# https://knownagents.com/agents/iaskspider
+
+User-agent: iaskspider
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/icc-crawler
+
+User-agent: ICC-Crawler
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/imagespider
+
+User-agent: imageSpider
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/indeedjobbot
+
+User-agent: IndeedJobBot
+Disallow: /
+
+# Archiver
+# https://knownagents.com/agents/internet-archive
+
+User-agent: Internet Archive
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/kangaroo-bot
+
+User-agent: Kangaroo Bot
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/krawlerbot
+
+User-agent: KrawlerBot
+Disallow: /
+
+# Undocumented AI Agent
+# https://knownagents.com/agents/kunatocrawler
+
+User-agent: KunatoCrawler
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/laion-huggingface-processor
+
+User-agent: laion-huggingface-processor
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/lcc
+
+User-agent: LCC
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/meta-externalagent
+
+User-agent: meta-externalagent
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/metainspector
+
+User-agent: MetaInspector
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/metajobbot
+
+User-agent: MetaJobBot
+Disallow: /
+
+# Archiver
+# https://knownagents.com/agents/mirrorweb
+
+User-agent: mirrorweb
+Disallow: /
+
+# Archiver
+# https://knownagents.com/agents/netarkivindsamling
+
+User-agent: netarkivindsamling
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/netestate-imprint-crawler
+
+User-agent: netEstate Imprint Crawler
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/newspaper
+
+User-agent: newspaper
+Disallow: /
+
+# Archiver
+# https://knownagents.com/agents/nicecrawler
+
+User-agent: Nicecrawler
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/nutch
+
+User-agent: Nutch
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/nyt-scraping
+
+User-agent: nyt_scraping
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/offline-explorer
+
+User-agent: Offline Explorer
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/omgili
+
+User-agent: omgili
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/openindexspider
+
+User-agent: OpenindexSpider
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/pangubot
+
+User-agent: PanguBot
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/potions
+
+User-agent: Potions
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/sbintuitionsbot
+
+User-agent: SBIntuitionsBot
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/scrapy
+
+User-agent: Scrapy
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/serverhunterspider
+
+User-agent: ServerHunterSpider
+Disallow: /
+
+# Archiver
+# https://knownagents.com/agents/smarshbot
+
+User-agent: SmarshBot
+Disallow: /
+
+# Archiver
+# https://knownagents.com/agents/special-archiver
+
+User-agent: special_archiver
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/spider
+
+User-agent: Spider
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/statsdronebot
+
+User-agent: StatsDroneBot
+Disallow: /
+
+# Undocumented AI Agent
+# https://knownagents.com/agents/terracotta
+
+User-agent: TerraCotta
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/timpibot
+
+User-agent: Timpibot
+Disallow: /
+
+# Archiver
+# https://knownagents.com/agents/turnitin
+
+User-agent: Turnitin
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/velenpublicwebcrawler
+
+User-agent: VelenPublicWebCrawler
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/webzio-extended
+
+User-agent: webzio-extended
+Disallow: /
+
+# Undocumented AI Agent
+# https://knownagents.com/agents/wrtnbot
+
+User-agent: WRTNBot
+Disallow: /
+
+# Archiver
+# https://knownagents.com/agents/xy-archive-compliance
+
+User-agent: XY-Archive-Compliance
+Disallow: /
+
+# Archiver
+# https://knownagents.com/agents/xy-archive-compliance-archiver
+
+User-agent: XY-Archive-Compliance-Archiver
+Disallow: /
+# ---------------------------
+# END DARK VISITORS BLOCK

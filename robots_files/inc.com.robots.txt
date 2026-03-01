@@ -1,0 +1,78 @@
+User-Agent: *
+Allow: /
+Disallow: /apps
+Disallow: /discussions
+Disallow: /atlas
+Disallow: /clients
+Disallow: /doubleclick
+Disallow: /models
+Disallow: /rest
+Disallow: /users
+Disallow: /home
+
+User-Agent: Googlebot
+User-Agent: msnbot
+User-Agent: bingbot
+User-Agent: Twitterbot
+User-Agent: Mediapartners-Google
+User-Agent: Google-Extended
+User-Agent: ScoutJet
+User-Agent: Yandex
+User-Agent: baiduspider
+User-Agent: DuckDuckBot
+User-Agent: BomboraBot
+User-Agent: grapeshot
+User-Agent: ccbot
+Allow: /
+Disallow: /apps
+Disallow: /discussions
+Disallow: /atlas
+Disallow: /clients
+Disallow: /doubleclick
+Disallow: /models
+Disallow: /rest
+Disallow: /users
+Disallow: /home
+
+User-Agent: GPTBot
+Disallow: /
+
+User-Agent: Bard
+Disallow: /
+
+User-Agent: Jasper
+Disallow: /
+
+User-Agent: YouChat
+Disallow: /
+
+User-Agent: Perplexity
+Disallow: /
+
+User-Agent: Claude
+Disallow: /
+
+User-Agent: Claude-Web
+Disallow: /
+
+User-Agent: Neeva
+Disallow: /
+
+User-Agent: Copy.ai
+Disallow: /
+
+User-Agent: Writesonic
+Disallow: /
+
+User-Agent: Anyword
+Disallow: /
+
+User-Agent: AI21
+Disallow: /
+
+User-Agent: meta-externalagent
+Disallow: /
+
+Sitemap: https://www.inc.com/sitemap_index.xml
+Sitemap: https://www.inc.com/sitemap/sitemap_news.xml
+Sitemap: https://www.inc.com/sitemap/podcasts.xml

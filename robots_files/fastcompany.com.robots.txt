@@ -1,0 +1,60 @@
+User-Agent: *
+Allow: /
+
+User-Agent: Googlebot
+User-Agent: msnbot
+User-Agent: bingbot
+User-Agent: Twitterbot
+User-Agent: Mediapartners-Google
+User-Agent: Google-Extended
+User-Agent: ScoutJet
+User-Agent: Yandex
+User-Agent: baiduspider
+User-Agent: DuckDuckBot
+User-Agent: BomboraBot
+User-Agent: grapeshot
+User-Agent: ccbot
+Allow: /
+
+User-Agent: GPTBot
+Disallow: /
+
+User-Agent: Bard
+Disallow: /
+
+User-Agent: Jasper
+Disallow: /
+
+User-Agent: YouChat
+Disallow: /
+
+User-Agent: Perplexity
+Disallow: /
+
+User-Agent: Claude
+Disallow: /
+
+User-Agent: Claude-Web
+Disallow: /
+
+User-Agent: Neeva
+Disallow: /
+
+User-Agent: Copy.ai
+Disallow: /
+
+User-Agent: Writesonic
+Disallow: /
+
+User-Agent: Anyword
+Disallow: /
+
+User-Agent: AI21
+Disallow: /
+
+User-Agent: meta-externalagent
+Disallow: /
+
+Sitemap: https://www.fastcompany.com/sitemap.xml
+Sitemap: https://www.fastcompany.com/sitemap-video.xml
+Sitemap: https://www.fastcompany.com/googlenews.xml
