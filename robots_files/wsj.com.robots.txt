@@ -1,0 +1,174 @@
+# NOTICE: Collection of content and other data on https://www.wsj.com/ through
+# automated means is prohibited unless you have express written
+# permission from Dow Jones & Company, Inc. and may only be conducted for the
+# limited purpose contained in said permission.
+#
+# Dow Jones & Company, Inc. Terms of Use may be found at
+# https://www.dowjones.com/terms-of-use/
+#
+# If you would like to apply for permission to license the
+# intellectual property and/or other materials of Dow Jones & Company, Inc.’s
+# brands, please contact us via email at copyright@dowjones.com.
+
+User-agent: *
+Sitemap: https://www.wsj.com/sitemap.xml
+Sitemap: https://www.wsj.com/wsjsitemaps/wsj_google_news.xml
+Sitemap: https://www.wsj.com/sitemap_topics.xml
+Sitemap: https://www.wsj.com/sitemaps/web/wsj/en/sitemap_wsj_en_index.xml
+Sitemap: https://www.wsj.com/live_news_sitemap.xml
+Sitemap: https://www.wsj.com/authors_sitemap.xml
+Sitemap: https://www.wsj.com/sitemaps/web/video/en/sitemap_video_en_index.xml
+Sitemap: https://www.wsj.com/buyside/sitemap.xml
+Sitemap: https://www.wsj.com/market-data/quotes/sitemap-companies.xml
+Sitemap: https://www.wsj.com/wsjsitemaps/wsj_recipes.xml
+Sitemap: https://www.wsj.com/sitemap_topic_collections.xml
+
+Disallow: /article_email/*
+Disallow: /user/*
+Disallow: /pdf/documents/*
+Disallow: /login/*
+Disallow: /acct/*
+Disallow: /msgcenter/*
+Disallow: /setup/*
+Disallow: /marketing/*
+Disallow: /public/article/*
+Disallow: /public/search/
+Disallow: /public/search*
+Disallow: /search*
+Disallow: /public/page/wsj-x-marketing.html
+Disallow: /public/page/news-media-marketing.html
+Disallow: /public/page/0_0_WP_RT_MARKETING.html
+Disallow: /news/articles/SB2*
+Disallow: /news/articles/SB3*
+Disallow: /news/articles/SB4*
+Disallow: /articles/SB2*
+Disallow: /articles/SB3*
+Disallow: /articles/SB4*
+Disallow: /article/AP*
+Disallow: /article/BT-CO*
+Disallow: /article/DN-CO*
+Disallow: /article/PR-CO*
+Disallow: /article/HUG*
+Disallow: /video/search/*
+Disallow: /articles/BT-CO*
+Disallow: /articles/DN-CO*
+Disallow: /articles/PR-CO*
+Disallow: /news/articles/BT-CO*
+Disallow: /news/articles/DN-CO*
+Disallow: /news/articles/PR-CO*
+Disallow: /catchup/*
+Disallow: /articles/the-meaning-behind-juneteenth-11592413234
+Disallow: /emailservice/*
+Disallow: /emailsignup/*
+Disallow: /insetsrv/v1/*
+Disallow: /user/fpd/api/*
+Disallow: /Date(*
+Disallow: /auth/sso/proxy-login*
+Disallow: /client/
+# For Buyside Search Results
+Disallow: /buyside/search-results?*term=*
+# Don't crawl non-indexable sites
+Disallow: /*?type=mdc_*&id=*
+Disallow: /*?id=*&type=mdc_*
+Disallow: /market-data/quotes/*/options/*
+
+User-agent: MSNPTC/1.0
+Disallow: /article_email/*
+Disallow: /login/*
+Disallow: /acct/*
+Disallow: /msgcenter/*
+Disallow: /setup/*
+Disallow: /user/*
+Disallow: /marketing/*
+Disallow: /public/article/*
+Disallow: /public/search/
+Disallow: /public/search*
+Disallow: /search*
+Disallow: /public/page/wsj-x-marketing.html
+Disallow: /public/page/news-media-marketing.html
+Disallow: /public/page/0_0_WP_RT_MARKETING.html
+Disallow: /news/articles/SB2*
+Disallow: /news/articles/SB3*
+Disallow: /news/articles/SB4*
+Disallow: /articles/SB2*
+Disallow: /articles/SB3*
+Disallow: /articles/SB4*
+Disallow: /article/AP*
+Disallow: /article/BT-CO*
+Disallow: /article/DN-CO*
+Disallow: /article/PR-CO*
+Disallow: /article/HUG*
+Disallow: /video/search/*
+Disallow: /articles/BT-CO*
+Disallow: /articles/DN-CO*
+Disallow: /articles/PR-CO*
+Disallow: /news/articles/BT-CO*
+Disallow: /news/articles/DN-CO*
+Disallow: /news/articles/PR-CO*
+
+User-agent: Twitterbot
+Disallow: /amp/*
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: ia_archiver
+Disallow: /
+
+User-Agent: omgili
+Disallow: /
+
+User-Agent: omgilibot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: PiplBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: magpie-crawler
+Disallow: /
+
+User-agent: NewsNow
+Disallow: /
+
+User-agent: news-please
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: Perplexity-ai
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: Meta-ExternalFetcher
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+

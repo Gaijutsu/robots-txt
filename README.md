@@ -64,3 +64,9 @@ Each run adds a new sheet named with the current date (e.g. `2026-03-01`) to tha
 Cells are colored green (1 = yes) or red (0 = no). Over time, the workbook accumulates sheets that let you compare how policies change week to week.
 
 You can download the latest spreadsheet directly from the repository without cloning -- just navigate to the `.xlsx` file on GitHub and click the download button.
+
+## Dependencies
+
+- [requests](https://pypi.org/project/requests/) -- HTTP fetching
+- [pandas](https://pypi.org/project/pandas/) -- DataFrame construction and Excel writing
+- [openpyxl](https://pypi.org/project/openpyxl/) -- Excel styling and sheet manipulation

@@ -6,7 +6,6 @@ https://www.bhaskar.com
 https://www.bild.de
 https://www.bostonglobe.com
 https://www.buzzfeed.com
-https://www.chinadaily.com.cn
 https://www.cnet.com
 https://www.dailymail.co.uk
 https://discord.com
@@ -26,7 +25,6 @@ https://www.latimes.com
 https://www.lemonde.fr
 https://mashable.com
 https://medium.com
-https://mitpress.mit.edu
 https://www.mumsnet.com
 https://news.yahoo.com
 https://news.ycombinator.com
@@ -34,13 +32,11 @@ https://www.nytimes.com
 https://www.oreilly.com
 https://people.com
 https://www.quora.com
-https://quizlet.com
 https://www.ranker.com
 https://www.reddit.com
 https://www.scmp.com
 https://slate.com
 https://www.somethingawful.com
-https://stackoverflow.com
 https://www.statista.com
 https://www.theguardian.com
 https://www.theverge.com

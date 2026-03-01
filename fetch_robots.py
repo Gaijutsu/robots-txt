@@ -1,7 +1,7 @@
 import requests
 import re
 import os
-import glob
+import logging
 from urllib.robotparser import RobotFileParser
 from datetime import datetime
 import pandas as pd
@@ -9,7 +9,15 @@ from openpyxl import load_workbook
 from openpyxl.styles import PatternFill, Font
 from openpyxl.utils import get_column_letter
 
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s %(levelname)s %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S'
+)
+logger = logging.getLogger(__name__)
+
 ROBOTS_DIR = 'robots_files'
+REQUEST_HEADERS = {'User-Agent': 'robots-txt-tracker/1.0'}
 
 def clean_url(url):
     """Cleans a URL to be used as a filename."""
@@ -21,22 +29,28 @@ def clean_url(url):
 
 def fetch_and_save_robots_txt(urls):
     """Reads URLs from config.txt, fetches robots.txt, and saves them."""
+    # NOTE: Some config URLs use http:// (e.g. en.people.cn, heraldsun.com.au).
+    # Content travels in cleartext and could be tampered with in transit.
+    # Acceptable for this use case but worth noting.
     os.makedirs(ROBOTS_DIR, exist_ok=True)
     for url in urls:
         try:
             robots_url = f"{url.rstrip('/')}/robots.txt"
-            response = requests.get(robots_url, timeout=10)
-            response.raise_for_status()  # Raise an exception for bad status codes
+            # NOTE: requests.get follows redirects by default. A site could
+            # redirect /robots.txt somewhere unexpected. No action taken as
+            # this is standard behaviour and generally desirable.
+            response = requests.get(robots_url, headers=REQUEST_HEADERS, timeout=10)
+            response.raise_for_status()
 
             filename_base = clean_url(url)
             filename = os.path.join(ROBOTS_DIR, f"{filename_base}.robots.txt")
 
             with open(filename, 'w', encoding='utf-8') as out_file:
                 out_file.write(response.text)
-            print(f"Successfully fetched and saved {filename}")
+            logger.info("Successfully fetched and saved %s", filename)
 
         except requests.exceptions.RequestException as e:
-            print(f"Failed to fetch robots.txt from {url}: {e}")
+            logger.error("Failed to fetch robots.txt from %s: %s", url, e)
 
 def get_user_agents_from_files(robot_files):
     """Extracts all User-Agents from a list of robots.txt files."""
@@ -48,11 +62,15 @@ def get_user_agents_from_files(robot_files):
                     if line.strip().lower().startswith('user-agent:'):
                         agent = line.split(':', 1)[1].strip().lower()
                         agent = agent.split('#', 1)[0].strip()         # remove comments from name
+                        # NOTE: The disallow split is a workaround for malformed robots.txt
+                        # files that put Disallow on the same line as User-agent. This could
+                        # theoretically strip a legitimate UA name containing "disallow:" but
+                        # that is extremely unlikely in practice.
                         agent = agent.split('disallow:', 1)[0].strip() # remove Disallow commands
                         if agent:
                             user_agents.add(agent)
         except FileNotFoundError:
-            print(f"Warning: Could not find {file_path} to extract user agents.")
+            logger.warning("Could not find %s to extract user agents.", file_path)
     return sorted(list(user_agents))
 
 def detect_directives(file_path):
@@ -74,16 +92,34 @@ def detect_directives(file_path):
 
 def update_spreadsheet(urls):
     """Creates or updates a spreadsheet with an analysis of robots.txt files."""
-    spreadsheet_name = f'robots-analysis-{datetime.now().year}.xlsx'
+    now = datetime.now()
+    spreadsheet_name = f'robots-analysis-{now.year}.xlsx'
+    sheet_name = now.strftime('%Y-%m-%d')
+
     domains = [clean_url(u) for u in urls]
     domain_to_url = dict(zip(domains, urls))
-    robot_files = [os.path.join(ROBOTS_DIR, f"{d}.robots.txt") for d in domains]
-    
-    if not any(os.path.exists(f) for f in robot_files):
-        print("No robots.txt files found to analyze.")
+
+    # Check for collisions where multiple URLs clean to the same domain
+    if len(domains) != len(set(domains)):
+        seen = set()
+        for d, u in zip(domains, urls):
+            if d in seen:
+                logger.warning("Domain collision: '%s' (from %s) duplicates an earlier entry", d, u)
+            seen.add(d)
+
+    # Build file path lookup once for all domains
+    robot_file_paths = {d: os.path.join(ROBOTS_DIR, f"{d}.robots.txt") for d in domains}
+
+    if not any(os.path.exists(p) for p in robot_file_paths.values()):
+        logger.warning("No robots.txt files found to analyze.")
         return
 
-    user_agents = get_user_agents_from_files(robot_files)
+    user_agents = get_user_agents_from_files(list(robot_file_paths.values()))
+
+    # Detect directives once per domain and cache the results
+    directive_cache = {}
+    for domain in domains:
+        directive_cache[domain] = detect_directives(robot_file_paths[domain])
 
     # Build directive-presence rows (CS Support, RSL Support, Sitemap)
     directive_labels = ['CS Support', 'RSL Support', 'Sitemap']
@@ -91,41 +127,39 @@ def update_spreadsheet(urls):
     for label in directive_labels:
         row = {'User-Agent': label}
         for domain in domains:
-            robot_file_path = os.path.join(ROBOTS_DIR, f"{domain}.robots.txt")
-            directives = detect_directives(robot_file_path)
-            row[domain] = 1 if directives[label] else 0
+            row[domain] = 1 if directive_cache[domain][label] else 0
         data.append(row)
+
+    # Parse each domain's robots.txt once and cache the parser
+    parser_cache = {}
+    for domain in domains:
+        path = robot_file_paths[domain]
+        if not os.path.exists(path):
+            parser_cache[domain] = None
+            continue
+        rp = RobotFileParser()
+        rp.set_url(f"{domain_to_url[domain].rstrip('/')}/robots.txt")
+        with open(path, 'r', encoding='utf-8', errors='ignore') as f:
+            rp.parse(f.readlines())
+        parser_cache[domain] = rp
 
     for ua in user_agents:
         row = {'User-Agent': ua}
         for domain in domains:
-            robot_file_path = os.path.join(ROBOTS_DIR, f"{domain}.robots.txt")
-            if not os.path.exists(robot_file_path):
+            rp = parser_cache[domain]
+            if rp is None:
                 row[domain] = ''
                 continue
-
-            rp = RobotFileParser()
-            # The URL passed to set_url is used as the base for the path in can_fetch
-            rp.set_url(f"{domain_to_url[domain].rstrip('/')}/robots.txt")
-            with open(robot_file_path, 'r', encoding='utf-8', errors='ignore') as f:
-                rp.parse(f.readlines())
-            
-            # We check if the user agent can fetch the root of the site
-            if rp.can_fetch(ua, '/'):
-                row[domain] = 1
-            else:
-                row[domain] = 0
+            row[domain] = 1 if rp.can_fetch(ua, '/') else 0
         data.append(row)
 
     if not data:
-        print("No data to write to spreadsheet.")
+        logger.warning("No data to write to spreadsheet.")
         return
 
     df = pd.DataFrame(data)
     df = df.rename(columns={'User-Agent': 'User-Agent / Feature'})
     df = df.set_index('User-Agent / Feature')
-    
-    sheet_name = datetime.now().strftime('%Y-%m-%d')
 
     mode = 'a' if os.path.exists(spreadsheet_name) else 'w'
     with pd.ExcelWriter(
@@ -140,7 +174,7 @@ def update_spreadsheet(urls):
     book = load_workbook(spreadsheet_name)
     ws = book[sheet_name]
     book.move_sheet(ws, offset=-len(book.sheetnames) + 1)
-    
+
     green_fill = PatternFill(start_color='C6EFCE', end_color='C6EFCE', fill_type='solid')
     red_fill = PatternFill(start_color='FFC7CE', end_color='FFC7CE', fill_type='solid')
     bold_font = Font(bold=True)
@@ -168,19 +202,19 @@ def update_spreadsheet(urls):
             try:
                 if len(str(cell.value)) > max_length:
                     max_length = len(str(cell.value))
-            except:
+            except (TypeError, AttributeError):
                 pass
         adjusted_width = (max_length + 2)
         ws.column_dimensions[column].width = adjusted_width
-        
+
     book.save(spreadsheet_name)
-    print(f"Spreadsheet '{spreadsheet_name}' updated with new sheet '{sheet_name}'.")
+    logger.info("Spreadsheet '%s' updated with new sheet '%s'.", spreadsheet_name, sheet_name)
 
 def main():
     """Main function to run the script."""
     config_file = 'config.txt'
     if not os.path.exists(config_file):
-        print(f"{config_file} not found.")
+        logger.error("%s not found.", config_file)
         return
 
     with open(config_file, 'r') as f:
@@ -190,4 +224,4 @@ def main():
     update_spreadsheet(urls)
 
 if __name__ == "__main__":
-    main() 
+    main()
