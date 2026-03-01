@@ -29,9 +29,12 @@ jobs:
         run: ls -la
 
       - name: Commit and push changes
-        uses: EndBug/add-and-commit@v9
-        with:
-          default_author: github_actions
-          message: 'Update robots.txt files'
-          add: '.' 
-          push: true
+        run: |
+          DOMAIN_COUNT=$(grep -c '.' config.txt)
+          DATE=$(date +'%d-%m-%y')
+          git add .
+          git diff --cached --quiet && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "${DOMAIN_COUNT} domains last updated on ${DATE}"
+          git push
