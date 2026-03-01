@@ -52,7 +52,7 @@ https://www.bbc.co.uk
 
 ## Spreadsheet output
 
-Each run adds a new sheet named with the current date (e.g. `2026-03-01`) to that year's workbook (e.g. `robots-analysis-2026.xlsx`). A new file is created automatically on the first run of each year. The sheet contains:
+Each run adds a new sheet named with the current date (e.g. `2026-03-01`) to that year's workbook (e.g. `robots-analysis-2026.xlsx`). New sheets are inserted at the front so the most recent data is always the first tab. A new file is created automatically on the first run of each year. The sheet contains:
 
 | Row type | Description |
 |---|---|

@@ -136,9 +136,10 @@ def update_spreadsheet(urls):
     ) as writer:
         df.to_excel(writer, sheet_name=sheet_name)
 
-    # Re-open with openpyxl to apply styles
+    # Re-open with openpyxl to apply styles and move new sheet to front
     book = load_workbook(spreadsheet_name)
     ws = book[sheet_name]
+    book.move_sheet(ws, offset=-len(book.sheetnames) + 1)
     
     green_fill = PatternFill(start_color='C6EFCE', end_color='C6EFCE', fill_type='solid')
     red_fill = PatternFill(start_color='FFC7CE', end_color='FFC7CE', fill_type='solid')
