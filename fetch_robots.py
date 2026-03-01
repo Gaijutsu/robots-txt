@@ -6,7 +6,7 @@ from urllib.robotparser import RobotFileParser
 from datetime import datetime
 import pandas as pd
 from openpyxl import load_workbook
-from openpyxl.styles import PatternFill
+from openpyxl.styles import PatternFill, Font
 from openpyxl.utils import get_column_letter
 
 ROBOTS_DIR = 'robots_files'
@@ -55,9 +55,26 @@ def get_user_agents_from_files(robot_files):
             print(f"Warning: Could not find {file_path} to extract user agents.")
     return sorted(list(user_agents))
 
+def detect_directives(file_path):
+    """Checks for the presence of Sitemap, License (RSL), and Content-signal directives."""
+    found = {'CS Support': False, 'RSL Support': False, 'Sitemap': False}
+    try:
+        with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
+            for line in f:
+                stripped = line.strip().lower()
+                if stripped.startswith('content-signal:'):
+                    found['CS Support'] = True
+                elif stripped.startswith('license:'):
+                    found['RSL Support'] = True
+                elif stripped.startswith('sitemap:'):
+                    found['Sitemap'] = True
+    except FileNotFoundError:
+        pass
+    return found
+
 def update_spreadsheet(urls):
     """Creates or updates a spreadsheet with an analysis of robots.txt files."""
-    spreadsheet_name = 'robots-analysis.xlsx'
+    spreadsheet_name = f'robots-analysis-{datetime.now().year}.xlsx'
     domains = [clean_url(u) for u in urls]
     domain_to_url = dict(zip(domains, urls))
     robot_files = [os.path.join(ROBOTS_DIR, f"{d}.robots.txt") for d in domains]
@@ -67,8 +84,18 @@ def update_spreadsheet(urls):
         return
 
     user_agents = get_user_agents_from_files(robot_files)
-    
+
+    # Build directive-presence rows (CS Support, RSL Support, Sitemap)
+    directive_labels = ['CS Support', 'RSL Support', 'Sitemap']
     data = []
+    for label in directive_labels:
+        row = {'User-Agent': label}
+        for domain in domains:
+            robot_file_path = os.path.join(ROBOTS_DIR, f"{domain}.robots.txt")
+            directives = detect_directives(robot_file_path)
+            row[domain] = 1 if directives[label] else 0
+        data.append(row)
+
     for ua in user_agents:
         row = {'User-Agent': ua}
         for domain in domains:
@@ -95,7 +122,8 @@ def update_spreadsheet(urls):
         return
 
     df = pd.DataFrame(data)
-    df = df.set_index('User-Agent')
+    df = df.rename(columns={'User-Agent': 'User-Agent / Feature'})
+    df = df.set_index('User-Agent / Feature')
     
     sheet_name = datetime.now().strftime('%Y-%m-%d')
 
@@ -114,6 +142,15 @@ def update_spreadsheet(urls):
     
     green_fill = PatternFill(start_color='C6EFCE', end_color='C6EFCE', fill_type='solid')
     red_fill = PatternFill(start_color='FFC7CE', end_color='FFC7CE', fill_type='solid')
+    bold_font = Font(bold=True)
+
+    # Bold the header row
+    for cell in ws[1]:
+        cell.font = bold_font
+
+    # Bold the 3 feature name cells (rows 2-4, column A)
+    for row_idx in range(2, 2 + len(directive_labels)):
+        ws.cell(row=row_idx, column=1).font = bold_font
 
     for row in ws.iter_rows(min_row=2, min_col=2):  # Skip header and index column
         for cell in row:
