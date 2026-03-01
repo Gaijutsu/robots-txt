@@ -165,6 +165,7 @@ Disallow: /newsletter_rhs_js.cms*
 Disallow: /toiads_prebid_checker/adset/ve-1.cms*
 Disallow: /ext_*
 Disallow: /*_rsc=
+Disallow: /meta.json
 
 User-agent: Googlebot-News
 Allow: /
@@ -333,6 +334,10 @@ Disallow: /newsletter_rhs_js.cms*
 Disallow: /toiads_prebid_checker/adset/ve-1.cms*
 Disallow: /ext_*
 Disallow: /*_rsc=
+Disallow: /meta.json
+
+User-agent: AmazonAdBot
+Allow: /
 
 Sitemap: https://timesofindia.indiatimes.com/sitemap/today
 Sitemap: https://timesofindia.indiatimes.com/sitemap/yesterday

@@ -5,6 +5,7 @@ Disallow: /wp-admin/
 User-Agent: Googlebot
 Allow: /redesign/_next/image*
 Disallow: /?search*
+Disallow: /*?pano=*
 Disallow: */munich/index_html*
 Disallow: /*?__rmid___get___page
 Disallow: /*?*__hsfp

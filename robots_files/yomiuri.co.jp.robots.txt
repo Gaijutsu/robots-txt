@@ -117,7 +117,7 @@ User-agent: AmazonBot
 Disallow: /
 
 User-agent: AmazonAdBot
-Crawl-Delay: 5
+Allow: /
 
 User-agent: anthropic-ai
 Disallow: /

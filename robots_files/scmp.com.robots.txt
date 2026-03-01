@@ -163,6 +163,10 @@ Allow: /?q=print/
 User-agent: grapeshot
 Allow: /*/article/*$
 
+# AmazonAdBot
+User-agent: AmazonAdBot
+Allow: /
+
 # Ads
 Disallow: /*?*cid=*
 Disallow: /*?*showonlyads=*
@@ -185,3 +189,4 @@ Disallow: /*?*campaign=*
 
 Sitemap: https://www.scmp.com/sitemap/sitemap.xml
 Sitemap: https://www.scmp.com/sitemap/archives-0.xml
+
