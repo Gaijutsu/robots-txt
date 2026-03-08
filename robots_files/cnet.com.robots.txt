@@ -165,7 +165,6 @@ User-agent: Offline Explorer
 User-agent: Omgilibot
 User-agent: Peer39_crawler/1.0
 User-agent: Scrapy
-
 Allow: /home/internet/xfinity-vs-att-which-internet-provider-is-best/
 Allow: /home/internet/xfinity-vs-verizon-which-internet-provider-is-best/
 Allow: /news/ai-automation-changing-how-we-file-taxes/
@@ -177,10 +176,14 @@ Allow: /paid-content/news/how-samsungs-galaxy-ai-boosts-gaming-performance/
 Allow: /paid-content/news/maximize-your-refund-with-h-r-blocks-smart-tax-tools/
 Allow: /paid-content/news/must-know-tax-season-tips-for-small-businesses-and-solopreneurs/
 Allow: /paid-content/news/selling-stuff-online-what-you-could-be-on-the-hook-for-tax-wise/
+Allow: /tech/mobile/samsung-galaxy-s26-ultra-vs-galaxy-s26-and-s26-plus-flagship-specs-comparison/
 Allow: /tech/services-and-software/a-guide-to-data-removal-services-should-you-pay-for-privacy/
+Allow: /tech/services-and-software/complex-income-tax-filing-rules-2026/
 Allow: /tech/services-and-software/crypto-new-tax-form-rules/
 Allow: /tech/services-and-software/data-brokers-how-your-personal-data-becomes-business/
 Allow: /tech/services-and-software/end-year-tax-checklist-maximize-tax-refund/
+Allow: /tech/services-and-software/end-year-tax-checklist-maximize-tax-refund/
+Allow: /tech/services-and-software/free-tax-software-cost-upgrades/
 Allow: /tech/services-and-software/how-h-r-block-helps-freelancers-and-gig-workers-stay-ahead-of-tax-season/
 Allow: /tech/services-and-software/how-to-prevent-irs-penalties-and-delays-this-tax-season/
 Allow: /tech/services-and-software/married-single-or-self-employed-how-your-filing-status-changes-everything/

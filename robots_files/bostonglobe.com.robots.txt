@@ -3,9 +3,12 @@
 
 # Sitemaps
 Sitemap: https://www.bostonglobe.com/arc/outboundfeeds/news-sitemap/?outputType=xml
-Sitemap: https://www.bostonglobe.com/arc/outboundfeeds/sitemap/?outputType=xml
 Sitemap: https://www.bostonglobe.com/arc/outboundfeeds/sitemap-index-by-day/?outputType=xml
 Sitemap: https://www.bostonglobe.com/arc/outboundfeeds/video-sitemap/?outputType=xml
+
+# Allow
+User-agent: AmazonAdBot
+Allow: /
 
 # AI Bots
 User-agent: AI2Bot

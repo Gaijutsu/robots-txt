@@ -39,7 +39,7 @@ User-agent: Claude-SearchBot
 User-agent: PerplexityBot
 User-agent: Perplexity-User
 User-agent: Google-Extended
-User-agent: BingBot
+User-agent: bingbot
 User-agent: Amazonbot
 User-agent: Applebot
 User-agent: Applebot-Extended

@@ -1,10 +1,9 @@
-# Bei Fragen zu diesen Regeln oder Aenderungswuenschen koennen sie sich an das SEO-Team wenden, erreichbar unter 030 / 2591 79232
-
 User-agent: *
 Disallow: /dating/go/*
 Disallow: /games/go/*
 Disallow: /casinos/go/*
 Disallow: /online-apotheke/go/*
+Disallow: /jobs/api/gmapi
 
 User-agent: Googlebot-News
 Disallow: /partner/
@@ -18,6 +17,7 @@ Disallow: /community/
 Disallow: /vorprod/
 Disallow: /test_stage/
 Disallow: /test/
+Disallow: /jobs/api/gmapi
 
 User-agent: Googlebot-Video
 Disallow: /community/

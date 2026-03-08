@@ -7,6 +7,7 @@ Sitemap: https://www.vogue.com/branded-sitemap.xml
 Sitemap: https://www.vogue.com/feed/google-latest-news/sitemap-google-news
 Sitemap: https://www.vogue.com/feed/rss
 Sitemap: https://www.vogue.com/feed/met-gala-feed/rss
+Sitemap: https://www.vogue.com/feed/oscars-feed/rss
 
 User-agent: *
 Disallow: /*?

@@ -13,6 +13,7 @@
 User-agent: *
 Sitemap: https://www.wsj.com/sitemap.xml
 Sitemap: https://www.wsj.com/wsjsitemaps/wsj_google_news.xml
+Sitemap: https://www.wsj.com/wsj_video_recent.xml
 Sitemap: https://www.wsj.com/sitemap_topics.xml
 Sitemap: https://www.wsj.com/sitemaps/web/wsj/en/sitemap_wsj_en_index.xml
 Sitemap: https://www.wsj.com/live_news_sitemap.xml

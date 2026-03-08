@@ -1,5 +1,5 @@
 # Robots.txt file WebMD
-# Updated 12/15/2025 (CONSFE-327)
+# Updated 3/4/2026 (CONSFE-362)
 
 User-agent: *
 Disallow: */search/search_results/
@@ -16,6 +16,7 @@ Disallow: /drugs/ReportAbuse.aspx*
 Disallow: /kapi/
 Disallow: /mm/
 Disallow: /my-library
+Disallow: /news/header.php
 Disallow: /pill-identification/search-results*
 Disallow: /search/2/api/
 Disallow: /Share.aspx*
