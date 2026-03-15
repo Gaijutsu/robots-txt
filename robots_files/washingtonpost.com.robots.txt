@@ -110,6 +110,10 @@ Disallow: /blogs/*
 Disallow: /gog/*
 Disallow: /arcio/fact-checker/
 Disallow: /recipes/*?q=
+Disallow: /cookie-policy/
+Disallow: /discussions/2021/09/13/cookie-policy/
+Disallow: /discussions/2021/09/13/cookie-policy-eea/
+Disallow: /privacy-policy/
 
 User-agent: Twitterbot
 Allow: /posttv-beta/

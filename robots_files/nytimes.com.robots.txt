@@ -139,6 +139,9 @@ Disallow: /athletic/*?*embed=1
 User-agent: AliyunSecBot
 Disallow: /
 
+User-agent: AmazonBot
+Disallow: /wirecutter/
+
 User-agent: anthropic-ai
 Disallow: /
 
@@ -289,7 +292,7 @@ Disallow: /
 User-agent: YouBot
 Disallow: /
 
-# Other Bot Rules
+# Social Bot Rules
 
 User-agent: facebookexternalhit
 Allow: /*?*smid=
@@ -297,6 +300,8 @@ Allow: /*?*smid=
 User-agent: Twitterbot
 Allow: /*?*smid=
 
+User-agent: RedditBot
+Allow: /*?*smid=
 
 # Sitemaps
 

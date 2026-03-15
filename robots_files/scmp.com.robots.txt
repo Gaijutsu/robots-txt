@@ -16,6 +16,9 @@
 # For syntax checking, see:
 # http://www.sxw.org.uk/computing/robots/check.html
 
+# AmazonAdBot
+User-agent: AmazonAdBot
+Allow: /
 
 User-agent: *
 Crawl-delay: 10
@@ -162,10 +165,6 @@ Allow: /?q=print/
 # GrapeShot
 User-agent: grapeshot
 Allow: /*/article/*$
-
-# AmazonAdBot
-User-agent: AmazonAdBot
-Allow: /
 
 # Ads
 Disallow: /*?*cid=*

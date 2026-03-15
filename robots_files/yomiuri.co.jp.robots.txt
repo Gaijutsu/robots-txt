@@ -169,6 +169,9 @@ Disallow: /
 Allow: /teen/
 Allow: /kyoiku/support
 
+User-agent: Gensparkbot
+Disallow: /
+
 User-agent: magpie-crawler
 Disallow: /
 

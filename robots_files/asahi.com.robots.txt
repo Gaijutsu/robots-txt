@@ -26,6 +26,7 @@ Disallow: /
 
 User-agent: Google-Extended
 Disallow: /
+Allow: /ads/tu/
 
 User-agent: ICC-Crawler
 Disallow: /

@@ -95,6 +95,7 @@ User-agent: meta-externalagent
 User-agent: Amazonbot
 User-agent: DuckAssistBot
 User-agent: Google-CloudVertexBot
+User-agent: Amzn-SearchBot
 Disallow: /
 
 License: https://theguardian.com/license.xml

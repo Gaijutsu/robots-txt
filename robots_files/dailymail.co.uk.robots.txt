@@ -1,4 +1,4 @@
-# Robots.txt for https://www.dailymail.co.uk/ updated 03/02/2026
+# Robots.txt for https://www.dailymail.co.uk/ updated 12/03/2026
 #
 #
 # Daily Mail content is made available for your personal and non-commercial
@@ -51,7 +51,49 @@ Disallow: /tmoney/*
 User-agent: Mediapartners-Google
 Disallow:
 #
+# Allow Amazon Ad Bot
+User-agent: AmazonAdBot
+Disallow:
+#
 User-agent: CrystalSemanticsBot
+Disallow: /
+#
+User-agent: archive-it.org
+User-agent: archive.org_bot
+User-agent: ArchiveBot
+User-agent: Arquivo-web-crawler
+User-agent: Authory
+User-agent: babel
+User-agent: bl.uk_ldfc_bot
+User-agent: bl.uk_ldfc_renderbot
+User-agent: bne.es_bot
+User-agent: bnf.fr_bot
+User-agent: ecoresearch
+User-agent: ecoresearchCrawler
+User-agent: Europarchive.org
+User-agent: kb.dk_bot
+User-agent: Kulturarw3
+User-agent: LivelapBot
+User-agent: mediacloud
+User-agent: mirrorweb
+User-agent: MSIECrawler
+User-agent: nationalarchives.gov.uk
+User-agent: netarkivet.dk
+User-agent: netEstate NE Crawler
+User-agent: Nicecrawler
+User-agent: nl-israel_iaharvester2026
+User-agent: nlnbot
+User-agent: nlncrawler
+User-agent: PageFreezer
+User-agent: SafeDNS
+User-agent: SmarshBot
+User-agent: special_archiver
+User-agent: tkl.iis.u-tokyo.ac.jp
+User-agent: TurnitinBot
+User-agent: webarchiv.cz
+User-agent: WordPress.com mShots
+User-agent: XY-Archive-Compliance-Archiver
+User-agent: XY-Archive-Compliance-Crawler
 Disallow: /
 #
 User-agent: AI2Bot

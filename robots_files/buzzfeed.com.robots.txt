@@ -57,9 +57,6 @@ Disallow: /
 User-agent: CCBot
 Disallow: /
 
-User-agent: ChatGPT-User
-Disallow: /
-
 User-agent: ClaudeBot
 Disallow: /
 
@@ -109,9 +106,6 @@ Disallow: /
 User-agent: Meta-ExternalFetcher
 Disallow: /
 
-User-agent: OAI-SearchBot
-Disallow: /
-
 User-agent: Bytespider
 Disallow: /
 
@@ -125,12 +119,6 @@ User-agent: Timpibot
 Disallow: /
 
 User-agent: Ai2Bot-Dolma
-Disallow: /
-
-User-agent: Claude-SearchBot
-Disallow: /
-
-User-agent: Claude-User
 Disallow: /
 
 User-agent: omgilibot
@@ -215,7 +203,6 @@ Disallow: /*.xml$
 Disallow: /buzz/*.xml$
 Disallow: /category/*.xml$
 Disallow: /mobile/
-Disallow: *?s=mobile
 Disallow: *?s=bpage-next
 Disallow: *?s=lightbox
 Disallow: *?s=feedpager
