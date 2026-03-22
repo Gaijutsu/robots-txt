@@ -339,6 +339,15 @@ Disallow: /meta.json
 User-agent: AmazonAdBot
 Allow: /
 
+User-agent: AdsBot-Google
+Allow: /trivia/
+
+User-agent: Mediapartners-Google
+Allow: /trivia/
+
+User-agent: AmazonAdBot
+Allow: /trivia/
+
 Sitemap: https://timesofindia.indiatimes.com/sitemap/today
 Sitemap: https://timesofindia.indiatimes.com/sitemap/yesterday
 Sitemap: https://timesofindia.indiatimes.com/staticsitemap/toi/news/sitemap-index.xml

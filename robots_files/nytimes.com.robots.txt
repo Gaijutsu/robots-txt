@@ -231,6 +231,10 @@ User-agent: Meta-ExternalFetcher
 User-agent: meta-externalfetcher
 Disallow: /
 
+User-agent: Meta-WebIndexer
+User-agent: meta-webindexer/1.1
+Disallow: /
+
 User-agent: MyCentralAIScraperBot
 Disallow: /
 
@@ -318,6 +322,7 @@ Sitemap: https://www.nytimes.com/sitemaps/new/weather.xml.gz
 Sitemap: https://www.nytimes.com/sitemaps/new/espanol.xml.gz
 Sitemap: https://www.nytimes.com/sitemaps/new/espanol-collects.xml.gz
 Sitemap: https://www.nytimes.com/wirecutter/sitemapindex.xml
+Sitemap: https://www.nytimes.com/athletic/sitemap-videos-index.xml
 Sitemap: https://www.nytimes.com/athletic/sitemap-authors.xml
 Sitemap: https://www.nytimes.com/athletic/sitemap-verticals.xml
 Sitemap: https://www.nytimes.com/athletic/sitemap-teams.xml

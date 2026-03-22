@@ -17,7 +17,8 @@ Disallow: /
 
 User-agent: ChatGPT-User
 Disallow: /
-Allow: /special/contributor-content/
+Allow: /contributor-content/
+Allow: /story/special/contributor-content/
 Allow: /shopping/
 
 User-agent: Googlebot-News
@@ -31,7 +32,8 @@ Disallow: /videos/embed/
 
 User-agent: GPTBot
 Disallow: /
-Allow: /special/contributor-content/
+Allow: /contributor-content/
+Allow: /story/special/contributor-content/
 Allow: /shopping/
 
 User-agent: CCBot
@@ -39,7 +41,8 @@ Disallow: /
 
 User-agent: Google-Extended
 Disallow: /
-Allow: /special/contributor-content/
+Allow: /contributor-content/
+Allow: /story/special/contributor-content/
 Allow: /shopping/
 
 User-agent: DataForSeoBot
@@ -74,7 +77,8 @@ Disallow: /
 
 User-agent: PerplexityBot
 Disallow: /
-Allow: /special/contributor-content/
+Allow: /contributor-content/
+Allow: /story/special/contributor-content/
 Allow: /shopping/
 
 User-agent: Scrapy
@@ -94,7 +98,8 @@ Disallow: /
 
 User-agent: OAI-SearchBot
 Disallow: /
-Allow: /special/contributor-content/
+Allow: /contributor-content/
+Allow: /story/special/contributor-content/
 Allow: /shopping/
 
 User-agent: Bytespider
@@ -291,7 +296,8 @@ Disallow: /
 
 User-agent: ChatGPT Operator
 Disallow: /
-Allow: /special/contributor-content/
+Allow: /contributor-content/
+Allow: /story/special/contributor-content/
 Allow: /shopping/
 
 User-agent: Cotoyogi

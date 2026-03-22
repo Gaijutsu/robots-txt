@@ -153,17 +153,6 @@ user-agent: Webzio-Extended
 user-agent: Wrtn
 user-agent: YouBot
 user-agent: ZanistaBot
-#CNET bot list
-User-agent: "008"
-User-agent: AwarioRssBot
-User-agent: DDM-DCipher/1.0.7
-User-agent: HTTrack
-User-agent: Magpie-crawler
-User-agent: Nutch
-User-agent: Offline Explorer
-User-agent: Omgilibot
-User-agent: Peer39_crawler/1.0
-User-agent: Scrapy
 Allow: /home/internet/xfinity-vs-att-which-internet-provider-is-best/
 Allow: /home/internet/xfinity-vs-verizon-which-internet-provider-is-best/
 Allow: /news/ai-automation-changing-how-we-file-taxes/
@@ -172,6 +161,7 @@ Allow: /paid-content/news/how-h-r-block-helps-you-maximize-freelance-and-gig-wor
 Allow: /paid-content/news/how-h-r-block-simplifies-taxes-for-first-time-filers/
 Allow: /paid-content/news/how-h-r-blocks-experts-can-help-you-avoid-common-filing-mistakes/
 Allow: /paid-content/news/how-samsungs-galaxy-ai-boosts-gaming-performance/
+Allow: /paid-content/news/is-wi-fi-7-worth-the-upgrade-heres-how-msis-roamii-mesh-systems-fit-in/
 Allow: /paid-content/news/maximize-your-refund-with-h-r-blocks-smart-tax-tools/
 Allow: /paid-content/news/must-know-tax-season-tips-for-small-businesses-and-solopreneurs/
 Allow: /paid-content/news/selling-stuff-online-what-you-could-be-on-the-hook-for-tax-wise/
@@ -190,6 +180,19 @@ Allow: /tech/services-and-software/married-single-or-self-employed-how-your-fili
 Allow: /tech/services-and-software/self-employment-tax-guide-1099-contractor/
 Allow: /tech/services-and-software/w2-vs-1099-difference/
 Allow: /tech/services-and-software/what-is-vibe-coding-how-anyone-can-make-apps-with-the-help-of-ai/
+Disallow: /
+
+#CNET restricted bots
+User-agent: "008"
+User-agent: AwarioRssBot
+User-agent: DDM-DCipher/1.0.7
+User-agent: HTTrack
+User-agent: Magpie-crawler
+User-agent: Nutch
+User-agent: Offline Explorer
+User-agent: Omgilibot
+User-agent: Peer39_crawler/1.0
+User-agent: Scrapy
 Disallow: /
 
 Sitemap: https://www.cnet.com/sitemaps/article/index.xml

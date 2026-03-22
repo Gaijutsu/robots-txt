@@ -1,64 +1,37 @@
-User-agent: *
-Disallow: /dating/go/*
-Disallow: /games/go/*
-Disallow: /casinos/go/*
-Disallow: /online-apotheke/go/*
-Disallow: /jobs/api/gmapi
-
 User-agent: Googlebot-News
 Disallow: /partner/
-Disallow: /community/
-Disallow: /vorprod/
-Disallow: /test_stage/
-Disallow: /test/
-
-User-agent: Googlebot
-Disallow: /community/
-Disallow: /vorprod/
-Disallow: /test_stage/
-Disallow: /test/
+Disallow: /dating/go/
+Disallow: /games/go/
+Disallow: /casinos/go/
+Disallow: /online-apotheke/go/
 Disallow: /jobs/api/gmapi
-
-User-agent: Googlebot-Video
 Disallow: /community/
 Disallow: /vorprod/
 Disallow: /test_stage/
 Disallow: /test/
+Disallow: /energieloesungen/*-form/
+Disallow: /energieloesungen/go/
+Disallow: /energieloesungen/social/*-form/
+Disallow: /energieloesungen/social/go/
+Disallow: /energieloesungen/vergleich/*-form/
+Disallow: /energieloesungen/vergleich/go/
 
-User-agent: Googlebot-Image
+User-agent: *
+Disallow: /dating/go/
+Disallow: /games/go/
+Disallow: /casinos/go/
+Disallow: /online-apotheke/go/
+Disallow: /jobs/api/gmapi
 Disallow: /community/
 Disallow: /vorprod/
 Disallow: /test_stage/
 Disallow: /test/
-
-User-agent: Mediapartners-Google
-Disallow: /community/
-Disallow: /vorprod/
-Disallow: /test_stage/
-Disallow: /test/
-
-User-agent: Lizard
-Disallow: /community/
-Disallow: /vorprod/
-Disallow: /test_stage/
-Disallow: /test/
-
-User-agent: bingbot
-Disallow: /community/
-Disallow: /vorprod/
-Disallow: /test_stage/
-Disallow: /test/
-
-User-agent: Google-Sitemaps
-Disallow: /vorprod/
-Disallow: /test_stage/
-Disallow: /test/
-
-User-agent: Google_InspectionTool
-Disallow: /community/
-Disallow: /vorprod/
-Disallow: /test_stage/
-Disallow: /test/
+Disallow: /energieloesungen/*-form/
+Disallow: /energieloesungen/go/
+Disallow: /energieloesungen/social/*-form/
+Disallow: /energieloesungen/social/go/
+Disallow: /energieloesungen/vergleich/*-form/
+Disallow: /energieloesungen/vergleich/go/
 
 # Google Bard
 User-agent: Google-Extended

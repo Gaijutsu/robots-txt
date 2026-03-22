@@ -55,7 +55,6 @@ Disallow: /AddListing
 Disallow: /AdRequestEventLogApi
 Disallow: /AdsManager
 Disallow: /adsoverview
-Disallow: /AdsTest
 Disallow: /AffiliateWidgets
 Disallow: /AirlineRegistration
 Disallow: /AirlineTips
@@ -80,8 +79,6 @@ Disallow: /AttractionBookingApi
 Disallow: /AttractionBookingDetails
 Disallow: /AttractionCancelBooking
 Disallow: /AttractionCommerce
-Disallow: /AttractionLander
-Disallow: /AttractionOperatorReview
 Disallow: /AttractionPartnerRedirect
 Disallow: /AttractionProductDetail
 Disallow: /AttractionProductHighlight
@@ -528,7 +525,6 @@ Disallow: /OAuthRegistration
 Disallow: /OfferAnnouncementManagement
 Disallow: /OpenGraphLander
 Disallow: /OpeningHours
-Disallow: /OptimusNativePayment
 Disallow: /OverlayWidgetAjax
 Disallow: /overview
 Disallow: /OwnerActivityFeedAjax
@@ -635,6 +631,7 @@ Disallow: /reviewit
 Disallow: /ReviewPerformance
 Disallow: /reviews
 Disallow: /RewardsHelp
+Disallow: /RewardsWallet
 Disallow: /RexSpamFilterAjax
 Disallow: /RMReviewCollect
 Disallow: /RoadTripMap
@@ -678,7 +675,6 @@ Disallow: /ShowUserReviewsGEO
 Disallow: /ShowUserReviewsHAC
 Disallow: /ShowUserReviewsHotels
 Disallow: /ShowUserReviewsRestaurants
-Disallow: /SiftScript
 Disallow: /SingleClickOptOut
 Disallow: /SingleClickSignUp
 Disallow: /SmartDealsHomeAjax
