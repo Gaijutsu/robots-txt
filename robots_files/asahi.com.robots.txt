@@ -8,6 +8,8 @@ Disallow: /english/cooljapan.html
 Disallow: /english/sports.html
 Allow: /
 Allow: /.well-known/assetlinks.json
+Allow: /ads/tu/
+
 
 User-agent: Googlebot
 Disallow: /*klpuid=*
@@ -26,7 +28,6 @@ Disallow: /
 
 User-agent: Google-Extended
 Disallow: /
-Allow: /ads/tu/
 
 User-agent: ICC-Crawler
 Disallow: /

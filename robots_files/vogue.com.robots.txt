@@ -36,6 +36,7 @@ Disallow: /com.condenast/yv8
 
 ###
 Allow: /v2/offers/voga
+Allow: /slideshow/met-gala-dress-code-rejectors-inline
 Disallow: /slideshow/*-inline$
 Disallow: */vogue-club/perk/
 Disallow: /https://player.cnevids.com/

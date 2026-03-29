@@ -1,9 +1,8 @@
 User-Agent: *
-Allow: /wp-admin/admin-ajax.php/
-Disallow: /wp-admin/
+Allow: /
 
 User-Agent: Googlebot
-Allow: /redesign/_next/image*
+Allow: /replatform/_next/image*
 Disallow: /?search*
 Disallow: /*?pano=*
 Disallow: */munich/index_html*
@@ -81,8 +80,6 @@ Disallow: /page/*/?pcd=
 Disallow: /page/*/?search=
 Disallow: /search/?q=*
 Disallow: /time_tout/*
-Disallow: /wp-admin/*
-Disallow: /wp-login/*
 Disallow: /uncategorized
 Disallow: /time_cover_hub
 

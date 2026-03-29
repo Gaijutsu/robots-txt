@@ -82,6 +82,12 @@ Disallow: /
 User-agent: Applebot-Extended
 Disallow: /
 
+# Undocumented AI Agent
+# https://knownagents.com/agents/aranet-searchbot
+
+User-agent: Aranet-SearchBot
+Disallow: /
+
 # Archiver
 # https://knownagents.com/agents/archive-it
 

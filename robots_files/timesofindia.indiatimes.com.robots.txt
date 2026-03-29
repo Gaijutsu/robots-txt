@@ -348,6 +348,9 @@ Allow: /trivia/
 User-agent: AmazonAdBot
 Allow: /trivia/
 
+User-agent: meta-externalagent
+Disallow: /
+
 Sitemap: https://timesofindia.indiatimes.com/sitemap/today
 Sitemap: https://timesofindia.indiatimes.com/sitemap/yesterday
 Sitemap: https://timesofindia.indiatimes.com/staticsitemap/toi/news/sitemap-index.xml

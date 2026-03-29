@@ -296,6 +296,13 @@ Disallow: /
 User-agent: YouBot
 Disallow: /
 
+
+# Ad Bot Rules
+
+User-agent: AmazonAdBot
+Allow: /
+
+
 # Social Bot Rules
 
 User-agent: facebookexternalhit
