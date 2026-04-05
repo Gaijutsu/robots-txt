@@ -71,4 +71,7 @@ Disallow: /
 User-agent: Gensparkbot
 Disallow: /
 
+User-agent: AmazonBot
+Disallow: /
+
 sitemap: https://www.asahi.com/sitemap.xml

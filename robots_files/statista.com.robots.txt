@@ -93,6 +93,7 @@ Disallow: /search/
 Disallow: /statistik/suche/
 Disallow: /buscar/
 Disallow: /recherche/
+Disallow: /serp
 #
 # Research AI (07/24)
 Disallow: /research-ai/

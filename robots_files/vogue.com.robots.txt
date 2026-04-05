@@ -52,6 +52,7 @@ User-agent: LinkedInBot
 User-agent: TikTokSpider
 User-agent: Storebot-Google
 User-agent: Google-InspectionTool
+User-agent: AmazonAdBot
 Allow: /
 
 User-agent: Google-Extended

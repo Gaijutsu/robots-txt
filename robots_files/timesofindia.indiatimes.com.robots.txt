@@ -1,3 +1,7 @@
+User-agent: AmazonAdBot
+Allow: /
+Allow: /*
+
 User-agent: *
 Allow: /
 Disallow: /PDATOI/
@@ -335,9 +339,6 @@ Disallow: /toiads_prebid_checker/adset/ve-1.cms*
 Disallow: /ext_*
 Disallow: /*_rsc=
 Disallow: /meta.json
-
-User-agent: AmazonAdBot
-Allow: /
 
 User-agent: AdsBot-Google
 Allow: /trivia/

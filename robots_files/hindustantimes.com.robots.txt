@@ -42,6 +42,9 @@ Allow: /s/*
 User-agent: Google-Extended
 Allow: /
 
+User-agent: AmazonAdBot
+Allow: /
+
 
 
 

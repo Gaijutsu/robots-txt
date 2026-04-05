@@ -94,6 +94,10 @@ Disallow: /
 User-agent: ZumBot
 Disallow: /
 
+User-agent: Claude-SearchBot
+User-agent: OAI-SearchBot
+Disallow: */articles/
+
 Sitemap: https://www.yahoo.com/news/weather/sitemap.xml
 Sitemap: https://www.yahoo.com/news-sitemap-index.xml
 Sitemap: https://www.yahoo.com/sitemap-index.xml

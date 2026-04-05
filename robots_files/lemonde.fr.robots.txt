@@ -738,3 +738,123 @@ Disallow: /
 
 User-agent: QualifiedBot
 Disallow: /
+
+User-agent: AI2Bot-DeepResearchEval
+Disallow: /
+
+User-agent: Ai2Bot-Dolma
+Disallow: /
+
+User-agent: Amzn-SearchBot
+Disallow: /
+
+User-agent: Amzn-User
+Disallow: /
+
+User-agent: Anomura
+Disallow: /
+
+User-agent: ApifyBot
+Disallow: /
+
+User-agent: ApifyWebsiteContentCrawler
+Disallow: /
+
+User-agent: Aranet-SearchBot
+Disallow: /
+
+User-agent: atlassian-bot
+Disallow: /
+
+User-agent: AzureAI-SearchBot
+Disallow: /
+
+User-agent: Bravebot
+Disallow: /
+
+User-agent: Channel3Bot
+Disallow: /
+
+User-agent: ChatGLM-Spider
+Disallow: /
+
+User-agent: Cloudflare-AutoRAG
+Disallow: /
+
+User-agent: Crawl4AI
+Disallow: /
+
+User-agent: DeepSeekBot
+Disallow: /
+
+User-agent: ExaBot
+Disallow: /
+
+User-agent: FirecrawlAgent
+Disallow: /
+
+User-agent: Google-CloudVertexBot
+Disallow: /
+
+User-agent: Google-NotebookLM
+Disallow: /
+
+User-agent: iAskBot
+Disallow: /
+
+User-agent: iaskspider
+Disallow: /
+
+User-agent: imageSpider
+Disallow: /
+
+User-agent: kagi-fetcher
+Disallow: /
+
+User-agent: KlaviyoAIBot
+Disallow: /
+
+User-agent: KunatoCrawler
+Disallow: /
+
+User-agent: laion-huggingface-processor
+Disallow: /
+
+User-agent: LCC
+Disallow: /
+
+User-agent: LinkupBot
+Disallow: /
+
+User-agent: meta-webindexer
+Disallow: /
+
+User-agent: PhindBot
+Disallow: /
+
+User-agent: Poggio-Citations
+Disallow: /
+
+User-agent: SBIntuitionsBot
+Disallow: /
+
+User-agent: Spider
+Disallow: /
+
+User-agent: TavilyBot
+Disallow: /
+
+User-agent: TerraCotta
+Disallow: /
+
+User-agent: VelenPublicWebCrawler
+Disallow: /
+
+User-agent: webzio-extended
+Disallow: /
+
+User-agent: WRTNBot
+Disallow: /
+
+User-agent: ZanistaBot
+Disallow: /
