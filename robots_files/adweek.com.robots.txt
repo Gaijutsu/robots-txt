@@ -64,18 +64,6 @@ Disallow: /
 User-agent: anthropic-ai
 Disallow: /
 
-# Undocumented AI Agent
-# https://knownagents.com/agents/apifybot
-
-User-agent: ApifyBot
-Disallow: /
-
-# AI Data Scraper
-# https://knownagents.com/agents/apifywebsitecontentcrawler
-
-User-agent: ApifyWebsiteContentCrawler
-Disallow: /
-
 # AI Data Scraper
 # https://knownagents.com/agents/applebot-extended
 
@@ -215,21 +203,9 @@ User-agent: DeepSeekBot
 Disallow: /
 
 # AI Data Scraper
-# https://knownagents.com/agents/diffbot
-
-User-agent: Diffbot
-Disallow: /
-
-# AI Data Scraper
 # https://knownagents.com/agents/facebookbot
 
 User-agent: FacebookBot
-Disallow: /
-
-# AI Data Scraper
-# https://knownagents.com/agents/firecrawlagent
-
-User-agent: FirecrawlAgent
 Disallow: /
 
 # AI Data Scraper
@@ -488,12 +464,6 @@ Disallow: /
 # https://knownagents.com/agents/statsdronebot
 
 User-agent: StatsDroneBot
-Disallow: /
-
-# Undocumented AI Agent
-# https://knownagents.com/agents/tavilybot
-
-User-agent: TavilyBot
 Disallow: /
 
 # Undocumented AI Agent

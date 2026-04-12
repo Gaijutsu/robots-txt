@@ -1,6 +1,5 @@
 Sitemap: https://www.vogue.com/sitemap.xml
-Sitemap: https://www.vogue.com/categories-sitemap.xml?hierarchy=channels
-Sitemap: https://www.vogue.com/categories-sitemap.xml?hierarchy=tags
+Sitemap: https://www.vogue.com/tagpages-sitemap.xml
 Sitemap: https://www.vogue.com/contributors-sitemap.xml
 Sitemap: https://www.vogue.com/bundles-sitemap.xml
 Sitemap: https://www.vogue.com/branded-sitemap.xml

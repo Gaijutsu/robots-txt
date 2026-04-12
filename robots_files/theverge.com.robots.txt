@@ -5,66 +5,76 @@ Allow: /wp-admin/admin-ajax.php
 User-agent: GPTBot
 Allow: /
 
-User-agent: Google-Extended
-Disallow: /
-
-User-agent: Applebot-Extended
-Disallow: /
-
 User-agent: Applebot
 Allow: /
 
-User-agent: anthropic-ai
-Allow: /ad/827622/how-renault-groups-vehicle-development-merges-real-life-with-virtual-reality
+User-agent: Google-Extended
 Disallow: /
+Allow: /sp/
+
+User-agent: Applebot-Extended
+Disallow: /
+Allow: /sp/
+
+User-agent: anthropic-ai
+Disallow: /
+Allow: /sp/
 
 User-agent: Bytespider
 Disallow: /
+Allow: /sp/
 
 User-agent: CCBot
-Allow: /ad/827622/how-renault-groups-vehicle-development-merges-real-life-with-virtual-reality
 Disallow: /
+Allow: /sp/
 
 User-agent: ChatGPT-User
-Allow: /ad/827622/how-renault-groups-vehicle-development-merges-real-life-with-virtual-reality
 Disallow: /
+Allow: /sp/
 
 User-agent: ClaudeBot
-Allow: /ad/827622/how-renault-groups-vehicle-development-merges-real-life-with-virtual-reality
 Disallow: /
+Allow: /sp/
 
 User-agent: Claude-Web
-Allow: /ad/827622/how-renault-groups-vehicle-development-merges-real-life-with-virtual-reality
 Disallow: /
+Allow: /sp/
 
 User-agent: Diffbot
 Disallow: /
+Allow: /sp/
 
 User-agent: FacebookBot
 Disallow: /
+Allow: /sp/
 
 User-agent: ImagesiftBot
 Disallow: /
+Allow: /sp/
 
 User-agent: Omgilibot
 Disallow: /
+Allow: /sp/
 
 User-agent: Omgili
 Disallow: /
+Allow: /sp/
 
 User-agent: PerplexityBot
-Allow: /ad/827622/how-renault-groups-vehicle-development-merges-real-life-with-virtual-reality
 Disallow: /
+Allow: /sp/
 
 User-agent: YouBot
 Disallow: /
+Allow: /sp/
 
 User-agent: Googlebot-News
-Disallow: /ad
-Disallow: /sponsored
+Disallow: /ad/
+Disallow: /sponsored/
+Disallow: /sp/
 
 User-agent: *
-Allow: /ad/827622/how-renault-groups-vehicle-development-merges-real-life-with-virtual-reality
+Allow: /sp/
 Disallow: /admin
 Disallow: /newfanshot
 Disallow: /users/*/replies
@@ -76,8 +86,6 @@ Disallow: /chorus_auth
 Disallow: /sso
 Disallow: /search
 Disallow: /the-highlight$
-
-User-agent: *
 Disallow: /share$
 Disallow: /share/*
 Disallow: /share?*

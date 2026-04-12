@@ -156,17 +156,22 @@ user-agent: ZanistaBot
 Allow: /home/internet/xfinity-vs-att-which-internet-provider-is-best/
 Allow: /home/internet/xfinity-vs-verizon-which-internet-provider-is-best/
 Allow: /news/ai-automation-changing-how-we-file-taxes/
+Allow: /paid-content/news/enjoy-unlimited-wi-fi-and-predictable-pricing-with-on-your-home-internet/
 Allow: /paid-content/news/from-tacos-to-tvs-doordash-delivers-your-game-day-essentials/
 Allow: /paid-content/news/get-an-unlimited-5g-phone-plan-for-25-per-month-with-metro-by-t-mobile/
+Allow: /paid-content/news/h-r-blocks-local-tax-pros-help-you-navigate-complex-returns/
 Allow: /paid-content/news/how-galaxy-ai-camera-tools-help-you-take-better-photos-automatically-on-the-s25/
 Allow: /paid-content/news/how-h-r-block-helps-you-maximize-freelance-and-gig-worker-write-offs/
 Allow: /paid-content/news/how-h-r-block-simplifies-taxes-for-first-time-filers/
 Allow: /paid-content/news/how-h-r-blocks-experts-can-help-you-avoid-common-filing-mistakes/
 Allow: /paid-content/news/how-samsungs-galaxy-ai-boosts-gaming-performance/
 Allow: /paid-content/news/how-sling-is-disrupting-the-old-live-tv-streaming-model/
+Allow: /paid-content/news/how-t-mobile-can-help-you-save-thousands-on-your-family-wireless-plan/
 Allow: /paid-content/news/how-to-watch-live-sports-and-avoid-wheres-the-game-chaos-with-xfinity/
 Allow: /paid-content/news/i-tried-internxt-an-encrypted-secure-cloud-storage-built-for-the-post-quantum-era/
+Allow: /paid-content/news/is-diy-tax-filing-right-for-you-heres-what-h-r-blocks-tools-make-possible/
 Allow: /paid-content/news/is-wi-fi-7-worth-the-upgrade-heres-how-msis-roamii-mesh-systems-fit-in/
+Allow: /paid-content/news/life-changes-and-new-laws-can-affect-your-tax-refund-how-to-estimate/
 Allow: /paid-content/news/maximize-your-refund-with-h-r-blocks-smart-tax-tools/
 Allow: /paid-content/news/must-know-tax-season-tips-for-small-businesses-and-solopreneurs/
 Allow: /paid-content/news/selling-stuff-online-what-you-could-be-on-the-hook-for-tax-wise/
@@ -191,6 +196,11 @@ Allow: /tech/services-and-software/qualified-tips-overtime-tax-deduction-rules/
 Allow: /tech/services-and-software/self-employment-tax-guide-1099-contractor/
 Allow: /tech/services-and-software/w2-vs-1099-difference/
 Allow: /tech/services-and-software/what-is-vibe-coding-how-anyone-can-make-apps-with-the-help-of-ai/
+Allow: /tech/services-and-software/why-would-a-business-need-to-use-a-proxy-server/
+Allow: /videos/2026-tax-season-checklist-what-you-need-before-you-file/
+Allow: /videos/5-finance-and-tax-tips-for-freelancers/
+Allow: /videos/navigating-your-tax-filing-options-simple-vs-complex-situations/
+Allow: /videos/tax-breaks-you-might-miss-in-2026-and-how-to-find-them/
 Disallow: /
 
 #CNET restricted bots
