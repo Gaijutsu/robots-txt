@@ -366,6 +366,120 @@ Disallow: /
 User-agent: TaraGroup Intelligent Bot
 Disallow: /
 
+User-agent: DeepSeekBot
+Disallow: /
+
+User-agent: ChatGLM-Spider
+Disallow: /
+
+User-agent: GoogleOther
+Disallow: /
+
+User-agent: FirecrawlAgent
+Disallow: /
+
+User-agent: Crawl4AI
+Disallow: /
+
+User-agent: imageSpider
+Disallow: /
+
+User-agent: laion-huggingface-processor
+Disallow: /
+
+User-agent: LCC
+Disallow: /
+
+User-agent: Spider
+Disallow: /
+
+User-agent: Datenbank Crawler
+Disallow: /
+
+User-agent: Cloudflare-AutoRAG
+Disallow: /
+
+User-agent: CloudflareBrowserRenderingCrawler
+Disallow: /
+
+User-agent: meta-webindexer
+Disallow: /
+
+User-agent: Bravebot
+Disallow: /
+
+User-agent: AddSearchBot
+Disallow: /
+
+User-agent: Anomura
+Disallow: /
+
+User-agent: atlassian-bot
+Disallow: /
+
+User-agent: Channel3Bot
+Disallow: /
+
+User-agent: LinkupBot
+Disallow: /
+
+User-agent: ZanistaBot
+Disallow: /
+
+User-agent: Gemini-Deep-Research
+Disallow: /
+
+User-agent: Google-NotebookLM
+Disallow: /
+
+User-agent: Perplexity-User
+Disallow: /
+
+User-agent: TavilyBot
+Disallow: /
+
+User-agent: PhindBot
+Disallow: /
+
+User-agent: AI2Bot-DeepResearchEval
+Disallow: /
+
+User-agent: KlaviyoAIBot
+Disallow: /
+
+User-agent: LinerBot
+Disallow: /
+
+User-agent: Poggio-Citations
+Disallow: /
+
+User-agent: Devin
+Disallow: /
+
+User-agent: bigsur.ai
+Disallow: /
+
+User-agent: ChatGPT Agent
+Disallow: /
+
+User-agent: GoogleAgent-Mariner
+Disallow: /
+
+User-agent: AmazonBuyForMe
+Disallow: /
+
+User-agent: Manus-User
+Disallow: /
+
+User-agent: TwinAgent
+Disallow: /
+
+User-agent: AudigentAdBot
+Disallow: /
+
+User-agent: AudigentBot
+Disallow: /
+
 User-agent: *
 Disallow: /errors
 Disallow: /interactive/
