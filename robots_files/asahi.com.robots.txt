@@ -6,6 +6,7 @@ Disallow: /english/newsfeatures.html
 Disallow: /english/business.html
 Disallow: /english/cooljapan.html
 Disallow: /english/sports.html
+Disallow: /*/search/results*
 Allow: /
 Allow: /.well-known/assetlinks.json
 Allow: /ads/tu/
@@ -29,6 +30,9 @@ Disallow: /
 User-agent: Google-Extended
 Disallow: /
 
+User-agent: Google-CloudVertexBot
+Disallow: /
+
 User-agent: ICC-Crawler
 Disallow: /
 
@@ -41,10 +45,19 @@ Disallow: /
 User-agent: Claude-Web
 Disallow: /
 
+User-agent: Claude-SearchBot
+Disallow: /
+
+User-agent: Claude-User
+Disallow: /
+
 User-agent: Applebot-Extended
 Disallow: /
 
 User-agent: cohere-ai
+Disallow: /
+
+User-agent: Cohere-training-data-crawler
 Disallow: /
 
 User-agent: omgili
@@ -62,7 +75,13 @@ Disallow: /
 User-agent: Perplexity-User
 Disallow: /
 
+User-agent: FacebookBot
+Disallow: /
+
 User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: Meta-externalfetcher
 Disallow: /
 
 User-agent: Bytespider
@@ -72,6 +91,33 @@ User-agent: Gensparkbot
 Disallow: /
 
 User-agent: AmazonBot
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: Magpie-crawler
+Disallow: /
+
+User-agent: Scrapy
+Disallow: /
+
+User-agent: Timpibot
+Disallow: /
+
+User-agent: Webzio-Extended
+Disallow: /
+
+User-agent: SBIntuitionsBot
+Disallow: /
+
+User-agent: SBIntuitions-SearchBot
+Disallow: /
+
+User-agent: OpenindexSpider
+Disallow: /
+
+User-agent: AI2Bot
 Disallow: /
 
 sitemap: https://www.asahi.com/sitemap.xml

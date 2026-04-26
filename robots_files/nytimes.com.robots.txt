@@ -83,7 +83,6 @@ Disallow: /inyt/
 Disallow: /*?*query=
 Disallow: /*.pdf$
 Disallow: /*?*login=
-Disallow: /*?*searchResultPosition=
 Disallow: /*?*campaignId=
 Disallow: /*?*mcubz=
 Disallow: /*?*smprod=

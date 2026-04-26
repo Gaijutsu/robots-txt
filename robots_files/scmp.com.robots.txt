@@ -40,6 +40,7 @@ Disallow: /healthz
 Disallow: /.well-known/*
 Disallow: /*/firebase-messaging-sw.js
 Disallow: /google97d8d43559c9b155.html
+Allow: /.well-known/amphtml/apikey.pub
 
 # CSS, JS, Image
 Allow: /static/*.css$
@@ -188,4 +189,3 @@ Disallow: /*?*campaign=*
 
 Sitemap: https://www.scmp.com/sitemap/sitemap.xml
 Sitemap: https://www.scmp.com/sitemap/archives-0.xml
-

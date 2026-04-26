@@ -1,4 +1,4 @@
-# Robots.txt for https://www.dailymail.co.uk/ updated 13/04/2026
+# Robots.txt for https://www.dailymail.co.uk/ updated 21/04/2026
 #
 #
 # Daily Mail content is made available for your personal and non-commercial
@@ -121,7 +121,6 @@ User-agent: FriendlyCrawler
 User-agent: Gemini-Deep-Research
 User-agent: Google-CloudVertexBot
 User-agent: Google-Extended
-User-agent: GoogleOther
 User-agent: GoogleOther-Image
 User-agent: GoogleOther-Video
 User-agent: GPTBot

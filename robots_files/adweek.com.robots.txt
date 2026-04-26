@@ -32,7 +32,7 @@ User-agent: Baiduspider
 Disallow: /
 
 
-# START DARK VISITORS BLOCK
+# START KNOWN AGENTS BLOCK
 # ---------------------------
 # Scraper
 # https://knownagents.com/agents/008
@@ -514,4 +514,4 @@ Disallow: /
 User-agent: XY-Archive-Compliance-Archiver
 Disallow: /
 # ---------------------------
-# END DARK VISITORS BLOCK
+# END KNOWN AGENTS BLOCK

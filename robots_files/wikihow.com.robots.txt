@@ -249,6 +249,7 @@ Allow: /Special:NewPages
 Allow: /Special:Sitemap
 Allow: /Special:CategoryListing
 Allow: /
+Disallow: /wikiHowTo
 
 User-agent: *
 Allow: /Special:Block
@@ -274,3 +275,4 @@ Disallow: /*action=history
 Disallow: /Special:
 Disallow: /*platform=
 Disallow: /*variant=
+Disallow: /wikiHowTo
