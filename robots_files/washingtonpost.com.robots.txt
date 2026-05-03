@@ -136,10 +136,12 @@ Disallow: /
 User-agent: anthropic-ai
 Disallow: /
 Allow: /creativegroup/
+Allow: /advertising/
 
 User-agent: Applebot-Extended
 Disallow: /
 Allow: /creativegroup/
+Allow: /advertising/
 
 User-agent: archive.org_bot
 Disallow: /
@@ -159,22 +161,27 @@ Disallow: /
 User-agent: Bytespider
 Disallow: /
 Allow: /creativegroup/
+Allow: /advertising/
 
 User-agent: CCBot
 Disallow: /
 Allow: /creativegroup/
+Allow: /advertising/
 
 User-agent: Claude-Web
 Disallow: /
 Allow: /creativegroup/
+Allow: /advertising/
 
 User-agent: ClaudeBot
 Disallow: /
 Allow: /creativegroup/
+Allow: /advertising/
 
 User-agent: cohere-training-data-crawler
 Disallow: /
 Allow: /creativegroup/
+Allow: /advertising/
 
 User-agent: DataForSeoBot
 Disallow: /
@@ -182,6 +189,7 @@ Disallow: /
 User-agent: Diffbot
 Disallow: /
 Allow: /creativegroup/
+Allow: /advertising/
 
 User-agent: europarchive.org
 Disallow: /
@@ -189,6 +197,7 @@ Disallow: /
 User-agent: FacebookBot
 Disallow: /
 Allow: /creativegroup/
+Allow: /advertising/
 
 User-agent: heritrix
 Disallow: /
@@ -208,10 +217,12 @@ Disallow: /
 User-agent: meta-externalagent
 Disallow: /
 Allow: /creativegroup/
+Allow: /advertising/
 
 User-agent: meta-externalfetcher
 Disallow: /
 Allow: /creativegroup/
+Allow: /advertising/
 
 User-agent: Nicecrawler
 Disallow: /
@@ -219,14 +230,17 @@ Disallow: /
 User-agent: omgili
 Disallow: /
 Allow: /creativegroup/
+Allow: /advertising/
 
 User-agent: omgilibot
 Disallow: /
 Allow: /creativegroup/
+Allow: /advertising/
 
 User-agent: PerplexityBot
 Disallow: /
 Allow: /creativegroup/
+Allow: /advertising/
 
 User-agent: Primalbot
 Disallow: /
@@ -237,6 +251,7 @@ Disallow: /
 User-agent: YandexBot
 Disallow: /
 Allow: /creativegroup/
+Allow: /advertising/
 
 Sitemap: https://www.washingtonpost.com/sitemaps/sitemap.xml.gz
 Sitemap: https://www.washingtonpost.com/sitemaps/news-sitemap.xml.gz

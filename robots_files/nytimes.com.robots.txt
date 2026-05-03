@@ -94,6 +94,8 @@ Disallow: /*?*entry=
 Disallow: /*?*embed=
 Disallow: /*?ls=
 Disallow: /*?*&ls=
+Disallow: /v1/initialize*
+Disallow: /v1/rgstr*
 Disallow: /wirecutter/wp-admin/
 Disallow: /wirecutter/*.zip$
 Disallow: /wirecutter/*.csv$

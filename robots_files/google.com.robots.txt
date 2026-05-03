@@ -101,6 +101,7 @@ Allow: /maps/reserve
 Allow: /maps/about
 Allow: /maps/contrib/
 Allow: /maps/match
+Allow: /maps/ms?
 Allow: /maps/place/
 Allow: /maps/_/
 Allow: /search?*tbm=map

@@ -33,6 +33,7 @@ Disallow: /msgcenter/*
 Disallow: /setup/*
 Disallow: /marketing/*
 Disallow: /public/article/*
+Disallow: /public/resources/documents/*
 Disallow: /public/search/
 Disallow: /public/search*
 Disallow: /search*
@@ -72,6 +73,8 @@ Disallow: /buyside/search-results?*term=*
 Disallow: /*?type=mdc_*&id=*
 Disallow: /*?id=*&type=mdc_*
 Disallow: /market-data/quotes/*/options/*
+Disallow: /subscribe/?inttrackingCode=*
+Disallow: /subscribe/?template=*
 
 User-agent: MSNPTC/1.0
 Disallow: /article_email/*
@@ -82,6 +85,7 @@ Disallow: /setup/*
 Disallow: /user/*
 Disallow: /marketing/*
 Disallow: /public/article/*
+Disallow: /public/resources/documents/*
 Disallow: /public/search/
 Disallow: /public/search*
 Disallow: /search*
