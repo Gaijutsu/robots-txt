@@ -41,6 +41,7 @@ Disallow: /https://player.cnevids.com/
 Disallow: /shopping/*?
 Allow: /shopping/*?page=
 Disallow: /shopping/*?page=*&
+Disallow: */undefined
 ###
 
 User-agent: FacebookExternalHit

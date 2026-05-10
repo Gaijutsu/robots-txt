@@ -72,17 +72,22 @@ user-agent: Ai2Bot-DeepResearchEval
 user-agent: Ai2Bot-Dolma
 user-agent: Amazonbot
 user-agent: AmazonBuyForMe
+user-agent: Amzn-SearchBot
 user-agent: Anchor Browser
 user-agent: anthropic-ai
+user-agent: ApifyBot
+user-agent: ApifyWebsiteContentCrawler
 user-agent: Applebot
 user-agent: Applebot-extended
 user-agent: atlassian-bot
 user-agent: AutoRAG
 user-agent: AwarioSmartBot
+user-agent: AzureAI-SearchBot
 user-agent: Big Sur AI
 user-agent: bigsur.ai
 user-agent: Brandwatch
 user-agent: Bravebot
+user-agent: Brightbot
 user-agent: Bytespider
 user-agent: CCBot
 user-agent: Channel3Bot
@@ -103,10 +108,13 @@ user-agent: Diffbot
 user-agent: Direqt Anomura
 user-agent: DuckAssistBot
 user-agent: Echobot Bot
+user-agent: ExaBot
 user-agent: FacebookBot
 user-agent: Factset_spyderbot
+user-agent: FirecrawlAgent
 user-agent: GPTBot
 user-agent: iAsk
+user-agent: iAskBot
 user-agent: iaskspider
 user-agent: ICC Crawler
 user-agent: ICC-Crawler
@@ -131,6 +139,7 @@ user-agent: NovaAct
 user-agent: Novellum AI Crawl
 user-agent: OAI-SearchBot
 user-agent: omgili
+user-agent: opencode
 user-agent: PanguBot
 user-agent: PeopleInc-DCipher-Scraper/1.1.0
 user-agent: Perplexity-User
@@ -145,7 +154,9 @@ user-agent: SemrushBotSwa
 user-agent: ShapBot
 user-agent: Spider
 user-agent: TavilyBot
+user-agent: TerraCotta
 user-agent: Timpibot
+user-agent: Trae
 user-agent: TwinAgent
 user-agent: Velen Crawler
 user-agent: VelenPublicWebCrawler
@@ -173,7 +184,9 @@ Allow: /paid-content/news/is-diy-tax-filing-right-for-you-heres-what-h-r-blocks-
 Allow: /paid-content/news/is-wi-fi-7-worth-the-upgrade-heres-how-msis-roamii-mesh-systems-fit-in/
 Allow: /paid-content/news/life-changes-and-new-laws-can-affect-your-tax-refund-how-to-estimate/
 Allow: /paid-content/news/maximize-your-refund-with-h-r-blocks-smart-tax-tools/
+Allow: /paid-content/news/meta-ray-ban-wayfarer-ai-glasses-discount-may-2026/
 Allow: /paid-content/news/must-know-tax-season-tips-for-small-businesses-and-solopreneurs/
+Allow: /paid-content/news/scale-your-small-business-with-fast-funding-via-loanbuilder/
 Allow: /paid-content/news/scale-your-small-business-with-fast-funding-via-loanbuilder/
 Allow: /paid-content/news/selling-stuff-online-what-you-could-be-on-the-hook-for-tax-wise/
 Allow: /paid-content/news/t-mobile-5g-home-internet-offers-a-solution-to-contracts-cords-and-hidden-fees/

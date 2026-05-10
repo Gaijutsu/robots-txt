@@ -178,6 +178,12 @@ Disallow: /
 User-agent: Crawl4AI
 Disallow: /
 
+# Archiver
+# https://knownagents.com/agents/cuch-org-archive-bot
+
+User-agent: CUCH.org Archive Bot
+Disallow: /
+
 # Scraper
 # https://knownagents.com/agents/dataprovider-com
 
@@ -464,12 +470,6 @@ Disallow: /
 # https://knownagents.com/agents/statsdronebot
 
 User-agent: StatsDroneBot
-Disallow: /
-
-# Undocumented AI Agent
-# https://knownagents.com/agents/terracotta
-
-User-agent: TerraCotta
 Disallow: /
 
 # AI Data Scraper
