@@ -1,5 +1,5 @@
 
-# version: ec59bd036e5138eb4831a9ed44447b1ff310e235
+# version: 93256d693f35d6a70e7c37ac78d3bb49724f63fa
 # The BBC's Terms of Use: https://www.bbc.co.uk/terms
 # - Explain the rules for using our services
 # - Tell you what you can do with our content
@@ -36,6 +36,8 @@ Sitemap: https://www.bbc.co.uk/ideas/sitemap.xml
 Sitemap: https://www.bbc.co.uk/tiny-happy-people/sitemap/sitemapindex.xml
 
 Disallow: /asset/
+Disallow: /backstage/bbc-login-help/
+Disallow: /backstage/bbc-login-help$
 Disallow: /bitesize/search$
 Disallow: /bitesize/search/
 Disallow: /bitesize/search?
@@ -172,6 +174,36 @@ Disallow: /
 
 User-agent: TurnitinBot
 Disallow: /
+
+User-agent: Brightbot
+Disallow: /
+
+User-agent: ApifyBot
+Disallow: /
+
+User-agent: ApifyWebsiteContentCrawler
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: Diffbot-User
+Disallow: /
+
+User-agent: ExaBot
+Disallow: /
+
+User-agent: TavilyBot
+Disallow: /
+
+User-agent: ShapBot
+Disallow: /
+
+User-agent: YouBot
+Disallow: /
+
+User-agent: FirecrawlAgent
+Disallow:/
 
 User-agent: Amzn-SearchBot
 Disallow: /

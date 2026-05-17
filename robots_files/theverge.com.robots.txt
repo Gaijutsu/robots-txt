@@ -1,18 +1,38 @@
 
-User-agent: GPTBot
+User-agent: Amazonbot
 Allow: /
 
 User-agent: Applebot
 Allow: /
 
-User-agent: Amazonbot
+User-agent: GPTBot
 Allow: /
 
-User-agent: Google-Extended
+User-agent: A6-Indexer
 Disallow: /
 Allow: /sp/
 
-User-agent: Applebot-Extended
+User-agent: AhrefsBot
+Disallow: /
+Allow: /sp/
+
+User-agent: AI2Bot
+Disallow: /
+Allow: /sp/
+
+User-agent: AI2Bot-DeepResearchEval
+Disallow: /
+Allow: /sp/
+
+User-agent: Ai2Bot-Dolma
+Disallow: /
+Allow: /sp/
+
+User-agent: aiHitBot
+Disallow: /
+Allow: /sp/
+
+User-agent: Anchor Browser
 Disallow: /
 Allow: /sp/
 
@@ -20,7 +40,47 @@ User-agent: anthropic-ai
 Disallow: /
 Allow: /sp/
 
+User-agent: ApifyBot
+Disallow: /
+Allow: /sp/
+
+User-agent: ApifyWebsiteContentCrawler
+Disallow: /
+Allow: /sp/
+
+User-agent: Applebot-Extended
+Disallow: /
+Allow: /sp/
+
+User-agent: Baiduspider
+Disallow: /
+Allow: /sp/
+
+User-agent: betaBot
+Disallow: /
+Allow: /sp/
+
+User-agent: BLEXBot
+Disallow: /
+Allow: /sp/
+
+User-agent: botify
+Disallow: /
+Allow: /sp/
+
+User-agent: brands-bot-logo
+Disallow: /
+Allow: /sp/
+
+User-agent: Brightbot
+Disallow: /
+Allow: /sp/
+
 User-agent: Bytespider
+Disallow: /
+Allow: /sp/
+
+User-agent: calculon
 Disallow: /
 Allow: /sp/
 
@@ -28,11 +88,19 @@ User-agent: CCBot
 Disallow: /
 Allow: /sp/
 
+User-agent: ChatGLM-Spider
+Disallow: /
+Allow: /sp/
+
 User-agent: ChatGPT-User
 Disallow: /
 Allow: /sp/
 
-User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+Disallow: /
+Allow: /sp/
+
+User-agent: Claude-User
 Disallow: /
 Allow: /sp/
 
@@ -40,7 +108,63 @@ User-agent: Claude-Web
 Disallow: /
 Allow: /sp/
 
+User-agent: ClaudeBot
+Disallow: /
+Allow: /sp/
+
+User-agent: CloudVertexBot
+Disallow: /
+Allow: /sp/
+
+User-agent: cohere-ai
+Disallow: /
+Allow: /sp/
+
+User-agent: cohere-training-data-crawler
+Disallow: /
+Allow: /sp/
+
+User-agent: collection@infegy.com
+Disallow: /
+Allow: /sp/
+
+User-agent: Cotoyogi
+Disallow: /
+Allow: /sp/
+
+User-agent: Crawl4AI
+Disallow: /
+Allow: /sp/
+
+User-agent: CrunchBot
+Disallow: /
+Allow: /sp/
+
+User-agent: deepcrawl
+Disallow: /
+Allow: /sp/
+
+User-agent: DeepSeekBot
+Disallow: /
+Allow: /sp/
+
 User-agent: Diffbot
+Disallow: /
+Allow: /sp/
+
+User-agent: DirBuster
+Disallow: /
+Allow: /sp/
+
+User-agent: DTS
+Disallow: /
+Allow: /sp/
+
+User-agent: DuckAssistBot
+Disallow: /
+Allow: /sp/
+
+User-agent: EasouSpider
 Disallow: /
 Allow: /sp/
 
@@ -48,7 +172,107 @@ User-agent: FacebookBot
 Disallow: /
 Allow: /sp/
 
+User-agent: FirecrawlAgent
+Disallow: /
+Allow: /sp/
+
+User-agent: FriendlyCrawler
+Disallow: /
+Allow: /sp/
+
+User-agent: GlutenCrawler
+Disallow: /
+Allow: /sp/
+
+User-agent: Google-CloudVertexBot
+Disallow: /
+Allow: /sp/
+
+User-agent: Google-Extended
+Disallow: /
+Allow: /sp/
+
+User-agent: GrapeshotCrawler
+Disallow: /
+Allow: /sp/
+
+User-agent: iaskspider
+Disallow: /
+Allow: /sp/
+
+User-agent: ICC-Crawler
+Disallow: /
+Allow: /sp/
+
 User-agent: ImagesiftBot
+Disallow: /
+Allow: /sp/
+
+User-agent: img2dataset
+Disallow: /
+Allow: /sp/
+
+User-agent: JackCrawl
+Disallow: /
+Allow: /sp/
+
+User-agent: Jetslide
+Disallow: /
+Allow: /sp/
+
+User-agent: linkapedia_bot
+Disallow: /
+Allow: /sp/
+
+User-agent: Mediatoolkitbot
+Disallow: /
+Allow: /sp/
+
+User-agent: MegaIndex
+Disallow: /
+Allow: /sp/
+
+User-agent: meta-externalagent
+Disallow: /
+Allow: /sp/
+
+User-agent: meta-externalfetcher
+Disallow: /
+Allow: /sp/
+
+User-agent: Microsoft BITS
+Disallow: /
+Allow: /sp/
+
+User-agent: Microsoft URL Control
+Disallow: /
+Allow: /sp/
+
+User-agent: Microsoft-WebDAV-MiniRedir
+Disallow: /
+Allow: /sp/
+
+User-agent: MistralAI-User
+Disallow: /
+Allow: /sp/
+
+User-agent: news-please
+Disallow: /
+Allow: /sp/
+
+User-agent: Novellum
+Disallow: /
+Allow: /sp/
+
+User-agent: NTENTbot
+Disallow: /
+Allow: /sp/
+
+User-agent: Nutch
+Disallow: /
+Allow: /sp/
+
+User-agent: omgili
 Disallow: /
 Allow: /sp/
 
@@ -56,11 +280,127 @@ User-agent: Omgilibot
 Disallow: /
 Allow: /sp/
 
-User-agent: Omgili
+User-agent: OpenLinkProfiler
+Disallow: /
+Allow: /sp/
+
+User-agent: Perplexity-User
 Disallow: /
 Allow: /sp/
 
 User-agent: PerplexityBot
+Disallow: /
+Allow: /sp/
+
+User-agent: PetalBot
+Disallow: /
+Allow: /sp/
+
+User-agent: Primalbot
+Disallow: /
+Allow: /sp/
+
+User-agent: python-requests
+Disallow: /
+Allow: /sp/
+
+User-agent: Re-Animator
+Disallow: /
+Allow: /sp/
+
+User-agent: Riddler
+Disallow: /
+Allow: /sp/
+
+User-agent: SafeDNSBot
+Disallow: /
+Allow: /sp/
+
+User-agent: SBIntuitionsBot
+Disallow: /
+Allow: /sp/
+
+User-agent: Scrapy
+Disallow: /
+Allow: /sp/
+
+User-agent: SearchAtlas
+Disallow: /
+Allow: /sp/
+
+User-agent: SemanticScholarBot
+Disallow: /
+Allow: /sp/
+
+User-agent: SemrushBot
+Disallow: /
+Allow: /sp/
+
+User-agent: SentiBot
+Disallow: /
+Allow: /sp/
+
+User-agent: Sogou
+Disallow: /
+Allow: /sp/
+
+User-agent: Spider-Pig
+Disallow: /
+Allow: /sp/
+
+User-agent: sqlmap
+Disallow: /
+Allow: /sp/
+
+User-agent: StorygizeBot
+Disallow: /
+Allow: /sp/
+
+User-agent: Test Certificate Info
+Disallow: /
+Allow: /sp/
+
+User-agent: TikTokSpider
+Disallow: /
+Allow: /sp/
+
+User-agent: Timpibot
+Disallow: /
+Allow: /sp/
+
+User-agent: Turnitin
+Disallow: /
+Allow: /sp/
+
+User-agent: uipbot
+Disallow: /
+Allow: /sp/
+
+User-agent: vBSEO
+Disallow: /
+Allow: /sp/
+
+User-agent: VegeBot
+Disallow: /
+Allow: /sp/
+
+User-agent: VelenPublicWebCrawler
+Disallow: /
+Allow: /sp/
+
+User-agent: Web Link Validator
+Disallow: /
+Allow: /sp/
+
+User-agent: WebCruiser
+Disallow: /
+Allow: /sp/
+
+User-agent: webzio-extended
+Disallow: /
+Allow: /sp/
+
+User-agent: Xenu
 Disallow: /
 Allow: /sp/
 

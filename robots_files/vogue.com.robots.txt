@@ -9,7 +9,7 @@ Sitemap: https://www.vogue.com/feed/met-gala-feed/rss
 
 User-agent: *
 Disallow: /*?
-Allow: /*?*page
+Allow: /*?page
 Allow: /*.xml?
 Allow: /*.js
 Allow: /*.css

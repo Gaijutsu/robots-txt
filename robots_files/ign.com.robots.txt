@@ -129,6 +129,8 @@ Allow: /articles/experimenting-with-galaxy-ai-camera-features-like-night-mode-ge
 Allow: /articles/how-ai-assisted-gaming-on-the-galaxy-s25-means-extended-play-time-and-optimized-performance
 
 Sitemap: https://www.ign.com/rss/sitemap-articles.xml
+Sitemap: https://www.ign.com/rss/sitemap-authors.xml
+Sitemap: https://www.ign.com/rss/sitemap-objects.xml
 Sitemap: https://www.ign.com/rss/sitemap-videos.xml
 Sitemap: https://www.ign.com/rss/sitemap-wikis.xml
 Sitemap: https://www.ign.com/rss/news/sitemap

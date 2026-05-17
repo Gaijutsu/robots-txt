@@ -184,8 +184,10 @@ Allow: /paid-content/news/is-diy-tax-filing-right-for-you-heres-what-h-r-blocks-
 Allow: /paid-content/news/is-wi-fi-7-worth-the-upgrade-heres-how-msis-roamii-mesh-systems-fit-in/
 Allow: /paid-content/news/life-changes-and-new-laws-can-affect-your-tax-refund-how-to-estimate/
 Allow: /paid-content/news/maximize-your-refund-with-h-r-blocks-smart-tax-tools/
+Allow: /paid-content/news/maximize-your-wireless-savings-with-the-t-mobile-visa-credit-card/
 Allow: /paid-content/news/meta-ray-ban-wayfarer-ai-glasses-discount-may-2026/
 Allow: /paid-content/news/must-know-tax-season-tips-for-small-businesses-and-solopreneurs/
+Allow: /paid-content/news/nomad-esim-wants-to-give-you-more-than-just-data/
 Allow: /paid-content/news/scale-your-small-business-with-fast-funding-via-loanbuilder/
 Allow: /paid-content/news/scale-your-small-business-with-fast-funding-via-loanbuilder/
 Allow: /paid-content/news/selling-stuff-online-what-you-could-be-on-the-hook-for-tax-wise/

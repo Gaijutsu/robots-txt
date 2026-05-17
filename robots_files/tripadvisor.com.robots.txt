@@ -71,6 +71,7 @@ Disallow: /APIAccessSupport
 Disallow: /AppDetail
 Disallow: /AppleMapsAction
 Disallow: /apps
+Disallow: /AppSwipeRecommendations
 Disallow: /AppUploadAPhoto
 Disallow: /AppUserReview
 Disallow: /ArticlesV2
@@ -242,7 +243,6 @@ Disallow: /IBCommerce
 Disallow: /ImpressionRecord
 Disallow: /ImproveListing
 Disallow: /Inbox
-Disallow: /InfoCenter
 Disallow: /InformationCenter
 Disallow: /InitializeSession
 Disallow: /InlineReviewerCta
@@ -373,7 +373,6 @@ Disallow: /MetaCheckRatesAjax
 Disallow: /MetaJsonAjax
 Disallow: /MetaPlacementAjax
 Disallow: /MetricsAjax
-Disallow: /mgo
 Disallow: /MicroMetaAjax
 Disallow: /MiniMetaCRAjax
 Disallow: /missingpage
@@ -480,11 +479,10 @@ Disallow: /MobileShowForum
 Disallow: /MobileShowSpecialOffer
 Disallow: /MobileShowTopic
 Disallow: /MobileShowUserReviews
-Disallow: /MobileSiteIndex
 Disallow: /MobileStreetView
 Disallow: /MobileTaggingAjax
 Disallow: /MobileTools
-Disallow: /MobileTravel
+Disallow: /MobileTravel_Guide
 Disallow: /MobileUberEstimateAjax
 Disallow: /MobileUpdateListing
 Disallow: /MobileUserReviewSearchAjax
@@ -585,8 +583,6 @@ Disallow: /ProxyToolsDiscountCode
 Disallow: /ProxyToolsInstantBookingManagementTool
 Disallow: /ProxyToolsManageUserAccessTool
 Disallow: /ProxyToolsMemberEditor
-Disallow: /ProxyToolsPhoneTrackingBulkLoader
-Disallow: /ProxyToolsPhoneTrackingTool
 Disallow: /ProxyToolsProductFeatureApi
 Disallow: /ProxyToolsRSKeyAccounts
 Disallow: /ProxyToolsT4BProductFeatureAjax
@@ -638,7 +634,6 @@ Disallow: /RMReviewCollect
 Disallow: /RoadTripMap
 Disallow: /Robots
 Disallow: /RSManagementCenter
-Disallow: /RSOfflineBilling
 Disallow: /RsPartnerApi
 Disallow: /rss
 Disallow: /RT
@@ -723,7 +718,6 @@ Disallow: /TestEmptyPage
 Disallow: /TestingTravelMaps
 Disallow: /ThirdPartyRedirect
 Disallow: /ThorHammer
-Disallow: /TLMCountries
 Disallow: /TodaysLowestFaresAjax
 Disallow: /trapdir
 Disallow: /TravelAdvice
@@ -753,9 +747,6 @@ Disallow: /TripsNative
 Disallow: /TripsWebview
 Disallow: /TripWatchPromoAjax
 Disallow: /tucritica
-Disallow: /TwilioCallForward
-Disallow: /TwilioCallRouter
-Disallow: /TwilioConfirmPhoneNumber
 Disallow: /TypeAheadJson
 Disallow: /Unsubscribe
 Disallow: /UpdateCM
@@ -763,7 +754,6 @@ Disallow: /UpdateContactsAjax
 Disallow: /UpdateListing
 Disallow: /UpdateSessionDatesAjax
 Disallow: /UploadMedia
-Disallow: /UserContent
 Disallow: /UserInteractionRecord
 Disallow: /UsernameValidation
 Disallow: /UserPage

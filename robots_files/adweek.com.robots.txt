@@ -513,5 +513,11 @@ Disallow: /
 
 User-agent: XY-Archive-Compliance-Archiver
 Disallow: /
+
+# Undocumented AI Agent
+# https://knownagents.com/agents/zenphonybot
+
+User-agent: ZenphonyBot
+Disallow: /
 # ---------------------------
 # END KNOWN AGENTS BLOCK
