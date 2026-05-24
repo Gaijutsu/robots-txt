@@ -6,6 +6,7 @@ Disallow: /_
 Sitemap: https://slate.com/sitemaps/sitemap-index.xml
 
 User-agent: AmazonAdBot
+User-agent: Amazon-Advertising-ad-standards-bot
 Allow: /
 
 # Known agents
@@ -83,6 +84,7 @@ User-agent: Amazon AdBot
 User-agent: AmazonProductDiscovery
 User-agent: AndersPinkBot
 User-agent: ArchiveBot
+User-agent: Assaybot
 User-agent: Attracta
 User-agent: AudigentAdBot
 User-agent: Audisto Crawler
@@ -169,6 +171,7 @@ User-agent: InteractiveAdvertisingBureau
 User-agent: IonCrawl
 User-agent: James BOT
 User-agent: Jugendschutzprogramm-Crawler
+User-agent: KargoBot
 User-agent: KargoBot-Artemis-Mobile
 User-agent: Klaviyo
 User-agent: KStandBot
@@ -215,21 +218,25 @@ User-agent: Nitro-
 User-agent: NitroBot
 User-agent: noorobot
 User-agent: NostoCrawlerBot
+User-agent: OAI-AdsBot
 User-agent: OnCrawl
 User-agent: OnCrawl Mobile
 User-agent: online-webceo-bot
+User-agent: outboundbuddy-enrichment
 User-agent: outbrain
 User-agent: Owler
 User-agent: page-preview-tool
 User-agent: Pandalytics
 User-agent: panscient.com
 User-agent: parse.ly scraper
+User-agent: PartnerOptimizer-bot
 User-agent: Prerender
 User-agent: Pro Sitemaps
 User-agent: Pro Sitemaps Generator
 User-agent: productsup.io/crawler
 User-agent: proximic
 User-agent: Quantcastbot
+User-agent: QuuuBot
 User-agent: Qwarrybot
 User-agent: Readable
 User-agent: RetroListeCOM
@@ -265,7 +272,9 @@ User-agent: SiteAuditBot
 User-agent: Sitebulb
 User-agent: SiteCheck-sitecrawl
 User-agent: SiteCheckerBotCrawler
+User-agent: SiteGuruCrawler
 User-agent: Siteimprove Crawl
+User-agent: Siteliner
 User-agent: SlickBot
 User-agent: slickstream
 User-agent: SmartologyBot
@@ -273,6 +282,7 @@ User-agent: SMTBot
 User-agent: StatistikAustria
 User-agent: StatusNestBacklinkSpider
 User-agent: Storebot-Google
+User-agent: Stripebot
 User-agent: Taboola
 User-agent: Taboolabot
 User-agent: trendictionbot
@@ -291,6 +301,7 @@ User-agent: virustotal
 User-agent: W3 Validator Services
 User-agent: weborama-fetcher
 User-agent: webspidermount
+User-agent: WebTrackrCrawler
 User-agent: webzio
 User-agent: wknd-bot
 User-agent: woorankreview

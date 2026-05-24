@@ -86,10 +86,16 @@ Disallow: /
 User-agent: Facebookexternalhit
 Disallow: /
 
-User-agent: FriendlyCrawler
+User-agent: Fetch
 Disallow: /
 
-User-agent: Fetch
+User-agent: Firecrawl
+Disallow: /
+
+User-agent: FirecrawlAgent
+Disallow: /
+
+User-agent: FriendlyCrawler
 Disallow: /
 
 User-agent: GPTBot
@@ -175,6 +181,9 @@ Disallow: /
 User-agent: Seekr
 Disallow: /
 
+User-agent: ShapBot
+Disallow: /
+
 # Some bots are known to be trouble, particularly those designed to copy
 # entire sites. Please obey robots.txt.
 User-agent: sitecheck.internetseer.com
@@ -249,7 +258,6 @@ Allow: /Special:NewPages
 Allow: /Special:Sitemap
 Allow: /Special:CategoryListing
 Allow: /
-Disallow: /wikiHowTo
 
 User-agent: *
 Allow: /Special:Block
@@ -275,4 +283,3 @@ Disallow: /*action=history
 Disallow: /Special:
 Disallow: /*platform=
 Disallow: /*variant=
-Disallow: /wikiHowTo

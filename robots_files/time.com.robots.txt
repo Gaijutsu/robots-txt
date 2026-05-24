@@ -85,6 +85,7 @@ Disallow: /time_cover_hub
 
 Sitemap: https://time.com/sitemap.xml
 Sitemap: https://time.com/news-sitemap.xml
+Sitemap: https://time.com/branded-content-sitemap.xml
 Sitemap: https://time.com/video-sitemap.xml
 Sitemap: https://time.com/coupons/sitemap.xml
 Sitemap: https://time.com/archive-sitemaps.xml

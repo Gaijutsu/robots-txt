@@ -144,6 +144,6 @@ Sitemap: https://www.wsj.com/live_news_sitemap.xml
 Sitemap: https://www.wsj.com/authors_sitemap.xml
 Sitemap: https://www.wsj.com/sitemaps/web/video/en/sitemap_video_en_index.xml
 Sitemap: https://www.wsj.com/buyside/sitemap.xml
-Sitemap: https://www.wsj.com/market-data/quotes/sitemap-companies.xml
+Sitemap: https://www.wsj.com/wsj_quote_index_sitemap.xml
 Sitemap: https://www.wsj.com/wsjsitemaps/wsj_recipes.xml
 Sitemap: https://www.wsj.com/sitemap_topic_collections.xml

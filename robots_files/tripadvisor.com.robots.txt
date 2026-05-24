@@ -72,6 +72,7 @@ Disallow: /AppDetail
 Disallow: /AppleMapsAction
 Disallow: /apps
 Disallow: /AppSwipeRecommendations
+Disallow: /AppTravelModeExplore
 Disallow: /AppUploadAPhoto
 Disallow: /AppUserReview
 Disallow: /ArticlesV2
@@ -94,8 +95,6 @@ Disallow: /BATools
 Disallow: /BeachSweeps
 Disallow: /bewerten
 Disallow: /billing
-Disallow: /BillingAndPayments
-Disallow: /BillingDetail
 Disallow: /BLImpRecord
 Disallow: /blog/wp-admin/
 Disallow: /BlPromoOptOut
@@ -227,7 +226,6 @@ Disallow: /HandleHotelSuperPortal
 Disallow: /HelpProxy
 Disallow: /Home-
 Disallow: /Hotel_ReviewHAC
-Disallow: /HotelBookingConfirmation
 Disallow: /HotelBookingController
 Disallow: /HotelBookingRoomSelectionHtml
 Disallow: /HotelBookingRoomSelectionJson
@@ -563,7 +561,6 @@ Disallow: /PostPhotosHAC
 Disallow: /PostReply
 Disallow: /PostVideo
 Disallow: /Premium-
-Disallow: /PremiumPlans
 Disallow: /PreviewImage
 Disallow: /PrimaryPhotoMlOptOutTool
 Disallow: /PrintGuide
@@ -618,14 +615,11 @@ Disallow: /ResponsibleDisclosure
 Disallow: /RestaurantAdsManager
 Disallow: /RestaurantEnterpriseManagement
 Disallow: /RestaurantSearch
-Disallow: /RestaurantSolutions
 Disallow: /RestaurantXSellAjax
-Disallow: /Resubscribe
 Disallow: /ReviewCollect
 Disallow: /ReviewExpress-
 Disallow: /ReviewExpressFAQ
 Disallow: /reviewit
-Disallow: /ReviewPerformance
 Disallow: /reviews
 Disallow: /RewardsHelp
 Disallow: /RewardsWallet
