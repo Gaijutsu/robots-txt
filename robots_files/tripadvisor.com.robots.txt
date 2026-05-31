@@ -229,7 +229,6 @@ Disallow: /Hotel_ReviewHAC
 Disallow: /HotelBookingController
 Disallow: /HotelBookingRoomSelectionHtml
 Disallow: /HotelBookingRoomSelectionJson
-Disallow: /HotelCheckout
 Disallow: /HotelGMCApi
 Disallow: /HotelHighlight
 Disallow: /HotelInterruptersAjax
@@ -244,7 +243,6 @@ Disallow: /Inbox
 Disallow: /InformationCenter
 Disallow: /InitializeSession
 Disallow: /InlineReviewerCta
-Disallow: /InstantBooking-
 Disallow: /InstantBookingManagement
 Disallow: /InstantBookingSignup
 Disallow: /InterstitialsWidget
@@ -735,8 +733,8 @@ Disallow: /TripConnectPaymentForm
 Disallow: /TripConnectPlus
 Disallow: /TripConnectPremium
 Disallow: /TripDetails
-Disallow: /Trips/
 Disallow: /Trips?
+Disallow: /Trips/
 Disallow: /TripsNative
 Disallow: /TripsWebview
 Disallow: /TripWatchPromoAjax
@@ -808,20 +806,17 @@ Allow: /js3/vr-shared
 Allow: /data/*/crosssellaccommodations
 Allow: /data/1.0/bundle
 
-
 User-Agent: applebot
 Allow: /media/photo-f
 Allow: /media/daodao
 Allow: /media/photo-l
 Allow: /media/photo-o
 
-
 User-Agent: PerplexityBot
 Disallow: /ForumHome
 Disallow: /ListForums
 Disallow: /ShowForum
 Disallow: /ShowTopic
-
 
 User-Agent: bingbot
 Disallow: /LocationPhotoDirectLink

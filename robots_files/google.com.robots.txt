@@ -92,6 +92,7 @@ Allow: /maps/?hl=
 Allow: /maps/?q=
 Allow: /maps/?saddr=
 Allow: /maps/?sid=
+Allow: /maps/api/staticmap?
 Allow: /maps/search/
 Allow: /maps/sitemap.xml
 Allow: /maps/sitemaps/

@@ -7,12 +7,8 @@
 User-agent: ScreamingFrogSEOSpider
 User-agent: proximic
 User-agent: Moatbot
-User-agent: Expo9
 User-agent: Outbrain
-User-agent: uipbot
-User-agent: Weborama-fetcher
 User-agent: Yahoo Ad monitoring
-User-agent: NetSeer crawler
 User-agent: SemrushBot
 User-agent: facebookexternalhit
 User-agent: ias_crawler
@@ -41,25 +37,19 @@ User-agent: Google-Safety
 User-agent: Google-site-verification
 User-agent: Google-Structured-Data-Testing-Tool
 User-agent: Googleimageproxy
-User-agent: Twitterbot
 User-agent: Applebot
 User-agent: AppleNewsBot
 User-agent: AdIdxBot
 User-agent: admantx
 User-agent: admantx-usbatch/3.1
-User-agent: AHC
-User-agent: AHC/2.1
 User-agent: AmazonAdBot
 User-agent: bidswitchbot/1.0
 User-agent: botify
 User-agent: Chrome-Lighthouse
 User-agent: CriteoBot/0.1
-User-agent: EchoboxBot/1.0
 User-agent: flipboard
 User-agent: GrapeshotCrawler
 User-agent: Verity
-User-agent: ia_archiver
-User-agent: Iframely
 User-agent: labne
 User-agent: Leikibot
 User-agent: parselybot
@@ -73,13 +63,11 @@ User-agent: sentry
 User-agent: Slack-ImgProxy
 User-agent: Slackbot
 User-agent: Slackbot-LinkExpanding
-User-agent: smartologybot
-User-agent: Snap URL Preview Service
 User-agent: SocialFlow
 User-agent: thetradedesk
 User-agent: Uptimebot
-User-agent: YahooMailProxy
 User-agent: yahoo-linkpreview
+User-agent: Twitterbot
 Disallow:
 
 # Web Search Engines

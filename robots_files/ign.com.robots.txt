@@ -128,6 +128,9 @@ Disallow: /
 Allow: /articles/experimenting-with-galaxy-ai-camera-features-like-night-mode-generative-edit-and-more
 Allow: /articles/how-ai-assisted-gaming-on-the-galaxy-s25-means-extended-play-time-and-optimized-performance
 
+User-agent: DuckDuckBot
+Allow: /
+
 Sitemap: https://www.ign.com/rss/sitemap-articles.xml
 Sitemap: https://www.ign.com/rss/sitemap-authors.xml
 Sitemap: https://www.ign.com/rss/sitemap-objects.xml

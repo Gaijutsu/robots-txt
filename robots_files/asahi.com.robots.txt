@@ -9,11 +9,12 @@ Disallow: /english/sports.html
 Disallow: /*/search/results*
 Allow: /
 Allow: /.well-known/assetlinks.json
-Allow: /ads/tu/
+Allow: /ads/
 
 
 User-agent: Googlebot
 Disallow: /*klpuid=*
+Allow: /ads/
 
 User-agent: CCBot
 Disallow: /
@@ -23,48 +24,63 @@ Disallow: /
 
 User-agent: ChatGPT-User
 Disallow: /
+Allow: /ads/
 
 User-agent: GPTBot
 Disallow: /
+Allow: /ads/
 
 User-agent: Google-Extended
 Disallow: /
+Allow: /ads/
 
 User-agent: Google-CloudVertexBot
 Disallow: /
+Allow: /ads/
 
 User-agent: ICC-Crawler
 Disallow: /
+Allow: /ads/
 
 User-agent: anthropic-ai
 Disallow: /
+Allow: /ads/
 
 User-agent: ClaudeBot
 Disallow: /
+Allow: /ads/
 
 User-agent: Claude-Web
 Disallow: /
+Allow: /ads/
 
 User-agent: Claude-SearchBot
 Disallow: /
+Allow: /ads/
 
 User-agent: Claude-User
 Disallow: /
+Allow: /ads/
 
 User-agent: Applebot-Extended
 Disallow: /
+Allow: /ads/
 
 User-agent: cohere-ai
 Disallow: /
+Allow: /ads/
 
 User-agent: Cohere-training-data-crawler
 Disallow: /
+Allow: /ads/
 
 User-agent: omgili
 Disallow: /
+Allow: /ads/
 
 User-agent: omgilibot
 Disallow: /
+Allow: /ads/
 
 User-agent: PerplexityBot
 Disallow: /
@@ -77,12 +93,15 @@ Disallow: /
 
 User-agent: FacebookBot
 Disallow: /
+Allow: /ads/
 
 User-agent: Meta-ExternalAgent
 Disallow: /
+Allow: /ads/
 
 User-agent: Meta-externalfetcher
 Disallow: /
+Allow: /ads/
 
 User-agent: Bytespider
 Disallow: /
@@ -92,6 +111,7 @@ Disallow: /
 
 User-agent: AmazonBot
 Disallow: /
+Allow: /ads/
 
 User-agent: Diffbot
 Disallow: /

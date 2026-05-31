@@ -101,6 +101,8 @@ Disallow: /energieloesungen/social/*-form/
 Disallow: /energieloesungen/social/go/
 Disallow: /energieloesungen/vergleich/*-form/
 Disallow: /energieloesungen/vergleich/go/
+Disallow: /leben-im-alter/*-form/
+Disallow: /leben-im-alter/go/
 
 User-agent: *
 Disallow: /dating/go/
@@ -118,6 +120,8 @@ Disallow: /energieloesungen/social/*-form/
 Disallow: /energieloesungen/social/go/
 Disallow: /energieloesungen/vergleich/*-form/
 Disallow: /energieloesungen/vergleich/go/
+Disallow: /leben-im-alter/*-form/
+Disallow: /leben-im-alter/go/
 
 # Sitemaps
 Sitemap: https://www.bild.de/sitemap-news.xml
