@@ -1,7 +1,23 @@
 User-agent: PetalBot
 Disallow: /
 
-# Bloque bots global confirmado 20260505
+User-agent: *
+Disallow: /pruebas/
+Disallow: /publicidad/
+Disallow: /notificarelacionadas
+Disallow: /*.swf$
+Disallow: /eskupTSUpdate
+Disallow: /ThreadeskupSimple
+Disallow: /OuteskupSimple
+# Anadidos 20250325 por oscarf
+Disallow: /Ineskup
+Disallow: /Outeskup
+Disallow: /OuteskupSimpleMustache
+Disallow: /Msgeskup
+Disallow: /Profileeskup
+Disallow: /Threadeskup
+
+# Bloque bots confirmado 20260504
 User-agent: bedrock-agentcore-browser
 Disallow: /
 
@@ -96,6 +112,9 @@ User-agent: BloombergBot
 Disallow: /
 
 User-agent: BoardReader
+Disallow: /
+
+User-agent: ChatGPT-User
 Disallow: /
 
 User-agent: checkmy.ws
@@ -287,21 +306,8 @@ Disallow: /
 User-agent: YandexUserproxy
 Disallow: /
 
+# Reinicio de contexto para que el bloque especifico de cada site quede bajo User-agent: *
 User-agent: *
-Disallow: /pruebas/
-Disallow: /publicidad/
-Disallow: /notificarelacionadas
-Disallow: /*.swf$
-Disallow: /eskupTSUpdate
-Disallow: /ThreadeskupSimple
-Disallow: /OuteskupSimple
-# Anadidos 20250325 por oscarf
-Disallow: /Ineskup
-Disallow: /Outeskup
-Disallow: /OuteskupSimpleMustache
-Disallow: /Msgeskup
-Disallow: /Profileeskup
-Disallow: /Threadeskup
 
 # Disallow: /.well-known/amphtml/
 Disallow: /t/

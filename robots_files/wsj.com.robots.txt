@@ -81,7 +81,12 @@ User-agent: Citoid
 User-agent: ZoteroTranslationServer
 
 
+
 Allow: /
+
+User-agent: mediapartners-google
+Disallow: /
+Allow: /watchlist
 
 Disallow: /article_email/*
 Disallow: /user/*
@@ -126,6 +131,7 @@ Disallow: /user/fpd/api/*
 Disallow: /Date(*
 Disallow: /auth/sso/proxy-login*
 Disallow: /client/
+
 # For Buyside Search Results
 Disallow: /buyside/search-results?*term=*
 # Don't crawl non-indexable sites

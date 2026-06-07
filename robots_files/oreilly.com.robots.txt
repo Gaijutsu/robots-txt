@@ -17,6 +17,7 @@ Disallow: /*/?ar
 Disallow: /*/?orpq
 Disallow: /*/?discount=learn
 Disallow: /self-registration/*
+Disallow: /member/login/*?next=
 
 
 User-agent: Baiduspider
@@ -36,6 +37,7 @@ User-agent: Applebot
 User-agent: bingbot
 User-agent: Googlebot
 Allow: /
+Disallow: /member/login/*?next=
 
 # Conditional - allow access, review quarterly
 User-agent: ClaudeBot
@@ -56,6 +58,8 @@ User-agent: RamblerMail
 User-agent: Brave
 User-agent: OAI-SearchBot
 Allow: /
+Disallow: /member/login/*?next=
+
 
 # AI training scrapers - no content access
 User-agent: GPTBot

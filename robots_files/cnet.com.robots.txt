@@ -167,8 +167,10 @@ user-agent: ZanistaBot
 Allow: /home/internet/xfinity-vs-att-which-internet-provider-is-best/
 Allow: /home/internet/xfinity-vs-verizon-which-internet-provider-is-best/
 Allow: /news/ai-automation-changing-how-we-file-taxes/
+Allow: /paid-content/news/dji-osmo-pocket-4p-is-a-powerful-tool-for-independent-filmmakers/
 Allow: /paid-content/news/enjoy-unlimited-wi-fi-and-predictable-pricing-with-on-your-home-internet/
 Allow: /paid-content/news/from-tacos-to-tvs-doordash-delivers-your-game-day-essentials/
+Allow: /paid-content/news/galaxy-s26-camera-system-the-biggest-questions-answered-before-you-buy/
 Allow: /paid-content/news/get-an-unlimited-5g-phone-plan-for-25-per-month-with-metro-by-t-mobile/
 Allow: /paid-content/news/h-r-blocks-local-tax-pros-help-you-navigate-complex-returns/
 Allow: /paid-content/news/how-galaxy-ai-camera-tools-help-you-take-better-photos-automatically-on-the-s25/

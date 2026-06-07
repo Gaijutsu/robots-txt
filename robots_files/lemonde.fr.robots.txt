@@ -52,9 +52,6 @@ User-agent: Googlebot-News
 Disallow: /archives/
 
 # Robots exclus de toute indexation.
-User-agent: Meltwater
-Disallow: /
-
 User-agent: Cision
 Disallow: /
 
@@ -71,9 +68,6 @@ User-agent: Newzbin
 Disallow: /
 
 User-agent: Qwam content intelligence
-Disallow: /
-
-User-agent: flipboard
 Disallow: /
 
 User-agent: Youmag
@@ -218,9 +212,6 @@ Disallow: /
 User-agent: AI2Bot
 Disallow: /
 
-User-agent: Applebot
-Disallow: /
-
 User-agent: cohere-training-data-crawler
 Disallow: /
 
@@ -241,18 +232,6 @@ User-agent: facebookbot
 Disallow: /
 
 User-agent: FacebookBot
-Disallow: /
-
-User-agent: Meta-ExternalAgent
-Disallow: /
-
-User-agent: meta-externalagent
-Disallow: /
-
-User-agent: Meta-ExternalFetcher
-Disallow: /
-
-User-agent: meta-externalfetcher
 Disallow: /
 
 # LISTEROBOTS1802
@@ -613,9 +592,6 @@ Disallow: /
 User-agent: spotter
 Disallow: /
 
-User-agent: Sprinklr
-Disallow: /
-
 User-agent: squirrobot
 Disallow: /
 
@@ -745,12 +721,6 @@ Disallow: /
 User-agent: Ai2Bot-Dolma
 Disallow: /
 
-User-agent: Amzn-SearchBot
-Disallow: /
-
-User-agent: Amzn-User
-Disallow: /
-
 User-agent: Anomura
 Disallow: /
 
@@ -857,4 +827,40 @@ User-agent: WRTNBot
 Disallow: /
 
 User-agent: ZanistaBot
+Disallow: /
+
+User-agent: AmazonBuyForMe
+Disallow: /
+
+User-agent: Google-Agent
+Disallow: /
+
+User-agent: GoogleAgent-Mariner
+Disallow: /
+
+User-agent: Manus-User
+Disallow: /
+
+User-agent: NovaAct
+Disallow: /
+
+User-agent: Shap-User
+Disallow: /
+
+User-agent: TwinAgent
+Disallow: /
+
+User-agent: ZenphonyBot
+Disallow: /
+
+User-agent: Brightbot
+Disallow: /
+
+User-agent: HenkBot
+Disallow: /
+
+User-agent: ShapBot
+Disallow: /
+
+User-agent: Terra Cotta
 Disallow: /
