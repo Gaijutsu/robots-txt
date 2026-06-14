@@ -81,6 +81,7 @@ User-agent: aiHitBot
 User-agent: Amazing-SearchBot
 User-agent: AmazingTest-SearchBot
 User-agent: Amazon AdBot
+User-agent: Amazon-Advertising-ad-standards-bot
 User-agent: AmazonProductDiscovery
 User-agent: AndersPinkBot
 User-agent: ArchiveBot

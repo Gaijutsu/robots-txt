@@ -1,5 +1,5 @@
 
-# version: 93256d693f35d6a70e7c37ac78d3bb49724f63fa
+# version: 36756f545af9144e59780f65727af4ba98093b3b
 # The BBC's Terms of Use: https://www.bbc.co.uk/terms
 # - Explain the rules for using our services
 # - Tell you what you can do with our content
@@ -134,18 +134,15 @@ Disallow: /
 
 User-agent: GPTBot
 Disallow: /
-Allow: /sport
-Allow: /sport/
 
 User-agent: ChatGPT-User
 Disallow: /
-Allow: /sport
-Allow: /sport/
+
+User-agent: Google-CloudVertexBot
+Disallow: /
 
 User-agent: Google-Extended
 Disallow: /
-Allow: /sport
-Allow: /sport/
 
 User-Agent: PerplexityBot
 Disallow: /
@@ -153,18 +150,11 @@ Disallow: /
 User-agent: Perplexity-User
 Disallow: /
 
-User-agent: Google-CloudVertexBot
-Disallow: /
-Allow: /sport
-Allow: /sport/
-
 User-agent: meta-externalagent
 Disallow: /
 
 User-agent: OAI-SearchBot
 Disallow: /
-Allow: /sport
-Allow: /sport/
 
 User-agent: YandexAdditional
 Disallow: /

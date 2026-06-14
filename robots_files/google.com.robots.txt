@@ -228,6 +228,7 @@ Disallow: /local/place/reviews/
 Disallow: /local/place/rap/
 Disallow: /local/tab/
 Disallow: /localservices/
+Allow: /localservices/coupon/
 Disallow: /nonprofits/account/
 Disallow: /uviewer
 Disallow: /landing/cmsnext-root/
