@@ -1,3 +1,63 @@
+# As a condition of accessing this website, you agree to abide by the following
+# content signals:
+
+# (a)  If a Content-Signal = yes, you may collect content for the corresponding
+#      use.
+# (b)  If a Content-Signal = no, you may not collect content for the
+#      corresponding use.
+# (c)  If the website operator does not include a Content-Signal for a
+#      corresponding use, the website operator neither grants nor restricts
+#      permission via Content-Signal with respect to the corresponding use.
+
+# The content signals and their meanings are:
+
+# search:   building a search index and providing search results (e.g., returning
+#           hyperlinks and short excerpts from your website's contents). Search does not
+#           include providing AI-generated search summaries.
+# ai-input: inputting content into one or more AI models (e.g., retrieval
+#           augmented generation, grounding, or other real-time taking of content for
+#           generative AI search answers).
+# ai-train: training or fine-tuning AI models.
+
+# ANY RESTRICTIONS EXPRESSED VIA CONTENT SIGNALS ARE EXPRESS RESERVATIONS OF
+# RIGHTS UNDER ARTICLE 4 OF THE EUROPEAN UNION DIRECTIVE 2019/790 ON COPYRIGHT
+# AND RELATED RIGHTS IN THE DIGITAL SINGLE MARKET.
+
+# BEGIN Cloudflare Managed content
+
+User-agent: *
+Content-Signal: search=yes,ai-train=no
+Allow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: CloudflareBrowserRenderingCrawler
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: meta-externalagent
+Disallow: /
+
+# END Cloudflare Managed Content
+
 Disallow: /wp-includes/
 Disallow: /wp-content/plugins/
 Disallow: /wp-content/themes/
@@ -44,6 +104,12 @@ Disallow: /
 # https://knownagents.com/agents/adstxtcrawler
 
 User-agent: AdsTxtCrawler
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/ai2bot
+
+User-agent: AI2Bot
 Disallow: /
 
 # AI Data Scraper
@@ -164,6 +230,12 @@ Disallow: /
 # https://knownagents.com/agents/cohere-training-data-crawler
 
 User-agent: cohere-training-data-crawler
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/coherebot
+
+User-agent: CohereBot
 Disallow: /
 
 # AI Data Scraper
@@ -316,6 +388,12 @@ Disallow: /
 User-agent: Kangaroo Bot
 Disallow: /
 
+# AI Data Scraper
+# https://knownagents.com/agents/kimibot
+
+User-agent: KimiBot
+Disallow: /
+
 # Scraper
 # https://knownagents.com/agents/krawlerbot
 
@@ -362,6 +440,12 @@ Disallow: /
 # https://knownagents.com/agents/mirrorweb
 
 User-agent: mirrorweb
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/mistralbot
+
+User-agent: MistralBot
 Disallow: /
 
 # Archiver
@@ -470,6 +554,12 @@ Disallow: /
 # https://knownagents.com/agents/statsdronebot
 
 User-agent: StatsDroneBot
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/thinkbot
+
+User-agent: Thinkbot
 Disallow: /
 
 # AI Data Scraper

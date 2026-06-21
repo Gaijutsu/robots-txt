@@ -195,6 +195,7 @@ Allow: /paid-content/news/scale-your-small-business-with-fast-funding-via-loanbu
 Allow: /paid-content/news/selling-stuff-online-what-you-could-be-on-the-hook-for-tax-wise/
 Allow: /paid-content/news/t-mobile-5g-home-internet-offers-a-solution-to-contracts-cords-and-hidden-fees/
 Allow: /paid-content/news/tempos-fresh-chef-crafted-meals-make-your-meal-prep-smarter-and-tastier/
+Allow: /paid-content/news/the-difference-between-fiber-to-the-home-and-fiber-powered-internet/
 Allow: /paid-content/news/what-americans-pay-for-internet-in-2026-and-how-xfinity-helps-you-save/
 Allow: /paid-content/news/why-a-reliable-fiber-powered-network-from-xfinity-is-the-ultimate-solution-for-home-wi-fi/
 Allow: /paid-content/news/why-tax-filers-are-choosing-h-r-block-this-season/

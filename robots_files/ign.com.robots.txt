@@ -29,9 +29,20 @@ Disallow: /wikis/*/topcontributors
 Disallow: /wikis/*/compare/*
 
 #block crawlers
+User-agent: Amzn-SearchBot
+User-agent: ApifyBot
+User-agent: ApifyWebsiteContentCrawler
+User-agent: AzureAI-SearchBot
+User-agent: Brightbot
 User-agent: ChatGPT-User
-User-agent: OAI-SearchBot
+User-agent: ExaBot
+User-agent: FirecrawlAgent
 User-agent: GPTBot
+User-agent: iAskBot
+User-agent: OAI-SearchBot
+User-agent: opencode
+User-agent: TerraCotta
+User-agent: Trae
 Disallow: /
 
 #Block AI content scrapers

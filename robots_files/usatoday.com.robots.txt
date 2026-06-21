@@ -6,7 +6,22 @@ Disallow: /
 User-agent: AmazonBot
 Disallow: /
 
+User-agent: Claude
+Disallow: /
+
 User-agent: Claude-Web
+Disallow: /
+
+User-agent: claudeweb
+Disallow: /
+
+User-agent: Amzn-SearchBot
+Disallow: /
+
+User-agent: Amzn-User
+Disallow: /
+
+User-agent: AndiBot
 Disallow: /
 
 User-agent: cohere-ai
@@ -49,6 +64,12 @@ User-agent: DataForSeoBot
 Disallow: /
 
 User-agent: Diffbot
+Disallow: /
+
+User-agent: Diffbot-user
+Disallow: /
+
+User-agent: Kagibot
 Disallow: /
 
 User-agent: FacebookBot
@@ -174,6 +195,12 @@ Disallow: /
 User-agent: ICC-Crawler
 Disallow: /
 
+User-agent: icc-crawler
+Disallow: /
+
+User-agent: ICC Crawler
+Disallow: /
+
 User-agent: ImagesiftBot
 Disallow: /
 
@@ -267,6 +294,33 @@ Disallow: /
 User-agent: YandexAdditionalBot
 Disallow: /
 
+User-agent: YandexBot
+Disallow: /
+
+User-agent: YandexImages
+Disallow: /
+
+User-agent: YandexNews
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: Baiduspider-image
+Disallow: /
+
+User-agent: BaiduSpider-render
+Disallow: /
+
+User-agent: Baiduspider-video
+Disallow: /
+
+User-agent: Sogou Web Spider
+Disallow: /
+
+User-agent: yisouspider
+Disallow: /
+
 User-agent: YouBot
 Disallow: /
 
@@ -300,6 +354,21 @@ Allow: /contributor-content/
 Allow: /story/special/contributor-content/
 Allow: /shopping/
 
+User-agent: ChatGPT-PageFetcher
+Disallow: /
+
+User-agent: OpenAI-CheckBot
+Disallow: /
+
+User-agent: OpenAI-Explore
+Disallow: /
+
+User-agent: OpenAI Feedback
+Disallow: /
+
+User-agent: OpenAI-SnippetBot
+Disallow: /
+
 User-agent: Cotoyogi
 Disallow: /
 
@@ -321,9 +390,6 @@ Disallow: /
 User-agent: iaskspider
 Disallow: /
 
-User-agent: ICC Crawler
-Disallow: /
-
 User-agent: imgproxy
 Disallow: /
 
@@ -343,6 +409,9 @@ User-agent: QualifiedBot
 Disallow: /
 
 User-agent: SBIntuitionsBot
+Disallow: /
+
+User-agent: sbintuitionsbot
 Disallow: /
 
 User-agent: SemrushBot-OCOB
@@ -373,6 +442,15 @@ User-agent: ChatGLM-Spider
 Disallow: /
 
 User-agent: GoogleOther
+Disallow: /
+
+User-agent: Google AI
+Disallow: /
+
+User-agent: Google-Agent
+Disallow: /
+
+User-agent: shapbot
 Disallow: /
 
 User-agent: FirecrawlAgent
@@ -435,7 +513,31 @@ Disallow: /
 User-agent: Perplexity-User
 Disallow: /
 
+User-agent: Perplexity Search Bot
+Disallow: /
+
+User-agent: Poetbot
+Disallow: /
+
+User-agent: Poseidon Research Crawler
+Disallow: /
+
+User-agent: ProRataInc
+Disallow: /
+
+User-agent: QuillBot
+Disallow: /
+
+User-agent: Tiingo News Agent
+Disallow: /
+
+User-agent: iboubot
+Disallow: /
+
 User-agent: TavilyBot
+Disallow: /
+
+User-agent: NeevaBot
 Disallow: /
 
 User-agent: PhindBot
@@ -471,6 +573,9 @@ Disallow: /
 User-agent: Manus-User
 Disallow: /
 
+User-agent: manus-user
+Disallow: /
+
 User-agent: TwinAgent
 Disallow: /
 
@@ -478,6 +583,300 @@ User-agent: AudigentAdBot
 Disallow: /
 
 User-agent: AudigentBot
+Disallow: /
+
+User-agent: JinaAI
+Disallow: /
+
+User-agent: Jina-AI
+Disallow: /
+
+User-agent: JinaBot
+Disallow: /
+
+User-agent: Jina-Reader
+Disallow: /
+
+User-agent: BrightData
+Disallow: /
+
+User-agent: Bright Data
+Disallow: /
+
+User-agent: BrightBot
+Disallow: /
+
+User-agent: SerpApi
+Disallow: /
+
+User-agent: SerpApiBot
+Disallow: /
+
+User-agent: Apify
+Disallow: /
+
+User-agent: ApifyBot
+Disallow: /
+
+User-agent: Apify-HTTP-Client
+Disallow: /
+
+User-agent: ScrapeGraphAI
+Disallow: /
+
+User-agent: scrapegraph
+Disallow: /
+
+User-agent: Scrapeless
+Disallow: /
+
+User-agent: ScrapelessBot
+Disallow: /
+
+User-agent: ZenRows
+Disallow: /
+
+User-agent: ZenRowsBot
+Disallow: /
+
+User-agent: PromptCloud
+Disallow: /
+
+User-agent: PromptCloudBot
+Disallow: /
+
+User-agent: Nimbleway
+Disallow: /
+
+User-agent: NimbleCrawler
+Disallow: /
+
+User-agent: NimblewayBot
+Disallow: /
+
+User-agent: Oxylabs
+Disallow: /
+
+User-agent: OxylabsBot
+Disallow: /
+
+User-agent: Zyte
+Disallow: /
+
+User-agent: ZyteBot
+Disallow: /
+
+User-agent: Scrapinghub
+Disallow: /
+
+User-agent: ScraperAPI
+Disallow: /
+
+User-agent: Scraper-API
+Disallow: /
+
+User-agent: ScrapingBee
+Disallow: /
+
+User-agent: ScrapingBeeBot
+Disallow: /
+
+User-agent: Scrapingdog
+Disallow: /
+
+User-agent: ScrapingdogBot
+Disallow: /
+
+User-agent: Grepsr
+Disallow: /
+
+User-agent: GrepsrBot
+Disallow: /
+
+User-agent: GrepsrCrawler
+Disallow: /
+
+User-agent: SpiderBot
+Disallow: /
+
+User-agent: spider-cloud
+Disallow: /
+
+User-agent: SpiderCloud
+Disallow: /
+
+User-agent: Hyperbrowser
+Disallow: /
+
+User-agent: HyperbrowserBot
+Disallow: /
+
+User-agent: HyperAgent
+Disallow: /
+
+User-agent: Scrapestack
+Disallow: /
+
+User-agent: ScrapestackBot
+Disallow: /
+
+User-agent: WebScraping.AI
+Disallow: /
+
+User-agent: WebScrapingAI
+Disallow: /
+
+User-agent: webscraping-ai
+Disallow: /
+
+User-agent: ForageAI
+Disallow: /
+
+User-agent: Forage-AI
+Disallow: /
+
+User-agent: ForageBot
+Disallow: /
+
+User-agent: DumplingAI
+Disallow: /
+
+User-agent: Dumpling-AI
+Disallow: /
+
+User-agent: DumplingBot
+Disallow: /
+
+User-agent: Import.io
+Disallow: /
+
+User-agent: ImportIO
+Disallow: /
+
+User-agent: importio
+Disallow: /
+
+User-agent: BrowseAI
+Disallow: /
+
+User-agent: Browse-AI
+Disallow: /
+
+User-agent: BrowseAIBot
+Disallow: /
+
+User-agent: Decodo
+Disallow: /
+
+User-agent: DecodoBot
+Disallow: /
+
+User-agent: Smartproxy
+Disallow: /
+
+User-agent: Scrapfly
+Disallow: /
+
+User-agent: ScrapflyBot
+Disallow: /
+
+User-agent: ScrapflyClient
+Disallow: /
+
+User-agent: Octoparse
+Disallow: /
+
+User-agent: OctoparseBot
+Disallow: /
+
+User-agent: TrajectData
+Disallow: /
+
+User-agent: Traject-Data
+Disallow: /
+
+User-agent: SerpWow
+Disallow: /
+
+User-agent: ScaleSERP
+Disallow: /
+
+User-agent: Rainforest-API
+Disallow: /
+
+User-agent: BlueCart-API
+Disallow: /
+
+User-agent: skrape.ai
+Disallow: /
+
+User-agent: SkrapeAI
+Disallow: /
+
+User-agent: SkrapeBot
+Disallow: /
+
+User-agent: Froxy
+Disallow: /
+
+User-agent: FroxyBot
+Disallow: /
+
+User-agent: MrScraper
+Disallow: /
+
+User-agent: Mr-Scraper
+Disallow: /
+
+User-agent: MrScraperBot
+Disallow: /
+
+User-agent: CrawlNow
+Disallow: /
+
+User-agent: CrawlNowBot
+Disallow: /
+
+User-agent: Soax
+Disallow: /
+
+User-agent: SoaxBot
+Disallow: /
+
+User-agent: SOAX
+Disallow: /
+
+User-agent: Kadoa
+Disallow: /
+
+User-agent: Kadoabot
+Disallow: /
+
+User-agent: KadoaBot
+Disallow: /
+
+User-agent: ScrapeHero
+Disallow: /
+
+User-agent: Scrape-Hero
+Disallow: /
+
+User-agent: ScrapeHeroBot
+Disallow: /
+
+User-agent: Exa
+Disallow: /
+
+User-agent: ExaBot
+Disallow: /
+
+User-agent: Exa-AI
+Disallow: /
+
+User-agent: ExaCrawler
+Disallow: /
+
+User-agent: Exabot
 Disallow: /
 
 User-agent: *

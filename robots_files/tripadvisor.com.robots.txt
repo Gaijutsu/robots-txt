@@ -99,7 +99,6 @@ Disallow: /BLImpRecord
 Disallow: /blog/wp-admin/
 Disallow: /BlPromoOptOut
 Disallow: /BookingConfirmation
-Disallow: /BookingRequest
 Disallow: /Bookings
 Disallow: /BrandSpotlight
 Disallow: /businessinfo
@@ -148,12 +147,11 @@ Disallow: /data
 Disallow: /DelayedLoad
 Disallow: /DeleteNotify
 Disallow: /DemandLoadAjax
-Disallow: /DepositResolution
 Disallow: /DestinationArticle
 Disallow: /DestinationGuideWidget
 Disallow: /DestinationReview
 Disallow: /Destinations
-Disallow: /developers
+Disallow: /developerslegacy
 Disallow: /DevMediaRedirector
 Disallow: /DhtmlPopup
 Disallow: /DiscountGroup
@@ -243,8 +241,6 @@ Disallow: /Inbox
 Disallow: /InformationCenter
 Disallow: /InitializeSession
 Disallow: /InlineReviewerCta
-Disallow: /InstantBookingManagement
-Disallow: /InstantBookingSignup
 Disallow: /InterstitialsWidget
 Disallow: /InvoicePayment
 Disallow: /IpadInterstitial
@@ -386,7 +382,6 @@ Disallow: /MobileAttractionsNear
 Disallow: /MobileBookingConfirmationShare
 Disallow: /MobileBookingConfirmationSMSResponse
 Disallow: /MobileBookingCustomerSupport
-Disallow: /MobileBookingRequest
 Disallow: /MobileBookings
 Disallow: /MobileCancelBooking
 Disallow: /MobileCheapFlightsHome
@@ -433,7 +428,6 @@ Disallow: /Mobilemembers
 Disallow: /MobileMobileReservation
 Disallow: /MobileMyBookingsDetail
 Disallow: /MobileMyBookingsVoucher
-Disallow: /MobileMyInbox
 Disallow: /MobileNativeCountrySettings
 Disallow: /MobileNativeCurrencySettings
 Disallow: /MobileNativeSettings
@@ -448,7 +442,6 @@ Disallow: /MobileOlaCabsEstimateAjax
 Disallow: /MobileOwnerVerifyLocation
 Disallow: /MobilePageviewRecord
 Disallow: /MobilePasswordReset
-Disallow: /MobilePayment
 Disallow: /MobilePhotoUpload
 Disallow: /MobilePOITagging
 Disallow: /MobilePostPhoto
@@ -499,7 +492,6 @@ Disallow: /MultiPartAjax
 Disallow: /MyAchievements
 Disallow: /MyBookingsDetail
 Disallow: /MyBookingsVoucher
-Disallow: /MyInbox
 Disallow: /NativeAds
 Disallow: /NetPromoterPopup
 Disallow: /NewMessage
@@ -537,7 +529,9 @@ Disallow: /pages/rss_terms.html
 Disallow: /PageviewRecord
 Disallow: /PanoramaXml
 Disallow: /PasswordReset
-Disallow: /Payment
+Disallow: /PaymentFormV2
+Disallow: /PaymentMethodManagement
+Disallow: /PaymentOptions
 Disallow: /pdfs/advertorials/
 Disallow: /pdfs/crm/
 Disallow: /pdfs/email/
@@ -575,11 +569,9 @@ Disallow: /ProxyToolsCCAuthBlacklistTool
 Disallow: /ProxyToolsContractDiscountTool
 Disallow: /ProxyToolsCustomerSupportForm
 Disallow: /ProxyToolsDiscountCode
-Disallow: /ProxyToolsInstantBookingManagementTool
 Disallow: /ProxyToolsManageUserAccessTool
 Disallow: /ProxyToolsMemberEditor
 Disallow: /ProxyToolsProductFeatureApi
-Disallow: /ProxyToolsRSKeyAccounts
 Disallow: /ProxyToolsT4BProductFeatureAjax
 Disallow: /ProxyToolsT4BProductFeatureTool
 Disallow: /ProxyToolsT4BToolsAccessDenied
@@ -604,7 +596,6 @@ Disallow: /RemindMe
 Disallow: /RentalCarsRedirect
 Disallow: /RentalPropertyManager
 Disallow: /RentalsSearch
-Disallow: /RentalsSupport
 Disallow: /RentalWatchSignup
 Disallow: /ReportIAP
 Disallow: /ReportPost
@@ -624,7 +615,6 @@ Disallow: /RewardsWallet
 Disallow: /RexSpamFilterAjax
 Disallow: /RMReviewCollect
 Disallow: /RoadTripMap
-Disallow: /Robots
 Disallow: /RSManagementCenter
 Disallow: /RsPartnerApi
 Disallow: /rss
@@ -705,7 +695,6 @@ Disallow: /TAScreenSaver
 Disallow: /TCDestinationsWidget
 Disallow: /TCIBContentQualityTool
 Disallow: /TemporarilyClosedNoticeApi
-Disallow: /terradevelopment
 Disallow: /TestEmptyPage
 Disallow: /TestingTravelMaps
 Disallow: /ThirdPartyRedirect
@@ -772,7 +761,6 @@ Disallow: /VerifyReview
 Disallow: /VideoController
 Disallow: /VideoGallery
 Disallow: /VideoHome?
-Disallow: /ViewAttachment
 Disallow: /ViewMandate
 Disallow: /virtualsupportassistant
 Disallow: /VKRegistration
