@@ -38,6 +38,12 @@ Disallow: /
 User-agent: Claude-User
 Disallow: /
 
+User-agent: Claude-SearchBot
+Disallow: /
+
+User-agent: Comet
+Disallow: /
+
 User-agent: CloudFlare-AlwaysOnline
 Disallow: /
 
@@ -191,6 +197,12 @@ Disallow: /
 User-agent: ProSitemaps
 Disallow: /
 
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: Perplexity-User
+Disallow: /
+
 User-agent: proximic
 Disallow: /
 
@@ -283,6 +295,8 @@ Disallow: /
 
 User-agent: YandexUserproxy
 Disallow: /
+
+# OAI-AdsBot se mantiene permitido y no se bloquea.
 
 User-agent: *
 Disallow: /pruebas/

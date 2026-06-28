@@ -25,7 +25,6 @@ Disallow: /stf/
 Disallow: /sign-in
 Disallow: /sugarfif.html
 Disallow: /wikis/*/edit
-Disallow: /wikis/*/topcontributors
 Disallow: /wikis/*/compare/*
 
 #block crawlers
@@ -277,3 +276,4 @@ Sitemap: https://www.ign.com/rss/sitemap-videos.xml
 Sitemap: https://www.ign.com/rss/sitemap-wikis.xml
 Sitemap: https://www.ign.com/rss/news/sitemap
 Sitemap: https://www.ign.com/rss/videos/sitemap-index-recently-updated
+Sitemap: https://www.ign.com/rss/wikis/sitemap-maps

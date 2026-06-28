@@ -102,6 +102,7 @@ user-agent: cohere-training-data-crawler
 user-agent: Cotoyogi
 user-agent: Crawl4AI
 user-agent: Datenbank Crawler
+user-agent: Datenbank-Crawler
 user-agent: DeepSeekBot
 user-agent: Devin
 user-agent: Diffbot
@@ -121,6 +122,7 @@ user-agent: ICC-Crawler
 user-agent: ImageSiftBot
 user-agent: imageSpider
 user-agent: Kangaroo Bot
+user-agent: Kangaroo-Bot
 user-agent: KlaviyoAIBot
 user-agent: Kunato
 user-agent: laion-huggingface-processor
@@ -136,6 +138,7 @@ user-agent: mistral.ai
 user-agent: MistralAI-User
 user-agent: netEstate Imprint Crawler
 user-agent: NovaAct
+user-agent: Novellum
 user-agent: Novellum AI Crawl
 user-agent: OAI-SearchBot
 user-agent: omgili
@@ -193,12 +196,14 @@ Allow: /paid-content/news/nomad-esim-wants-to-give-you-more-than-just-data/
 Allow: /paid-content/news/scale-your-small-business-with-fast-funding-via-loanbuilder/
 Allow: /paid-content/news/scale-your-small-business-with-fast-funding-via-loanbuilder/
 Allow: /paid-content/news/selling-stuff-online-what-you-could-be-on-the-hook-for-tax-wise/
+Allow: /paid-content/news/switch-to-t-mobile-in-15-minutes-and-get-up-to-800-dollars/
 Allow: /paid-content/news/t-mobile-5g-home-internet-offers-a-solution-to-contracts-cords-and-hidden-fees/
 Allow: /paid-content/news/tempos-fresh-chef-crafted-meals-make-your-meal-prep-smarter-and-tastier/
 Allow: /paid-content/news/the-difference-between-fiber-to-the-home-and-fiber-powered-internet/
 Allow: /paid-content/news/what-americans-pay-for-internet-in-2026-and-how-xfinity-helps-you-save/
 Allow: /paid-content/news/why-a-reliable-fiber-powered-network-from-xfinity-is-the-ultimate-solution-for-home-wi-fi/
 Allow: /paid-content/news/why-tax-filers-are-choosing-h-r-block-this-season/
+Allow: /paid-content/news/why-you-need-a-cutting-edge-vpn-to-keep-you-safe-online/
 Allow: /tech/mobile/samsung-galaxy-s26-and-s26-plus-hands-on-first-take/
 Allow: /tech/mobile/samsung-galaxy-s26-ultra-vs-galaxy-s26-and-s26-plus-flagship-specs-comparison/
 Allow: /tech/services-and-software/a-guide-to-data-removal-services-should-you-pay-for-privacy/

@@ -46,6 +46,7 @@ Disallow: /cms_preview_ui_static/
 Disallow: /search/
 
 User-agent: Amazonbot
+Allow: /rss-feeds/feeds/bf-amazon-ai-grounding.extended.xml
 Disallow: /
 
 User-agent: anthropic-ai
