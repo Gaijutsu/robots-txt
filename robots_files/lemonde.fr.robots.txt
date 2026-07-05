@@ -864,3 +864,42 @@ Disallow: /
 
 User-agent: Terra Cotta
 Disallow: /
+
+User-agent: CohereBot
+Disallow: /
+
+User-agent: CragCrawler
+Disallow: /
+
+User-agent: GeistHaus-PageFetcher
+Disallow: /
+
+User-agent: GoogleAgent-URLContext
+Disallow: /
+
+User-agent: Kimi-SearchBot
+Disallow: /
+
+User-agent: Kimi-User
+Disallow: /
+
+User-agent: KimiBot
+Disallow: /
+
+User-agent: MistralAI-Index
+Disallow: /
+
+User-agent: MistralBot
+Disallow: /
+
+User-agent: Querit-SearchBot
+Disallow: /
+
+User-agent: QueritBot
+Disallow: /
+
+User-agent: UseAI
+Disallow: /
+
+User-agent: xAI-SearchBot
+Disallow: /

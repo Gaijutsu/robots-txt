@@ -50,6 +50,7 @@ User-agent: cohere-training-data-crawler
 User-agent: Cotoyogi
 User-agent: Crawl4AI
 User-agent: Datenbank Crawler
+User-agent: Datenbank-Crawler
 User-agent: DeepSeekBot
 User-agent: Devin
 User-agent: Diffbot
@@ -69,6 +70,7 @@ User-agent: ICC-Crawler
 User-agent: ImageSiftBot
 User-agent: imageSpider
 User-agent: Kangaroo Bot
+User-agent: Kangaroo-Bot
 User-agent: KlaviyoAIBot
 User-agent: Kunato
 User-agent: laion-huggingface-processor
@@ -84,6 +86,7 @@ User-agent: mistral.ai
 User-agent: MistralAI-User
 User-agent: netEstate Imprint Crawler
 User-agent: Novellum AI Crawl
+User-agent: Novellum
 User-agent: NovaAct
 User-agent: OAI-SearchBot
 User-agent: omgili

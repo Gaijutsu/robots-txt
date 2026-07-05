@@ -6,19 +6,15 @@
 # ==========================
 User-agent: ScreamingFrogSEOSpider
 User-agent: proximic
-User-agent: Moatbot
 User-agent: Outbrain
 User-agent: Yahoo Ad monitoring
 User-agent: SemrushBot
 User-agent: facebookexternalhit
 User-agent: ias_crawler
-User-agent: ias_wombles
-User-agent: IASbot
 User-agent: identrics
 User-agent: MeltwaterNews
 User-agent: links.streem.com.au
 User-agent: LinkedInBot
-User-agent: WhatsApp
 User-agent: redditbot
 User-agent: Mediapartners-Google
 User-agent: Google-InspectionTool
@@ -39,35 +35,26 @@ User-agent: Google-Structured-Data-Testing-Tool
 User-agent: Googleimageproxy
 User-agent: Applebot
 User-agent: AppleNewsBot
-User-agent: AdIdxBot
+User-agent: adidxbot
 User-agent: admantx
 User-agent: admantx-usbatch/3.1
 User-agent: AmazonAdBot
-User-agent: bidswitchbot/1.0
-User-agent: botify
 User-agent: Chrome-Lighthouse
-User-agent: CriteoBot/0.1
-User-agent: flipboard
-User-agent: GrapeshotCrawler
 User-agent: Verity
-User-agent: labne
 User-agent: Leikibot
 User-agent: parselybot
 User-agent: peer39_crawler/1.0
-User-agent: photon
 User-agent: pingdom
 User-agent: Pinterestbot
 User-agent: proximic
-User-agent: pubmatic
-User-agent: sentry
+User-agent: PubMatic Crawler Bot
+User-agent: Mobian
 User-agent: Slack-ImgProxy
 User-agent: Slackbot
 User-agent: Slackbot-LinkExpanding
-User-agent: SocialFlow
 User-agent: thetradedesk
 User-agent: Uptimebot
 User-agent: yahoo-linkpreview
-User-agent: Twitterbot
 Disallow:
 
 # Web Search Engines

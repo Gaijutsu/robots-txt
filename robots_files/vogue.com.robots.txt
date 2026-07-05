@@ -42,6 +42,7 @@ Disallow: /shopping/*?
 Allow: /shopping/*?page=
 Disallow: /shopping/*?page=*&
 Disallow: */undefined
+Disallow: /discover/
 ###
 
 User-agent: FacebookExternalHit

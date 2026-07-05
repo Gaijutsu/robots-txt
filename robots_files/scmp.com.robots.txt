@@ -157,6 +157,8 @@ Disallow: /*/compose$
 Disallow: /*/lib_b/*$
 Disallow: /print/
 Disallow: /?q=print/
+Disallow: /search?q=*
+Disallow: /search/*
 
 # NewsNow
 User-agent: NewsNow
