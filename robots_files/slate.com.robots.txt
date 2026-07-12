@@ -14,6 +14,7 @@ Allow: /
 # AI Data Scraper, Scraper
 User-agent: 008
 User-agent: AdsTxtCrawler
+User-agent: AI2Bot
 User-agent: Ai2Bot-Dolma
 User-agent: Amazonbot
 User-agent: Applebot-Extended
@@ -23,6 +24,7 @@ User-agent: ChatGLM-Spider
 User-agent: ClaudeBot
 User-agent: CloudVertexBot
 User-agent: cohere-training-data-crawler
+User-agent: CohereBot
 User-agent: Cotoyogi
 User-agent: Dataprovider.com
 User-agent: Datenbank Crawler
@@ -38,12 +40,14 @@ User-agent: ICC-Crawler
 User-agent: imageSpider
 User-agent: IndeedJobBot
 User-agent: Kangaroo Bot
+User-agent: KimiBot
 User-agent: KrawlerBot
 User-agent: laion-huggingface-processor
 User-agent: LCC
 User-agent: meta-externalagent
 User-agent: MetaInspector
 User-agent: MetaJobBot
+User-agent: MistralBot
 User-agent: netEstate Imprint Crawler
 User-agent: newspaper
 User-agent: Nutch
@@ -58,6 +62,7 @@ User-agent: Scrapy
 User-agent: ServerHunterSpider
 User-agent: Spider
 User-agent: StatsDroneBot
+User-agent: Thinkbot
 User-agent: Timpibot
 User-agent: VelenPublicWebCrawler
 User-agent: webzio-extended
@@ -72,8 +77,10 @@ User-agent: adbeat_bot
 User-agent: adidxbot
 User-agent: AdkernelTopicCrawler
 User-agent: admantx
+User-agent: AdmixerBot
 User-agent: AdsBot-Google
 User-agent: AdsBot-Google-Mobile
+User-agent: AffsignalCrawler
 User-agent: Ahrefs Site Audit
 User-agent: AhrefsBot
 User-agent: AhrefsSiteAudit
@@ -138,6 +145,7 @@ User-agent: deepcrawl.com
 User-agent: DomainStatsBot
 User-agent: DotBot
 User-agent: Dragonbot
+User-agent: Dragonfly
 User-agent: ds9
 User-agent: DVbot
 User-agent: Echobot Bot
@@ -154,6 +162,7 @@ User-agent: Google AdsBot
 User-agent: Google AdSense
 User-agent: Google Digital Asset Links
 User-agent: Google StoreBot
+User-agent: Google-adstxt
 User-agent: Google-Adwords-Instant
 User-agent: Google-Display-Ads-Bot
 User-agent: Google-Structured-Data-Testing
@@ -165,6 +174,7 @@ User-agent: Huckabuy Bot
 User-agent: hypestat
 User-agent: IAS crawler
 User-agent: ias-ie
+User-agent: IDG/IT
 User-agent: ImagesiftBot
 User-agent: Innguma
 User-agent: InteractiveAdvertisingBureau
@@ -176,6 +186,7 @@ User-agent: KargoBot-Artemis-Mobile
 User-agent: Klaviyo
 User-agent: KStandBot
 User-agent: Leikibot
+User-agent: LibreCrawl
 User-agent: LightspeedSystemsCrawler
 User-agent: LinkCheck by Siteimprove
 User-agent: LinkChecker Bot
@@ -187,9 +198,11 @@ User-agent: LinksIndexerBot
 User-agent: LinkWalker
 User-agent: Macrobondbot
 User-agent: magpie-crawler
+User-agent: Mantisbot
 User-agent: MarketGoo
 User-agent: MBCrawler
 User-agent: McontextualBot
+User-agent: mediaboardbot
 User-agent: MedialogiaBot
 User-agent: MediaMonitoringBot
 User-agent: Mediapartners-Google
@@ -213,6 +226,7 @@ User-agent: netEstate NE Crawler
 User-agent: Neticle Crawler
 User-agent: NetSeer crawler
 User-agent: Netvibes
+User-agent: NeuwoBot
 User-agent: NewsRoom.BI
 User-agent: Nitro-
 User-agent: NitroBot
@@ -238,6 +252,9 @@ User-agent: proximic
 User-agent: Quantcastbot
 User-agent: QuuuBot
 User-agent: Qwarrybot
+User-agent: RankMath Link Checker
+User-agent: RankurBot
+User-agent: RavenCrawler
 User-agent: Readable
 User-agent: RetroListeCOM
 User-agent: RevvimGort
@@ -267,6 +284,7 @@ User-agent: SeobilityBot
 User-agent: SEOkicks
 User-agent: SEOlizer
 User-agent: SERankingBacklinksBot
+User-agent: SerpMinerBot
 User-agent: serpstatbot
 User-agent: SiteAuditBot
 User-agent: Sitebulb
@@ -279,12 +297,14 @@ User-agent: SlickBot
 User-agent: slickstream
 User-agent: SmartologyBot
 User-agent: SMTBot
+User-agent: Sottopop
 User-agent: StatistikAustria
 User-agent: StatusNestBacklinkSpider
 User-agent: Storebot-Google
 User-agent: Stripebot
 User-agent: Taboola
 User-agent: Taboolabot
+User-agent: TechSpyBot
 User-agent: trendictionbot
 User-agent: TrendsmapResolver
 User-agent: TTD-Content

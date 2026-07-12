@@ -23,7 +23,6 @@ User-agent: AdsBot-Google-Mobile
 User-agent: AdsBot-Google-Mobile-Apps
 User-agent: Storebot-Google
 User-agent: google-read-aloud
-User-agent: mediapartners-google
 User-agent: bingbot
 User-agent: msnbot
 User-agent: bingpreview
@@ -61,6 +60,7 @@ User-agent: SimilarWebBot
 User-agent: SISTRIX
 User-agent: botify
 User-agent: Chrome-Lighthouse
+User-agent: BomboraBot
 
 
 User-agent: ChatGPT-User
@@ -83,11 +83,6 @@ User-agent: ZoteroTranslationServer
 
 
 Allow: /
-
-User-agent: mediapartners-google
-Disallow: /
-Allow: /watchlist
-
 Disallow: /article_email/*
 Disallow: /user/*
 Disallow: /pdf/documents/*
@@ -140,6 +135,10 @@ Disallow: /*?id=*&type=mdc_*
 Disallow: /market-data/quotes/*/options/*
 Disallow: /subscribe/?inttrackingCode=*
 Disallow: /subscribe/?template=*
+
+User-agent: mediapartners-google
+Disallow: /
+Allow: /watchlist
 
 Sitemap: https://www.wsj.com/sitemap.xml
 Sitemap: https://www.wsj.com/wsjsitemaps/wsj_google_news.xml
