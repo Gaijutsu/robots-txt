@@ -46,6 +46,7 @@ Disallow: /statistik/aktuell/p/
 Disallow: /statistics/recent/p/
 Disallow: /statistiques/recentes/p/
 Disallow: /estadisticas/recientes/p/
+Disallow: /recent/
 # Update 03/25
 Disallow: /statistics/recommendations/?p=
 Disallow: /estadisticas/recomendaciones/?p=
@@ -144,6 +145,7 @@ Disallow: /statistik/aktuell/p/
 Disallow: /statistics/recent/p/
 Disallow: /statistiques/recentes/p/
 Disallow: /estadisticas/recientes/p/
+Disallow: /recent/
 # Update 03/25
 Disallow: /statistics/recommendations/?p=
 Disallow: /estadisticas/recomendaciones/?p=
@@ -241,6 +243,7 @@ Disallow: /statistik/aktuell/p/
 Disallow: /statistics/recent/p/
 Disallow: /statistiques/recentes/p/
 Disallow: /estadisticas/recientes/p/
+Disallow: /recent/
 # Update 03/25
 Disallow: /statistics/recommendations/?p=
 Disallow: /estadisticas/recomendaciones/?p=

@@ -28,6 +28,7 @@ Disallow: /s/*
 Disallow: /static-content/1y/pf/prod/sdk/cir_sdk.js
 Disallow: /static_ontent/1y/got/amp_onetap_iframe.html
 Disallow: /my-ht/*
+Disallow: /games/trivia/*
 
 
 
@@ -50,6 +51,7 @@ Allow: /
 
 User-agent: Mediapartners-Google
 Allow: /
+
 
 
 

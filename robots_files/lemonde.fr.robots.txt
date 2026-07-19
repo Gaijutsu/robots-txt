@@ -903,3 +903,57 @@ Disallow: /
 
 User-agent: xAI-SearchBot
 Disallow: /
+
+User-agent: AIWebIndex
+Disallow: /
+
+User-agent: amazon-kendra
+Disallow: /
+
+User-agent: amazon-QBusiness
+Disallow: /
+
+User-agent: bedrockbot
+Disallow: /
+
+User-agent: Crawlspace
+Disallow: /
+
+User-agent: Doubaobot
+Disallow: /
+
+User-agent: ERNIEBot
+Disallow: /
+
+User-agent: KimiCrawler
+Disallow: /
+
+User-agent: micro-crawl
+Disallow: /
+
+User-agent: MoonshotBot
+Disallow: /
+
+User-agent: MoonSpider
+Disallow: /
+
+User-agent: Mozilla-Tabstack
+Disallow: /
+
+User-agent: QwenBot
+Disallow: /
+
+User-agent: SalamandraVLM
+Disallow: /
+
+User-agent: TongyiBot
+Disallow: /
+
+User-agent: YandexAdditional
+Disallow: /
+
+User-agent: YandexAdditionalBot
+Disallow: /
+
+User-agent: YiyanBot
+Disallow: /

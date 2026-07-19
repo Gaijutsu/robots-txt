@@ -18,6 +18,7 @@ User-agent: AI2Bot
 User-agent: Ai2Bot-Dolma
 User-agent: Amazonbot
 User-agent: Applebot-Extended
+User-agent: bedrockbot
 User-agent: Bytespider
 User-agent: CCBot
 User-agent: ChatGLM-Spider
@@ -29,6 +30,9 @@ User-agent: Cotoyogi
 User-agent: Dataprovider.com
 User-agent: Datenbank Crawler
 User-agent: dcrawl
+User-agent: DeepSeekBot
+User-agent: Doubaobot
+User-agent: ERNIEBot
 User-agent: FacebookBot
 User-agent: Google-Extended
 User-agent: GoogleOther
@@ -41,13 +45,17 @@ User-agent: imageSpider
 User-agent: IndeedJobBot
 User-agent: Kangaroo Bot
 User-agent: KimiBot
+User-agent: KimiCrawler
 User-agent: KrawlerBot
 User-agent: laion-huggingface-processor
 User-agent: LCC
 User-agent: meta-externalagent
 User-agent: MetaInspector
 User-agent: MetaJobBot
+User-agent: micro-crawl
 User-agent: MistralBot
+User-agent: MoonshotBot
+User-agent: MoonSpider
 User-agent: netEstate Imprint Crawler
 User-agent: newspaper
 User-agent: Nutch
@@ -57,6 +65,8 @@ User-agent: omgili
 User-agent: OpenindexSpider
 User-agent: PanguBot
 User-agent: Potions
+User-agent: QwenBot
+User-agent: SalamandraVLM
 User-agent: SBIntuitionsBot
 User-agent: Scrapy
 User-agent: ServerHunterSpider

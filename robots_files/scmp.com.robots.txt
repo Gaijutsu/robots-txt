@@ -191,3 +191,9 @@ Disallow: /*?*campaign=*
 
 Sitemap: https://www.scmp.com/sitemap/sitemap.xml
 Sitemap: https://www.scmp.com/sitemap/archives-0.xml
+
+# Temp removal
+Disallow: /presented/better-life/career-education/topics/edtalk-harbour-school/article/3199785/rethinking-5-educational-myths-through-experiential-learning-approach
+Disallow: /print/presented/better-life/career-education/topics/edtalk-harbour-school/article/3199785/rethinking-5-educational-myths-through-experiential-learning-approach
+Disallow: /native/business/banking-finance/topics/wealth-across-borders/article/3357488/retired-businessman-and-lifelong-sailor-trust-anchors-process-building-wealth
+Disallow: /print/native/business/banking-finance/topics/wealth-across-borders/article/3357488/retired-businessman-and-lifelong-sailor-trust-anchors-process-building-wealth

@@ -205,6 +205,7 @@ Allow: /paid-content/news/selling-stuff-online-what-you-could-be-on-the-hook-for
 Allow: /paid-content/news/shopping-for-a-major-appliance-let-best-buy-do-the-heavy-lifting/
 Allow: /paid-content/news/streamline-your-weeknight-cooking-routine-with-a-multi-speed-air-fryer/
 Allow: /paid-content/news/switch-to-t-mobile-in-15-minutes-and-get-up-to-800-dollars/
+Allow: /paid-content/news/t-mobile-5g-home-internet-gets-you-online-fast-with-no-technicians-or-contracts/
 Allow: /paid-content/news/t-mobile-5g-home-internet-offers-a-solution-to-contracts-cords-and-hidden-fees/
 Allow: /paid-content/news/tempos-fresh-chef-crafted-meals-make-your-meal-prep-smarter-and-tastier/
 Allow: /paid-content/news/the-dell-xps-13-is-subtle-luxury-in-laptop-form/
@@ -214,6 +215,7 @@ Allow: /paid-content/news/upgrade-your-summer-content-with-a-portable-digital-ca
 Allow: /paid-content/news/what-americans-pay-for-internet-in-2026-and-how-xfinity-helps-you-save/
 Allow: /paid-content/news/why-a-reliable-fiber-powered-network-from-xfinity-is-the-ultimate-solution-for-home-wi-fi/
 Allow: /paid-content/news/why-tax-filers-are-choosing-h-r-block-this-season/
+Allow: /paid-content/news/why-the-samsung-galaxy-s26-ultra-feels-like-the-first-phone-truly-built-for-ai/
 Allow: /paid-content/news/why-you-need-a-cutting-edge-vpn-to-keep-you-safe-online/
 Allow: /paid-content/news/why-you-need-an-internet-provider-with-no-data-caps/
 Allow: /tech/mobile/samsung-galaxy-s26-and-s26-plus-hands-on-first-take/
