@@ -34,6 +34,7 @@ User-agent: ChatGPT-User
 Disallow: /
 Allow: /contributor-content/
 Allow: /story/special/contributor-content/
+Allow: /money/money-management/
 Allow: /shopping/
 
 User-agent: Googlebot-News
@@ -49,6 +50,7 @@ User-agent: GPTBot
 Disallow: /
 Allow: /contributor-content/
 Allow: /story/special/contributor-content/
+Allow: /money/money-management/
 Allow: /shopping/
 
 User-agent: CCBot
@@ -58,6 +60,7 @@ User-agent: Google-Extended
 Disallow: /
 Allow: /contributor-content/
 Allow: /story/special/contributor-content/
+Allow: /money/money-management/
 Allow: /shopping/
 
 User-agent: DataForSeoBot
@@ -100,6 +103,7 @@ User-agent: PerplexityBot
 Disallow: /
 Allow: /contributor-content/
 Allow: /story/special/contributor-content/
+Allow: /money/money-management/
 Allow: /shopping/
 
 User-agent: Scrapy
@@ -121,6 +125,7 @@ User-agent: OAI-SearchBot
 Disallow: /
 Allow: /contributor-content/
 Allow: /story/special/contributor-content/
+Allow: /money/money-management/
 Allow: /shopping/
 
 User-agent: Bytespider
@@ -352,6 +357,7 @@ User-agent: ChatGPT Operator
 Disallow: /
 Allow: /contributor-content/
 Allow: /story/special/contributor-content/
+Allow: /money/money-management/
 Allow: /shopping/
 
 User-agent: ChatGPT-PageFetcher

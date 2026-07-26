@@ -7,6 +7,7 @@ Disallow: /sdch
 Disallow: /groups
 Disallow: /index.html?
 Disallow: /?
+Disallow: /goto?
 Allow: /?hl=
 Disallow: /?hl=*&
 Allow: /?hl=*&gws_rd=ssl$

@@ -170,6 +170,7 @@ Disallow: /toiads_prebid_checker/adset/ve-1.cms*
 Disallow: /ext_*
 Disallow: /*_rsc=
 Disallow: /meta.json
+Disallow: */lottery/*
 
 User-agent: Googlebot-News
 Allow: /
@@ -339,6 +340,7 @@ Disallow: /toiads_prebid_checker/adset/ve-1.cms*
 Disallow: /ext_*
 Disallow: /*_rsc=
 Disallow: /meta.json
+Disallow: */lottery/*
 
 User-agent: AdsBot-Google
 Allow: /trivia/

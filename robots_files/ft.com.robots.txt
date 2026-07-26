@@ -18,7 +18,7 @@ Disallow: /buy/
 Disallow: /cancel/
 Disallow: /join/
 Disallow: /login
-Disallow: /myft/
+Disallow: /myft
 Disallow: /offline/
 Disallow: /page-resources
 Disallow: /preferences/manage-cookies

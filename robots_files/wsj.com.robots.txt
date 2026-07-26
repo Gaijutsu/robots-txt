@@ -51,6 +51,9 @@ User-agent: AmazonAdBot
 User-agent: pubmatic
 User-agent: smartologybot
 User-agent: parselybot
+User-agent: BomboraBot
+User-agent: IllumaBot/1.0
+User-agent: Publication-Access-for-Facebook
 
 
 User-agent: Screaming Frog SEO Spider
@@ -60,7 +63,7 @@ User-agent: SimilarWebBot
 User-agent: SISTRIX
 User-agent: botify
 User-agent: Chrome-Lighthouse
-User-agent: BomboraBot
+
 
 
 User-agent: ChatGPT-User
@@ -152,3 +155,5 @@ Sitemap: https://www.wsj.com/buyside/sitemap.xml
 Sitemap: https://www.wsj.com/wsj_quote_index_sitemap.xml
 Sitemap: https://www.wsj.com/wsjsitemaps/wsj_recipes.xml
 Sitemap: https://www.wsj.com/sitemap_topic_collections.xml
+
+

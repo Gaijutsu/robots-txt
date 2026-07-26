@@ -19,6 +19,26 @@ Disallow: /*/?discount=learn
 Disallow: /self-registration/*
 Disallow: /member/login/*?next=
 
+User-agent: LinkedInBot
+Allow: /images/
+Disallow: /graphics/
+Disallow: /admin/
+Disallow: /promos/
+Disallow: /ddp/
+Disallow: /dpp/
+Disallow: /programming/free/files/
+Disallow: /design/free/files/
+Disallow: /iot/free/files/
+Disallow: /data/free/files/
+Disallow: /webops-perf/free/files/
+Disallow: /web-platform/free/files/
+Disallow: /cs/
+Disallow: /test/
+Disallow: /*/?ar
+Disallow: /*/?orpq
+Disallow: /*/?discount=learn
+Disallow: /self-registration/*
+Disallow: /member/login/*?next=
 
 User-agent: Baiduspider
 User-agent: PetalBot

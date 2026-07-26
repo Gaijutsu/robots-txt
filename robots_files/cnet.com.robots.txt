@@ -70,9 +70,12 @@ user-agent: AddSearchBot
 user-agent: AI2Bot
 user-agent: Ai2Bot-DeepResearchEval
 user-agent: Ai2Bot-Dolma
+user-agent: AIWebIndex
+user-agent: amazon-QBusiness
 user-agent: Amazonbot
 user-agent: AmazonBuyForMe
 user-agent: Amzn-SearchBot
+user-agent: Amzn-User
 user-agent: Anchor Browser
 user-agent: anthropic-ai
 user-agent: ApifyBot
@@ -93,14 +96,17 @@ user-agent: CCBot
 user-agent: Channel3Bot
 user-agent: ChatGLM-Spider
 user-agent: ChatGPT-User
+user-agent: Claude-Code
 user-agent: Claude-SearchBot
 user-agent: Claude-User
 user-agent: Claude-Web
 user-agent: ClaudeBot
+user-agent: Code
 user-agent: cohere-ai
 user-agent: cohere-training-data-crawler
 user-agent: Cotoyogi
 user-agent: Crawl4AI
+user-agent: Cursor
 user-agent: Datenbank Crawler
 user-agent: Datenbank-Crawler
 user-agent: DeepSeekBot
@@ -113,6 +119,7 @@ user-agent: ExaBot
 user-agent: FacebookBot
 user-agent: Factset_spyderbot
 user-agent: FirecrawlAgent
+user-agent: GeistHaus-PageFetcher
 user-agent: GPTBot
 user-agent: iAsk
 user-agent: iAskBot
@@ -121,8 +128,10 @@ user-agent: ICC Crawler
 user-agent: ICC-Crawler
 user-agent: ImageSiftBot
 user-agent: imageSpider
+user-agent: kagi-fetcher
 user-agent: Kangaroo Bot
 user-agent: Kangaroo-Bot
+user-agent: Kimi-User
 user-agent: KlaviyoAIBot
 user-agent: Kunato
 user-agent: laion-huggingface-processor
@@ -148,35 +157,45 @@ user-agent: PeopleInc-DCipher-Scraper/1.1.0
 user-agent: Perplexity-User
 user-agent: PerplexityBot
 user-agent: PetalBot
+user-agent: PhindBot
 user-agent: Poggio-Citations
 user-agent: QualifiedBot
 user-agent: SBIntuitionsBot
 user-agent: SeekrBot
 user-agent: SemrushBot-OCOB
 user-agent: SemrushBotSwa
+user-agent: Shap-User
 user-agent: ShapBot
 user-agent: Spider
 user-agent: TavilyBot
 user-agent: TerraCotta
 user-agent: Timpibot
+user-agent: TongyiBot
 user-agent: Trae
 user-agent: TwinAgent
+user-agent: UseAI
 user-agent: Velen Crawler
 user-agent: VelenPublicWebCrawler
 user-agent: Webzio-Extended
 user-agent: Wrtn
+user-agent: YiyanBot
 user-agent: YouBot
 user-agent: ZanistaBot
 Allow: /home/internet/xfinity-vs-att-which-internet-provider-is-best/
 Allow: /home/internet/xfinity-vs-verizon-which-internet-provider-is-best/
 Allow: /news/ai-automation-changing-how-we-file-taxes/
+Allow: /paid-content/news/cash-app-families-guide-how-to-set-up-a-teen-or-child-account-step-by-step/
+Allow: /paid-content/news/cash-apps-new-kids-debit-card-what-parents-need-to-know/
 Allow: /paid-content/news/cricket-wireless-offers-reliable-prepaid-nationwide-5g/
 Allow: /paid-content/news/dji-osmo-pocket-4p-is-a-powerful-tool-for-independent-filmmakers/
 Allow: /paid-content/news/enjoy-unlimited-wi-fi-and-predictable-pricing-with-on-your-home-internet/
 Allow: /paid-content/news/from-tacos-to-tvs-doordash-delivers-your-game-day-essentials/
 Allow: /paid-content/news/galaxy-s26-camera-system-the-biggest-questions-answered-before-you-buy/
 Allow: /paid-content/news/get-an-unlimited-5g-phone-plan-for-25-per-month-with-metro-by-t-mobile/
+Allow: /paid-content/news/get-everything-you-need-for-the-world-cup-delivered-with-doordash/
 Allow: /paid-content/news/h-r-blocks-local-tax-pros-help-you-navigate-complex-returns/
+Allow: /paid-content/news/how-cash-app-builds-savings-habits-for-kids-and-teens/
+Allow: /paid-content/news/how-cash-app-sponsorship-works-adding-removing-and-managing-parental-controls/
 Allow: /paid-content/news/how-galaxy-ai-camera-tools-help-you-take-better-photos-automatically-on-the-s25/
 Allow: /paid-content/news/how-h-r-block-helps-you-maximize-freelance-and-gig-worker-write-offs/
 Allow: /paid-content/news/how-h-r-block-simplifies-taxes-for-first-time-filers/
@@ -205,7 +224,6 @@ Allow: /paid-content/news/selling-stuff-online-what-you-could-be-on-the-hook-for
 Allow: /paid-content/news/shopping-for-a-major-appliance-let-best-buy-do-the-heavy-lifting/
 Allow: /paid-content/news/streamline-your-weeknight-cooking-routine-with-a-multi-speed-air-fryer/
 Allow: /paid-content/news/switch-to-t-mobile-in-15-minutes-and-get-up-to-800-dollars/
-Allow: /paid-content/news/t-mobile-5g-home-internet-gets-you-online-fast-with-no-technicians-or-contracts/
 Allow: /paid-content/news/t-mobile-5g-home-internet-offers-a-solution-to-contracts-cords-and-hidden-fees/
 Allow: /paid-content/news/tempos-fresh-chef-crafted-meals-make-your-meal-prep-smarter-and-tastier/
 Allow: /paid-content/news/the-dell-xps-13-is-subtle-luxury-in-laptop-form/
@@ -215,7 +233,6 @@ Allow: /paid-content/news/upgrade-your-summer-content-with-a-portable-digital-ca
 Allow: /paid-content/news/what-americans-pay-for-internet-in-2026-and-how-xfinity-helps-you-save/
 Allow: /paid-content/news/why-a-reliable-fiber-powered-network-from-xfinity-is-the-ultimate-solution-for-home-wi-fi/
 Allow: /paid-content/news/why-tax-filers-are-choosing-h-r-block-this-season/
-Allow: /paid-content/news/why-the-samsung-galaxy-s26-ultra-feels-like-the-first-phone-truly-built-for-ai/
 Allow: /paid-content/news/why-you-need-a-cutting-edge-vpn-to-keep-you-safe-online/
 Allow: /paid-content/news/why-you-need-an-internet-provider-with-no-data-caps/
 Allow: /tech/mobile/samsung-galaxy-s26-and-s26-plus-hands-on-first-take/
@@ -255,13 +272,20 @@ User-agent: Omgilibot
 User-agent: Peer39_crawler/1.0
 User-agent: Scrapy
 Disallow: /
+Sitemap: https://www.cnet.com/sitemap-authors.xml
+
+Sitemap: https://www.cnet.com/sitemap-google-news.xml
 
 Sitemap: https://www.cnet.com/sitemaps/article/index.xml
-Sitemap: https://www.cnet.com/sitemaps/best.xml
+Sitemap: https://www.cnet.com/sitemaps/best/index.xml
+Sitemap: https://www.cnet.com/sitemaps/categories/index.xml
+Sitemap: https://www.cnet.com/sitemaps/collections/index.xml
+Sitemap: https://www.cnet.com/sitemaps/deals/index.xml
 Sitemap: https://www.cnet.com/sitemaps/gallery/index.xml
 Sitemap: https://www.cnet.com/sitemaps/how-to/index.xml
-Sitemap: https://www.cnet.com/sitemaps/news.xml
+Sitemap: https://www.cnet.com/sitemaps/updating-story/index.xml
+Sitemap: https://www.cnet.com/sitemaps/news/index.xml
+Sitemap: https://www.cnet.com/sitemaps/pages/index.xml
 Sitemap: https://www.cnet.com/sitemaps/review/index.xml
-Sitemap: https://www.cnet.com/sitemaps/static.xml
-Sitemap: https://www.cnet.com/sitemaps/updating_story/index.xml
+Sitemap: https://www.cnet.com/sitemaps/versus/index.xml
 Sitemap: https://www.cnet.com/sitemaps/video/index.xml
