@@ -154,7 +154,6 @@ Disallow: /Destinations
 Disallow: /developerslegacy
 Disallow: /DevMediaRedirector
 Disallow: /DhtmlPopup
-Disallow: /DiscountGroup
 Disallow: /DisplayMap
 Disallow: /DynamicPlacementAjax
 Disallow: /EmailHotel
@@ -163,11 +162,9 @@ Disallow: /EmailMemberRegistration
 Disallow: /EmailSpellCheckJson
 Disallow: /ErrorPage
 Disallow: /EventDates
-Disallow: /ExitWindow
 Disallow: /ExpandedUserReviews
 Disallow: /ExperiencesCommerce
 Disallow: /ExperiencesInsights/?s
-Disallow: /ExternalExitWindow
 Disallow: /ExternalLinkInterstitial
 Disallow: /FacebookConnect
 Disallow: /FareCalendar
@@ -190,6 +187,7 @@ Disallow: /forumTeaser
 Disallow: /ForumVote
 Disallow: /FreeTools
 Disallow: /FullRedirect
+Disallow: /Games
 Disallow: /GARecord
 Disallow: /GeneralSupport
 Disallow: /GermanwingsPromo
@@ -503,7 +501,7 @@ Disallow: /OverlayWidgetAjax
 Disallow: /overview
 Disallow: /OwnerActivityFeedAjax
 Disallow: /OwnerEmailManage
-Disallow: /OwnerResponse
+Disallow: /OwnerResponseApi
 Disallow: /Owners-
 Disallow: /OwnersDM
 Disallow: /OwnersNew
@@ -541,7 +539,6 @@ Disallow: /PostReply
 Disallow: /PostVideo
 Disallow: /Premium-
 Disallow: /PreviewImage
-Disallow: /PrimaryPhotoMlOptOutTool
 Disallow: /PrintGuide
 Disallow: /ProductCancellationLogApi
 Disallow: /ProductCart
@@ -549,11 +546,7 @@ Disallow: /ProductError
 Disallow: /ProductPaymentUpdate
 Disallow: /Profile
 Disallow: /promotionaltools
-Disallow: /PromoTools
 Disallow: /ProxyToolsAccountSettingsTool
-Disallow: /ProxyToolsBillingDetailTool
-Disallow: /ProxyToolsCCAuthBlacklistTool
-Disallow: /ProxyToolsContractDiscountTool
 Disallow: /ProxyToolsCustomerSupportForm
 Disallow: /ProxyToolsDiscountCode
 Disallow: /ProxyToolsManageUserAccessTool
@@ -562,7 +555,6 @@ Disallow: /ProxyToolsProductFeatureApi
 Disallow: /ProxyToolsT4BProductFeatureAjax
 Disallow: /ProxyToolsT4BProductFeatureTool
 Disallow: /ProxyToolsT4BToolsAccessDenied
-Disallow: /ProxyToolsTCOfflineBillingIndicatorTool
 Disallow: /ProxyToolsTokenTestTool
 Disallow: /PVLog
 Disallow: /QueryJson
@@ -585,12 +577,10 @@ Disallow: /ReportIAP
 Disallow: /ReportPost
 Disallow: /ReservationAjax
 Disallow: /ResponsibleDisclosure
-Disallow: /RestaurantAdsManager
 Disallow: /RestaurantEnterpriseManagement
 Disallow: /RestaurantSearch
 Disallow: /RestaurantXSellAjax
 Disallow: /ReviewCollect
-Disallow: /ReviewExpressFAQ
 Disallow: /reviewit
 Disallow: /reviews
 Disallow: /RewardsHelp
@@ -602,7 +592,6 @@ Disallow: /RSManagementCenter
 Disallow: /RsPartnerApi
 Disallow: /rss
 Disallow: /RT
-Disallow: /RuleBasedPopunder
 Disallow: /RuleBasedPopup
 Disallow: /SameGeoActivity
 Disallow: /SavedFlightsSearchesAjax
@@ -658,7 +647,6 @@ Disallow: /static/decodeKey.txt
 Disallow: /StaticPage
 Disallow: /StaticVelocityPage
 Disallow: /StaticVelocityXmlPage
-Disallow: /StickerRequestAjax
 Disallow: /SubscriptionLander
 Disallow: /SubscriptionPopup
 Disallow: /Summer06Widget
@@ -676,7 +664,6 @@ Disallow: /TAMGSubOffers
 Disallow: /TAOffer
 Disallow: /TAScreenSaver
 Disallow: /TCDestinationsWidget
-Disallow: /TCIBContentQualityTool
 Disallow: /TemporarilyClosedNoticeApi
 Disallow: /TestEmptyPage
 Disallow: /TestingTravelMaps
@@ -714,7 +701,6 @@ Disallow: /tucritica
 Disallow: /TypeAheadJson
 Disallow: /Unsubscribe
 Disallow: /UpdateCM
-Disallow: /UpdateContactsAjax
 Disallow: /UpdateListing
 Disallow: /UpdateSessionDatesAjax
 Disallow: /UploadMedia

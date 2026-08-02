@@ -326,6 +326,9 @@ User-agent: uipbot
 User-agent: um-FC
 User-agent: um-IC
 User-agent: um-LN
+User-agent: UpContent
+User-agent: UpContent-QA
+User-agent: UpContent-Test
 User-agent: Verity
 User-agent: virustotal
 User-agent: W3 Validator Services

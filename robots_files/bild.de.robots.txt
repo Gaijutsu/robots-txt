@@ -124,6 +124,10 @@ Disallow: /energieloesungen/vergleich/go/
 Disallow: /leben-im-alter/*-form/
 Disallow: /leben-im-alter/go/
 Disallow: /cmsid/
+Disallow: /buehne/
+Disallow: /sonstiges/intern/
+Disallow: /vorprod/
+Disallow: /vorproduktion/
 
 # Sitemaps
 Sitemap: https://www.bild.de/sitemap-news.xml
