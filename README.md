@@ -27,7 +27,7 @@ robots-txt/
 
 ## Usage
 
-### Manual
+### Manual 
 
 ```bash
 pip install requests pandas openpyxl
