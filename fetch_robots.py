@@ -29,12 +29,19 @@ def clean_url(url):
 
 def fetch_and_save_robots_txt(urls):
     """Reads URLs from config.txt, fetches robots.txt, and saves them."""
-    # NOTE: Some config URLs use http:// (e.g. en.people.cn, heraldsun.com.au).
-    # Content travels in cleartext and could be tampered with in transit.
-    # Acceptable for this use case but worth noting.
     os.makedirs(ROBOTS_DIR, exist_ok=True)
     for url in urls:
         try:
+            # Fetched content is parsed and published to the spreadsheet, so a
+            # cleartext fetch is tamperable in transit. All of config.txt is
+            # https:// today; warn rather than fail so a site that genuinely
+            # has no TLS can still be tracked deliberately.
+            if not url.lower().startswith('https://'):
+                logger.warning(
+                    "Fetching %s over an insecure connection -- response can be "
+                    "tampered with in transit; prefer https:// in config.txt", url
+                )
+
             robots_url = f"{url.rstrip('/')}/robots.txt"
             # NOTE: requests.get follows redirects by default. A site could
             # redirect /robots.txt somewhere unexpected. No action taken as

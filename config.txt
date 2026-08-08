@@ -10,13 +10,13 @@ https://www.cnet.com
 https://www.dailymail.co.uk
 https://discord.com
 https://elpais.com
-http://en.people.cn
+https://en.people.cn
 https://www.fastcompany.com
 https://finance.yahoo.com
 https://www.ft.com
 https://www.github.com
 https://www.google.com
-http://www.heraldsun.com.au
+https://www.heraldsun.com.au
 https://www.hindustantimes.com
 https://www.ign.com
 https://www.inc.com
