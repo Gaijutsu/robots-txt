@@ -2,7 +2,7 @@
 
 A tool that fetches and analyzes `robots.txt` files from a curated list of websites, producing a color-coded Excel spreadsheet that tracks crawler access policies and emerging standards adoption over time.
 
-## What it does
+## What it does  
 
 1. **Fetches** the `robots.txt` file from each website listed in `config.txt` and saves a local copy.
 2. **Analyzes** every file for:
