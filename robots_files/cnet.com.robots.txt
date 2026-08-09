@@ -184,6 +184,7 @@ user-agent: ZanistaBot
 Allow: /home/internet/xfinity-vs-att-which-internet-provider-is-best/
 Allow: /home/internet/xfinity-vs-verizon-which-internet-provider-is-best/
 Allow: /news/ai-automation-changing-how-we-file-taxes/
+Allow: /paid-content/cash-app-for-teens-safety-and-parental-controls/
 Allow: /paid-content/news/cash-app-families-guide-how-to-set-up-a-teen-or-child-account-step-by-step/
 Allow: /paid-content/news/cash-apps-new-kids-debit-card-what-parents-need-to-know/
 Allow: /paid-content/news/cricket-wireless-offers-reliable-prepaid-nationwide-5g/
@@ -235,6 +236,8 @@ Allow: /paid-content/news/why-a-reliable-fiber-powered-network-from-xfinity-is-t
 Allow: /paid-content/news/why-tax-filers-are-choosing-h-r-block-this-season/
 Allow: /paid-content/news/why-you-need-a-cutting-edge-vpn-to-keep-you-safe-online/
 Allow: /paid-content/news/why-you-need-an-internet-provider-with-no-data-caps/
+Allow: /paid-content/samsung-micro-rgb-tvs-show-you-more-colors-than-ever-before/
+Allow: /paid-content/when-can-kids-get-a-debit-card-heres-how-cash-app-handles-every-age/
 Allow: /tech/mobile/samsung-galaxy-s26-and-s26-plus-hands-on-first-take/
 Allow: /tech/mobile/samsung-galaxy-s26-ultra-vs-galaxy-s26-and-s26-plus-flagship-specs-comparison/
 Allow: /tech/services-and-software/a-guide-to-data-removal-services-should-you-pay-for-privacy/

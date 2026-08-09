@@ -75,6 +75,7 @@ Disallow: /screener/insider/
 Disallow: /caas/
 Disallow: /fin_ms/
 Disallow: /r/
+Disallow: /p/
 Disallow: /_finance_doubledown/
 Disallow: /nel_ms/
 Disallow: /caas/

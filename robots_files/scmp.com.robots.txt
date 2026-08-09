@@ -24,6 +24,10 @@ Allow: /?q=print/
 User-agent: grapeshot
 Allow: /*/article/*$
 
+# Facebook
+User-agent: facebookexternalhit
+Allow: /
+
 User-agent: *
 Crawl-delay: 10
 

@@ -36,6 +36,7 @@ Allow: /contributor-content/
 Allow: /story/special/contributor-content/
 Allow: /money/money-management/
 Allow: /shopping/
+Allow: /story/sponsor-story/real-estate-ausa/2026/04/16/sell-your-home-for-top-dollar-by-beating-back-to-school-deadlines/89482853007/
 
 User-agent: Googlebot-News
 Disallow: /story/sponsor-story/
@@ -52,6 +53,7 @@ Allow: /contributor-content/
 Allow: /story/special/contributor-content/
 Allow: /money/money-management/
 Allow: /shopping/
+Allow: /story/sponsor-story/real-estate-ausa/2026/04/16/sell-your-home-for-top-dollar-by-beating-back-to-school-deadlines/89482853007/
 
 User-agent: CCBot
 Disallow: /
@@ -62,6 +64,7 @@ Allow: /contributor-content/
 Allow: /story/special/contributor-content/
 Allow: /money/money-management/
 Allow: /shopping/
+Allow: /story/sponsor-story/real-estate-ausa/2026/04/16/sell-your-home-for-top-dollar-by-beating-back-to-school-deadlines/89482853007/
 
 User-agent: DataForSeoBot
 Disallow: /
@@ -105,6 +108,7 @@ Allow: /contributor-content/
 Allow: /story/special/contributor-content/
 Allow: /money/money-management/
 Allow: /shopping/
+Allow: /story/sponsor-story/real-estate-ausa/2026/04/16/sell-your-home-for-top-dollar-by-beating-back-to-school-deadlines/89482853007/
 
 User-agent: Scrapy
 Disallow: /
@@ -127,6 +131,7 @@ Allow: /contributor-content/
 Allow: /story/special/contributor-content/
 Allow: /money/money-management/
 Allow: /shopping/
+Allow: /story/sponsor-story/real-estate-ausa/2026/04/16/sell-your-home-for-top-dollar-by-beating-back-to-school-deadlines/89482853007/
 
 User-agent: Bytespider
 Disallow: /
@@ -359,6 +364,7 @@ Allow: /contributor-content/
 Allow: /story/special/contributor-content/
 Allow: /money/money-management/
 Allow: /shopping/
+Allow: /story/sponsor-story/real-estate-ausa/2026/04/16/sell-your-home-for-top-dollar-by-beating-back-to-school-deadlines/89482853007/
 
 User-agent: ChatGPT-PageFetcher
 Disallow: /

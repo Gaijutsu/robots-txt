@@ -42,11 +42,6 @@ Disallow: /statistics/popular/p/
 Disallow: /statistik/top/p/
 Disallow: /statistiques/populaires/p/
 Disallow: /estadisticas/populares/p/
-Disallow: /statistik/aktuell/p/
-Disallow: /statistics/recent/p/
-Disallow: /statistiques/recentes/p/
-Disallow: /estadisticas/recientes/p/
-Disallow: /recent/
 # Update 03/25
 Disallow: /statistics/recommendations/?p=
 Disallow: /estadisticas/recomendaciones/?p=
@@ -141,11 +136,6 @@ Disallow: /statistics/popular/p/
 Disallow: /statistik/top/p/
 Disallow: /statistiques/populaires/p/
 Disallow: /estadisticas/populares/p/
-Disallow: /statistik/aktuell/p/
-Disallow: /statistics/recent/p/
-Disallow: /statistiques/recentes/p/
-Disallow: /estadisticas/recientes/p/
-Disallow: /recent/
 # Update 03/25
 Disallow: /statistics/recommendations/?p=
 Disallow: /estadisticas/recomendaciones/?p=
@@ -239,11 +229,6 @@ Disallow: /statistics/popular/p/
 Disallow: /statistik/top/p/
 Disallow: /statistiques/populaires/p/
 Disallow: /estadisticas/populares/p/
-Disallow: /statistik/aktuell/p/
-Disallow: /statistics/recent/p/
-Disallow: /statistiques/recentes/p/
-Disallow: /estadisticas/recientes/p/
-Disallow: /recent/
 # Update 03/25
 Disallow: /statistics/recommendations/?p=
 Disallow: /estadisticas/recomendaciones/?p=

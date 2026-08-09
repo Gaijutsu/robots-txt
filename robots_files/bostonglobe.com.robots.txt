@@ -4,7 +4,7 @@
 # Sitemaps
 Sitemap: https://www.bostonglobe.com/arc/outboundfeeds/news-sitemap/?outputType=xml
 Sitemap: https://www.bostonglobe.com/arc/outboundfeeds/sitemap-index-by-day/?outputType=xml
-Sitemap: https://www.bostonglobe.com/arc/outboundfeeds/video-sitemap/?outputType=xml
+Sitemap: https://www.bostonglobe.com/arc/outboundfeeds/video-sitemap-index/?outputType=xml
 
 # Allow
 User-agent: AmazonAdBot
@@ -59,7 +59,7 @@ Disallow: /
 User-agent: GoogleOther
 Disallow: /
 
-User-agent: GPTBot 
+User-agent: GPTBot
 Disallow: /
 
 User-agent: imageSpider

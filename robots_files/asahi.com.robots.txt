@@ -21,6 +21,7 @@ Disallow: /
 
 User-agent: OAI-SearchBot
 Disallow: /
+Allow: /ads/
 
 User-agent: ChatGPT-User
 Disallow: /
