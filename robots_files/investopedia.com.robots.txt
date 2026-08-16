@@ -41,6 +41,9 @@ Disallow: /
 Allow: */presented/
 Allow: */integrated/
 
+User-agent: AmazonAdBot
+Allow: /
+
 User-agent: amazon-kendra
 User-agent: Amazonbot
 User-agent: Amzn-SearchBot

@@ -1,65 +1,85 @@
 ï»¿User-agent: *
+User-agent: Googlebot
+User-agent: AdsBot-Google
+User-agent: Mediapartners-Google
+User-agent: Google-Extended
+User-agent: AmazonAdBot
 Allow: /
 Disallow: /what-now/card-details/
-Disallow: /*/url
+Disallow: /*/url*
 Disallow: /*/imageURL
 Disallow: /fragment/
 Disallow: /Fragment/
 Disallow: /Error/
 Disallow: /error/
+Disallow: /login/
 Disallow: /intfeeds/
 Disallow: /Images/HTEditImages
 Disallow: /images/HTPopups/
 Disallow: /Images/Popup/
-Disallow: /images/Popup/
 Disallow: /homenew
-Disallow: /dummytestpage/*
+Disallow: /dummytestpage/
 Disallow: /brand-stories/international/*
-Disallow: /origin-pre-prod/*
-Disallow: /sponsored-stories/*
-Disallow: /brand-stories/*
-Disallow: /brand-post/*
-Disallow: /static-content/10s/us-election.html
-Disallow: /cdp/api/*
-Disallow: /cdp/user/*
-Disallow: /sponsored-post/*
-Disallow: /hot-amazon-deals
-Disallow: /s/*
-Disallow: /static-content/1y/pf/prod/sdk/cir_sdk.js
-Disallow: /static_ontent/1y/got/amp_onetap_iframe.html
+Disallow: /origin-pre-prod/
+Disallow: /sponsored-stories/
+Disallow: /brand-stories/
+Disallow: /brand-post/
+Disallow: /cdp/api*
+Disallow: /cdp/user*
+Disallow: /sponsored-post/
+Disallow: /hot-amazon-deals*
+Disallow: /s/deeplink*
+Disallow: /s/
+Disallow: /static-content/1y*
+Disallow: /static_content/1y*
+Disallow: /my-ht/
+Disallow: /games/trivia
+Disallow: /trivia/
+Disallow: /author/*/page-*
+
+User-agent: Googlebot-News
+Allow: /
+Disallow: /what-now/card-details/
+Disallow: /*/url*
+Disallow: /*/imageURL
+Disallow: /fragment/
+Disallow: /Fragment/
+Disallow: /Error/
+Disallow: /error/
+Disallow: /login/
+Disallow: /intfeeds/
+Disallow: /Images/HTEditImages
+Disallow: /images/HTPopups/
+Disallow: /Images/Popup/
+Disallow: /homenew
+Disallow: /dummytestpage/
+Disallow: /brand-stories/international/*
+Disallow: /origin-pre-prod/
+Disallow: /sponsored-stories/
+Disallow: /brand-stories/
+Disallow: /brand-post/
+Disallow: /cdp/api*
+Disallow: /cdp/user*
+Disallow: /sponsored-post/
+Disallow: /hot-amazon-deals*
+Disallow: /s/deeplink*
+Disallow: /s/
+Disallow: /static-content/1y*
+Disallow: /static_content/1y*
 Disallow: /my-ht/*
-Disallow: /games/trivia/*
-
-
+Disallow: /games/trivia*
+Disallow: /trivia/*
+Disallow: /author/*/page-*
 
 
 User-agent: facebookexternalhit
-Allow: /s/*
-
-
 User-agent: Facebot
-Allow: /s/*
+Allow: /s/
 
-User-agent: Google-Extended
-Allow: /
-
-User-agent: AmazonAdBot
-Allow: /
-
-User-agent: AdsBot-Google
-Allow: /
-
-User-agent: Mediapartners-Google
-Allow: /
-
-
-
-
-
-Sitemap: https://www.hindustantimes.com/sitemap/section.xml
 Sitemap: https://www.hindustantimes.com/sitemap/news.xml
 Sitemap: https://www.hindustantimes.com/sitemap/index.xml
 Sitemap: https://www.hindustantimes.com/sitemap/liveblog.xml
+Sitemap: https://www.hindustantimes.com/sitemap/section.xml
 Sitemap: https://www.hindustantimes.com/sitemap/education-static.xml
 Sitemap: https://www.hindustantimes.com/telugu/sitemap/news.xml
 Sitemap: https://www.hindustantimes.com/bangla/sitemap/news.xml

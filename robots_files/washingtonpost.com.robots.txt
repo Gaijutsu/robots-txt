@@ -114,6 +114,7 @@ Disallow: /cookie-policy/
 Disallow: /discussions/2021/09/13/cookie-policy/
 Disallow: /discussions/2021/09/13/cookie-policy-eea/
 Disallow: /privacy-policy/
+Disallow: /partials/
 
 User-agent: Twitterbot
 Allow: /posttv-beta/

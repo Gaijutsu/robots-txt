@@ -140,7 +140,7 @@ Disallow: /athletic/*?*embed=1
 User-agent: AliyunSecBot
 Disallow: /
 
-User-agent: AmazonBot
+User-agent: Amazonbot
 Disallow: /wirecutter/
 
 User-agent: anthropic-ai

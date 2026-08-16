@@ -238,6 +238,10 @@ Allow: /paid-content/news/why-you-need-a-cutting-edge-vpn-to-keep-you-safe-onlin
 Allow: /paid-content/news/why-you-need-an-internet-provider-with-no-data-caps/
 Allow: /paid-content/samsung-micro-rgb-tvs-show-you-more-colors-than-ever-before/
 Allow: /paid-content/when-can-kids-get-a-debit-card-heres-how-cash-app-handles-every-age/
+Allow: /paid-content/how-fast-should-your-home-internet-be/
+Allow: /paid-content/when-can-kids-get-a-debit-card-heres-how-cash-app-handles-every-age/
+Allow: /paid-content/cash-app-for-teens-safety-and-parental-controls/
+Allow: /paid-content/what-to-include-in-a-heart-health-daily-regimen-from-supplements-to-home-monitors/
 Allow: /tech/mobile/samsung-galaxy-s26-and-s26-plus-hands-on-first-take/
 Allow: /tech/mobile/samsung-galaxy-s26-ultra-vs-galaxy-s26-and-s26-plus-flagship-specs-comparison/
 Allow: /tech/services-and-software/a-guide-to-data-removal-services-should-you-pay-for-privacy/
