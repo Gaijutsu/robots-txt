@@ -12,6 +12,7 @@
 # Contact licensing@ziffdavis.com for assistance.
 
 User-agent: *
+Allow: /sponsored/
 Disallow: /_views/
 Disallow: /apiproxy
 Disallow: */empty/

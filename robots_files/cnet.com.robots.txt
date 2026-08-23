@@ -181,6 +181,8 @@ user-agent: Wrtn
 user-agent: YiyanBot
 user-agent: YouBot
 user-agent: ZanistaBot
+Allow: /home/internet/gigabit-internet-is-it-worth-splurging-for-a-faster-internet-plan/
+Allow: /home/internet/what-are-the-different-internet-connection-types/
 Allow: /home/internet/xfinity-vs-att-which-internet-provider-is-best/
 Allow: /home/internet/xfinity-vs-verizon-which-internet-provider-is-best/
 Allow: /news/ai-automation-changing-how-we-file-taxes/
@@ -241,6 +243,7 @@ Allow: /paid-content/when-can-kids-get-a-debit-card-heres-how-cash-app-handles-e
 Allow: /paid-content/how-fast-should-your-home-internet-be/
 Allow: /paid-content/when-can-kids-get-a-debit-card-heres-how-cash-app-handles-every-age/
 Allow: /paid-content/cash-app-for-teens-safety-and-parental-controls/
+Allow: /paid-content/what-can-ray-ban-meta-ai-glasses-do-5-use-cases-for-your-everyday-routine/
 Allow: /paid-content/what-to-include-in-a-heart-health-daily-regimen-from-supplements-to-home-monitors/
 Allow: /tech/mobile/samsung-galaxy-s26-and-s26-plus-hands-on-first-take/
 Allow: /tech/mobile/samsung-galaxy-s26-ultra-vs-galaxy-s26-and-s26-plus-flagship-specs-comparison/

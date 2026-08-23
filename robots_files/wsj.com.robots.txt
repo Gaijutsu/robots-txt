@@ -54,6 +54,7 @@ User-agent: parselybot
 User-agent: BomboraBot
 User-agent: IllumaBot/1.0
 User-agent: Publication-Access-for-Facebook
+User-agent: Wallie
 
 
 User-agent: Screaming Frog SEO Spider

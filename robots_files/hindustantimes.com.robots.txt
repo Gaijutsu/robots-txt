@@ -28,14 +28,16 @@ Disallow: /cdp/api*
 Disallow: /cdp/user*
 Disallow: /sponsored-post/
 Disallow: /hot-amazon-deals*
-Disallow: /s/deeplink*
-Disallow: /s/
+Disallow: /s/*
 Disallow: /static-content/1y*
 Disallow: /static_content/1y*
-Disallow: /my-ht/
-Disallow: /games/trivia
-Disallow: /trivia/
+Disallow: /static-content/10s*
+Disallow: /my-ht/*
+Disallow: /games/trivia*
+Disallow: /trivia/*
 Disallow: /author/*/page-*
+Disallow: /topic/*/page-*
+Disallow: /feed-elections/*
 
 User-agent: Googlebot-News
 Allow: /
@@ -62,14 +64,16 @@ Disallow: /cdp/api*
 Disallow: /cdp/user*
 Disallow: /sponsored-post/
 Disallow: /hot-amazon-deals*
-Disallow: /s/deeplink*
-Disallow: /s/
+Disallow: /s/*
 Disallow: /static-content/1y*
 Disallow: /static_content/1y*
+Disallow: /static-content/10s*
 Disallow: /my-ht/*
 Disallow: /games/trivia*
 Disallow: /trivia/*
 Disallow: /author/*/page-*
+Disallow: /topic/*/page-*
+Disallow: /feed-elections/*
 
 
 User-agent: facebookexternalhit

@@ -22,6 +22,7 @@ Sitemap: https://apnews.com/ap-sitemap.xml
 Sitemap: https://apnews.com/news-sitemap-content.xml
 Sitemap: https://apnews.com/hubs-sitemap-content.xml
 Sitemap: https://apnews.com/video-sitemap.xml
+Sitemap: https://apnews.com/author-sitemap-content.xml
 Sitemap: https://apnews.com/projects/elections-2026/sitemap-index.xml
 
 # Disallow Rules
