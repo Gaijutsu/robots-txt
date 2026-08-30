@@ -12,7 +12,6 @@
 # Contact licensing@ziffdavis.com for assistance.
 
 User-agent: *
-Allow: /sponsored/
 Disallow: /_views/
 Disallow: /apiproxy
 Disallow: */empty/
@@ -265,6 +264,7 @@ Allow: /wikis/the-forge/How_to_Reroll_Race
 Allow: /wikis/the-legend-of-zelda-breath-of-the-wild/Shrines
 Allow: /wikis/the-legend-of-zelda-tears-of-the-kingdom/All_Shrine_Locations_and_Solutions
 Allow: /wikis/vv-ultimatum-roblox/VV_ULTIMATUM_Codes
+Allow: /sponsored/
 Disallow: /
 
 User-agent: DuckDuckBot

@@ -162,6 +162,9 @@ Disallow: /
 User-agent: BLEXBot
 Disallow: /
 
+User-agent: Brightbot
+Disallow: /
+
 User-agent: Bytespider
 Disallow: /
 
@@ -192,13 +195,25 @@ Disallow: /
 User-agent: Diffbot
 Disallow: /
 
+User-agent: Diffbot-User
+Disallow: /
+
 User-agent: DuckAssistBot
 Disallow: /
 
 User-agent: EchoboxBot
 Disallow: /
 
+User-agent: ExaBot
+Disallow: /
+
+User-agent: ExaSearchBot
+Disallow: /
+
 User-agent: FacebookBot
+Disallow: /
+
+User-agent: FirecrawlAgent
 Disallow: /
 
 User-agent: FriendlyCrawler
@@ -280,6 +295,9 @@ User-agent: SeekrBot
 Disallow: /
 
 User-agent: SeznamHomepageCrawler
+Disallow: /
+
+User-agent: ShapBot
 Disallow: /
 
 User-agent: TaraGroup Intelligent Bot

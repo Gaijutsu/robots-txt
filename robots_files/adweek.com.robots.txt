@@ -70,6 +70,18 @@ Disallow: /
 User-agent: anthropic-ai
 Disallow: /
 
+# AI Data Provider
+# https://knownagents.com/agents/apifybot
+
+User-agent: ApifyBot
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/apifywebsitecontentcrawler
+
+User-agent: ApifyWebsiteContentCrawler
+Disallow: /
+
 # AI Data Scraper
 # https://knownagents.com/agents/applebot-extended
 
@@ -128,6 +140,18 @@ Disallow: /
 # https://knownagents.com/agents/bnf-fr-bot
 
 User-agent: bnf.fr_bot
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/bravebot
+
+User-agent: Bravebot
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/brightbot
+
+User-agent: Brightbot
 Disallow: /
 
 # AI Data Scraper
@@ -190,10 +214,22 @@ Disallow: /
 User-agent: Cotoyogi
 Disallow: /
 
+# AI Data Provider
+# https://knownagents.com/agents/cragcrawler
+
+User-agent: CragCrawler
+Disallow: /
+
 # Undocumented AI Agent
 # https://knownagents.com/agents/crawl4ai
 
 User-agent: Crawl4AI
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/crawlspace
+
+User-agent: Crawlspace
 Disallow: /
 
 # Archiver
@@ -226,6 +262,12 @@ Disallow: /
 User-agent: DeepSeekBot
 Disallow: /
 
+# AI Data Provider
+# https://knownagents.com/agents/diffbot
+
+User-agent: Diffbot
+Disallow: /
+
 # AI Data Scraper
 # https://knownagents.com/agents/doubaobot
 
@@ -238,10 +280,22 @@ Disallow: /
 User-agent: ERNIEBot
 Disallow: /
 
+# AI Data Provider
+# https://knownagents.com/agents/exabot
+
+User-agent: ExaBot
+Disallow: /
+
 # AI Data Scraper
 # https://knownagents.com/agents/facebookbot
 
 User-agent: FacebookBot
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/firecrawlagent
+
+User-agent: FirecrawlAgent
 Disallow: /
 
 # AI Data Scraper
@@ -266,6 +320,12 @@ Disallow: /
 # https://knownagents.com/agents/helloworkjobpostingbot
 
 User-agent: HelloworkJobPostingBot
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/henkbot
+
+User-agent: HenkBot
 Disallow: /
 
 # Archiver
@@ -430,6 +490,12 @@ Disallow: /
 User-agent: MoonSpider
 Disallow: /
 
+# AI Data Provider
+# https://knownagents.com/agents/mozilla-tabstack
+
+User-agent: Mozilla-Tabstack
+Disallow: /
+
 # Archiver
 # https://knownagents.com/agents/netarkivindsamling
 
@@ -496,10 +562,28 @@ Disallow: /
 User-agent: Potions
 Disallow: /
 
+# AI Data Provider
+# https://knownagents.com/agents/querit-searchbot
+
+User-agent: Querit-SearchBot
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/queritbot
+
+User-agent: QueritBot
+Disallow: /
+
 # AI Data Scraper
 # https://knownagents.com/agents/qwenbot
 
 User-agent: QwenBot
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/reflectionbot
+
+User-agent: Reflectionbot
 Disallow: /
 
 # AI Data Scraper
@@ -526,6 +610,12 @@ Disallow: /
 User-agent: ServerHunterSpider
 Disallow: /
 
+# AI Data Provider
+# https://knownagents.com/agents/shapbot
+
+User-agent: ShapBot
+Disallow: /
+
 # Archiver
 # https://knownagents.com/agents/smarshbot
 
@@ -548,6 +638,24 @@ Disallow: /
 # https://knownagents.com/agents/statsdronebot
 
 User-agent: StatsDroneBot
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/tavilybot
+
+User-agent: TavilyBot
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/terra-cotta
+
+User-agent: Terra Cotta
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/terracotta
+
+User-agent: TerraCotta
 Disallow: /
 
 # Scraper
@@ -596,6 +704,12 @@ Disallow: /
 # https://knownagents.com/agents/xy-archive-compliance-archiver
 
 User-agent: XY-Archive-Compliance-Archiver
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/youbot
+
+User-agent: YouBot
 Disallow: /
 
 # Undocumented AI Agent

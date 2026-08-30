@@ -17,8 +17,12 @@ User-agent: AdsTxtCrawler
 User-agent: AI2Bot
 User-agent: Ai2Bot-Dolma
 User-agent: Amazonbot
+User-agent: ApifyBot
+User-agent: ApifyWebsiteContentCrawler
 User-agent: Applebot-Extended
 User-agent: bedrockbot
+User-agent: Bravebot
+User-agent: Brightbot
 User-agent: Bytespider
 User-agent: CCBot
 User-agent: ChatGLM-Spider
@@ -27,17 +31,23 @@ User-agent: CloudVertexBot
 User-agent: cohere-training-data-crawler
 User-agent: CohereBot
 User-agent: Cotoyogi
+User-agent: CragCrawler
+User-agent: Crawlspace
 User-agent: Dataprovider.com
 User-agent: Datenbank Crawler
 User-agent: dcrawl
 User-agent: DeepSeekBot
+User-agent: Diffbot
 User-agent: Doubaobot
 User-agent: ERNIEBot
+User-agent: ExaBot
 User-agent: FacebookBot
+User-agent: FirecrawlAgent
 User-agent: Google-Extended
 User-agent: GoogleOther
 User-agent: GPTBot
 User-agent: HelloworkJobPostingBot
+User-agent: HenkBot
 User-agent: HTTrack
 User-agent: HTTrack 3.0
 User-agent: ICC-Crawler
@@ -56,6 +66,7 @@ User-agent: micro-crawl
 User-agent: MistralBot
 User-agent: MoonshotBot
 User-agent: MoonSpider
+User-agent: Mozilla-Tabstack
 User-agent: netEstate Imprint Crawler
 User-agent: newspaper
 User-agent: Nutch
@@ -65,17 +76,25 @@ User-agent: omgili
 User-agent: OpenindexSpider
 User-agent: PanguBot
 User-agent: Potions
+User-agent: Querit-SearchBot
+User-agent: QueritBot
 User-agent: QwenBot
+User-agent: Reflectionbot
 User-agent: SalamandraVLM
 User-agent: SBIntuitionsBot
 User-agent: Scrapy
 User-agent: ServerHunterSpider
+User-agent: ShapBot
 User-agent: Spider
 User-agent: StatsDroneBot
+User-agent: TavilyBot
+User-agent: Terra Cotta
+User-agent: TerraCotta
 User-agent: Thinkbot
 User-agent: Timpibot
 User-agent: VelenPublicWebCrawler
 User-agent: webzio-extended
+User-agent: YouBot
 Disallow: /
 
 # Intelligence Gatherer, SEO Crawler
@@ -123,6 +142,7 @@ User-agent: BrightEdge Crawler
 User-agent: Buck
 User-agent: CaliberBot
 User-agent: Caliperbot
+User-agent: captify-crawler
 User-agent: channable
 User-agent: CheckMarkNetwork
 User-agent: Cincraw
@@ -168,6 +188,7 @@ User-agent: EzoicBot-Nicheiq
 User-agent: factset_spyderbot
 User-agent: FDL Stats Bot
 User-agent: Fedicabot
+User-agent: GnowitNewsbot
 User-agent: Google AdsBot
 User-agent: Google AdSense
 User-agent: Google Digital Asset Links
@@ -254,6 +275,7 @@ User-agent: Pandalytics
 User-agent: panscient.com
 User-agent: parse.ly scraper
 User-agent: PartnerOptimizer-bot
+User-agent: peer39_crawler
 User-agent: Prerender
 User-agent: Pro Sitemaps
 User-agent: Pro Sitemaps Generator
@@ -296,6 +318,7 @@ User-agent: SEOlizer
 User-agent: SERankingBacklinksBot
 User-agent: SerpMinerBot
 User-agent: serpstatbot
+User-agent: SirdataBot
 User-agent: SiteAuditBot
 User-agent: Sitebulb
 User-agent: SiteCheck-sitecrawl

@@ -38,6 +38,8 @@ Allow: /money/money-management/
 Allow: /shopping/
 Allow: /story/shopping/
 Allow: /story/sponsor-story/real-estate-ausa/2026/04/16/sell-your-home-for-top-dollar-by-beating-back-to-school-deadlines/89482853007/
+Allow: /story/sponsor-story/real-estate-ausa/2026/08/21/buy-now-or-wait-until-fall-tips-for-homebuyers-in-2026/91389661007/
+Allow: /story/sponsor-story/address-usa/2026/08/21/should-sellers-accept-the-first-offer-what-to-consider-beyond-price/91390104007/
 
 User-agent: Googlebot-News
 Disallow: /story/sponsor-story/
@@ -56,6 +58,8 @@ Allow: /money/money-management/
 Allow: /shopping/
 Allow: /story/shopping/
 Allow: /story/sponsor-story/real-estate-ausa/2026/04/16/sell-your-home-for-top-dollar-by-beating-back-to-school-deadlines/89482853007/
+Allow: /story/sponsor-story/real-estate-ausa/2026/08/21/buy-now-or-wait-until-fall-tips-for-homebuyers-in-2026/91389661007/
+Allow: /story/sponsor-story/address-usa/2026/08/21/should-sellers-accept-the-first-offer-what-to-consider-beyond-price/91390104007/
 
 User-agent: CCBot
 Disallow: /
@@ -68,6 +72,8 @@ Allow: /money/money-management/
 Allow: /shopping/
 Allow: /story/shopping/
 Allow: /story/sponsor-story/real-estate-ausa/2026/04/16/sell-your-home-for-top-dollar-by-beating-back-to-school-deadlines/89482853007/
+Allow: /story/sponsor-story/real-estate-ausa/2026/08/21/buy-now-or-wait-until-fall-tips-for-homebuyers-in-2026/91389661007/
+Allow: /story/sponsor-story/address-usa/2026/08/21/should-sellers-accept-the-first-offer-what-to-consider-beyond-price/91390104007/
 
 User-agent: DataForSeoBot
 Disallow: /
@@ -113,6 +119,8 @@ Allow: /money/money-management/
 Allow: /shopping/
 Allow: /story/shopping/
 Allow: /story/sponsor-story/real-estate-ausa/2026/04/16/sell-your-home-for-top-dollar-by-beating-back-to-school-deadlines/89482853007/
+Allow: /story/sponsor-story/real-estate-ausa/2026/08/21/buy-now-or-wait-until-fall-tips-for-homebuyers-in-2026/91389661007/
+Allow: /story/sponsor-story/address-usa/2026/08/21/should-sellers-accept-the-first-offer-what-to-consider-beyond-price/91390104007/
 
 User-agent: Scrapy
 Disallow: /
@@ -137,6 +145,8 @@ Allow: /money/money-management/
 Allow: /shopping/
 Allow: /story/shopping/
 Allow: /story/sponsor-story/real-estate-ausa/2026/04/16/sell-your-home-for-top-dollar-by-beating-back-to-school-deadlines/89482853007/
+Allow: /story/sponsor-story/real-estate-ausa/2026/08/21/buy-now-or-wait-until-fall-tips-for-homebuyers-in-2026/91389661007/
+Allow: /story/sponsor-story/address-usa/2026/08/21/should-sellers-accept-the-first-offer-what-to-consider-beyond-price/91390104007/
 
 User-agent: Bytespider
 Disallow: /
@@ -371,6 +381,8 @@ Allow: /money/money-management/
 Allow: /shopping/
 Allow: /story/shopping/
 Allow: /story/sponsor-story/real-estate-ausa/2026/04/16/sell-your-home-for-top-dollar-by-beating-back-to-school-deadlines/89482853007/
+Allow: /story/sponsor-story/real-estate-ausa/2026/08/21/buy-now-or-wait-until-fall-tips-for-homebuyers-in-2026/91389661007/
+Allow: /story/sponsor-story/address-usa/2026/08/21/should-sellers-accept-the-first-offer-what-to-consider-beyond-price/91390104007/
 
 User-agent: ChatGPT-PageFetcher
 Disallow: /
