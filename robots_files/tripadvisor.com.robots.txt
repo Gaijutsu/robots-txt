@@ -45,6 +45,7 @@ User-Agent: Google-Extended
 User-Agent: applebot
 User-Agent: PerplexityBot
 User-Agent: bingbot
+User-Agent: Baiduspider
 Disallow: /5349
 Disallow: /AccommodationTips
 Disallow: /AccountMerge
@@ -739,6 +740,10 @@ Disallow: /ShowTopic
 User-Agent: bingbot
 Disallow: /LocationPhotoDirectLink
 
+User-Agent: Baiduspider
+Disallow: /LocationPhotoDirectLink
+Disallow: /ShowUserReviews
+
 User-Agent: ChatGPT-User
 User-Agent: ChatGPT-User/2.0
 User-Agent: Gemini-Deep-Research
@@ -748,6 +753,7 @@ Disallow: /*-g188*
 
 User-Agent: Google-Extended
 Disallow: /
+Allow: /Restaurants-g55711-Dallas_Texas.html
 
 #                                                                                          
 #                                        ==+*##%%%%%%%%%%%%##*+=                                     

@@ -185,6 +185,7 @@ Allow: /home/internet/gigabit-internet-is-it-worth-splurging-for-a-faster-intern
 Allow: /home/internet/what-are-the-different-internet-connection-types/
 Allow: /home/internet/xfinity-vs-att-which-internet-provider-is-best/
 Allow: /home/internet/xfinity-vs-verizon-which-internet-provider-is-best/
+Allow: /home/internet/your-internet-bill-might-be-booby-trapped-heres-what-to-do/
 Allow: /news/ai-automation-changing-how-we-file-taxes/
 Allow: /paid-content/cash-app-for-teens-safety-and-parental-controls/
 Allow: /paid-content/news/cash-app-families-guide-how-to-set-up-a-teen-or-child-account-step-by-step/

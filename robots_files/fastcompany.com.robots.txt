@@ -14,6 +14,7 @@ User-Agent: Mediapartners-Google
 User-Agent: Google-Extended
 User-Agent: Meta-ExternalAgent
 User-Agent: Meta-WebIndexer
+User-Agent: facebookexternalhit
 User-Agent: ScoutJet
 User-Agent: Yandex
 User-Agent: baiduspider
@@ -88,9 +89,6 @@ User-Agent: AI21
 Disallow: /
 
 User-Agent: FacebookBot
-Disallow: /
-
-User-Agent: facebookexternalhit
 Disallow: /
 
 User-Agent: Amazonbot

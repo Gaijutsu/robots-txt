@@ -35,6 +35,8 @@ Disallow: /athletic/login2?ref_page*
 Allow: /athletic/login2/$
 Disallow: /athletic/report/
 Disallow: /athletic/*/discuss/*
+Allow: /athletic/live-blogs/discuss/
+Allow: /athletic/mlb/game/discuss/
 Disallow: /athletic/register/
 Disallow: /athletic/register?welcome_redirect*
 Disallow: /athletic/register2/

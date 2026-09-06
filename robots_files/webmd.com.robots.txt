@@ -1,5 +1,5 @@
 # Robots.txt file WebMD
-# Updated 3/4/2026 (CONSFE-362)
+# Updated 8/31/2026 (CONSFE-458)
 
 User-agent: *
 Disallow: */search/search_results/
@@ -29,9 +29,6 @@ User-agent: AdsBot-Google
 Disallow: /mm/
 
 User-agent: CCBot
-Disallow: /
-
-User-agent: ChatGPT-User
 Disallow: /
 
 User-agent: ClaudeBot
