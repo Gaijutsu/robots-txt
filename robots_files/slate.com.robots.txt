@@ -276,7 +276,6 @@ User-agent: panscient.com
 User-agent: parse.ly scraper
 User-agent: PartnerOptimizer-bot
 User-agent: peer39_crawler
-User-agent: Prerender
 User-agent: Pro Sitemaps
 User-agent: Pro Sitemaps Generator
 User-agent: productsup.io/crawler

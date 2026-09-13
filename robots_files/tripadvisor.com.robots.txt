@@ -146,7 +146,6 @@ Disallow: /DestinationArticle
 Disallow: /DestinationGuideWidget
 Disallow: /DestinationReview
 Disallow: /Destinations
-Disallow: /developerslegacy
 Disallow: /DevMediaRedirector
 Disallow: /DhtmlPopup
 Disallow: /DisplayMap
@@ -479,7 +478,6 @@ Disallow: /OpenGraphLander
 Disallow: /OpeningHours
 Disallow: /OverlayWidgetAjax
 Disallow: /overview
-Disallow: /OwnerEmailManage
 Disallow: /OwnerResponseApi
 Disallow: /Owners-
 Disallow: /OwnersDM

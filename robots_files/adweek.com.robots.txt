@@ -238,12 +238,6 @@ Disallow: /
 User-agent: CUCH.org Archive Bot
 Disallow: /
 
-# Scraper
-# https://knownagents.com/agents/dataprovider-com
-
-User-agent: Dataprovider.com
-Disallow: /
-
 # AI Data Scraper
 # https://knownagents.com/agents/datenbank-crawler
 

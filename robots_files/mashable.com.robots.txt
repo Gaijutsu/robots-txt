@@ -49,6 +49,7 @@ User-agent: Claude-SearchBot
 User-agent: Claude-User
 User-agent: Claude-Web
 User-agent: ClaudeBot
+User-agent: Cloudflare-AutoRAG
 User-agent: Code
 User-agent: cohere-ai
 User-agent: cohere-training-data-crawler
@@ -64,6 +65,7 @@ User-agent: Direqt Anomura
 User-agent: DuckAssistBot
 User-agent: Echobot Bot
 User-agent: ExaBot
+User-agent: ExaSearchBot
 User-agent: FacebookBot
 User-agent: Factset_spyderbot
 User-agent: FirecrawlAgent
@@ -82,6 +84,7 @@ User-agent: Kangaroo-Bot
 User-agent: Kimi-User
 User-agent: KlaviyoAIBot
 User-agent: Kunato
+User-agent: KunatoCrawler
 User-agent: laion-huggingface-processor
 User-agent: LCC
 User-agent: LinerBot
@@ -108,6 +111,7 @@ User-agent: PetalBot
 User-agent: PhindBot
 User-agent: Poggio-Citations
 User-agent: QualifiedBot
+User-agent: Reflectionbot
 User-agent: SeekrBot
 User-agent: SemrushBot-OCOB
 User-agent: SemrushBotSwa
@@ -115,6 +119,7 @@ User-agent: Shap-User
 User-agent: ShapBot
 User-agent: SBIntuitionsBot
 User-agent: Spider
+User-agent: TalarionSearchBot
 User-agent: TerraCotta
 User-agent: Timpibot
 User-agent: TavilyBot
@@ -126,6 +131,9 @@ User-agent: Velen Crawler
 User-agent: VelenPublicWebCrawler
 User-agent: Webzio-Extended
 User-agent: Wrtn
+User-agent: WRTNBot
+User-agent: YandexAdditionalBot
+User-agent: YepBot
 User-agent: YiyanBot
 User-agent: YouBot
 User-agent: ZanistaBot

@@ -55,6 +55,7 @@ User-agent: BomboraBot
 User-agent: IllumaBot/1.0
 User-agent: Publication-Access-for-Facebook
 User-agent: Wallie
+User-agent: mediapartners-google
 
 
 User-agent: Screaming Frog SEO Spider
@@ -140,9 +141,6 @@ Disallow: /market-data/quotes/*/options/*
 Disallow: /subscribe/?inttrackingCode=*
 Disallow: /subscribe/?template=*
 
-User-agent: mediapartners-google
-Disallow: /
-Allow: /watchlist
 
 Sitemap: https://www.wsj.com/sitemap.xml
 Sitemap: https://www.wsj.com/wsjsitemaps/wsj_google_news.xml
