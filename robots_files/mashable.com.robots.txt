@@ -138,6 +138,7 @@ User-agent: YiyanBot
 User-agent: YouBot
 User-agent: ZanistaBot
 Allow: /ad/tech/how-to-set-up-the-smartest-galaxy-ai-features-on-your-new-samsung-galaxy
+Allow: /ad/tech/how-the-samsung-galaxy-s26-ultra-turns-your-next-festival-into-content
 Disallow: /
 
 # END Ziff Managed/Shared content

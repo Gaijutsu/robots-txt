@@ -138,6 +138,7 @@ Disallow: /profile/*/Rss
 Disallow: /topic/*/Rss
 
 User-agent: Googlebot
+Allow: */answer/ix_/
 Disallow: /ajax/
 Disallow: /@async
 Disallow: /*/@async

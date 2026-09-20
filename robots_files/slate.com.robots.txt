@@ -33,7 +33,6 @@ User-agent: CohereBot
 User-agent: Cotoyogi
 User-agent: CragCrawler
 User-agent: Crawlspace
-User-agent: Dataprovider.com
 User-agent: Datenbank Crawler
 User-agent: dcrawl
 User-agent: DeepSeekBot
@@ -170,6 +169,8 @@ User-agent: cXensebot
 User-agent: DataForSEO
 User-agent: DataForSEO Bot
 User-agent: DataForSeoBot
+User-agent: Dataprovider
+User-agent: Dataprovider.com
 User-agent: deepcrawl
 User-agent: deepcrawl.com
 User-agent: DomainStatsBot
