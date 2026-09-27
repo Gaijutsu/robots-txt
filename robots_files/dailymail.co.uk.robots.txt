@@ -1,4 +1,4 @@
-# Robots.txt for https://www.dailymail.co.uk/ updated 21/04/2026
+# Robots.txt for https://www.dailymail.co.uk/ updated 23/09/2026
 #
 #
 # Daily Mail content is made available for your personal and non-commercial
@@ -158,7 +158,6 @@ User-agent: Webzio-Extended
 User-agent: wpbot
 User-agent: WRTNBot
 User-agent: YouBot
-Allow: /buyline/
 Allow: /*_.html
 Disallow: /
 #

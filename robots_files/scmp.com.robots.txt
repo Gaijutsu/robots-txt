@@ -156,7 +156,6 @@ Disallow: /*/spmException$
 Disallow: /*/spmMonitor$
 Disallow: /*/util$
 Disallow: /*/windvane$
-Disallow: /print/
 
 # Sitemap
 Sitemap: https://www.scmp.com/sitemap/sitemap.xml

@@ -97,4 +97,3 @@ Disallow: /
 
 User-agent: Perplexity-User
 Disallow: /
-
