@@ -1,27 +1,19 @@
 User-agent: AI2Bot
 User-agent: Ai2Bot-Dolma
 User-agent: AmazonBot
-User-agent: anthropic-ai
 User-agent: Applebot-Extended
 User-agent: Brightbot 1.0
 User-agent: Bytespider
 User-agent: CCBot
-User-agent: ChatGPT-User
-User-agent: Claude-SearchBot
-User-agent: Claude-User
-User-agent: Claude-Web
-User-agent: ClaudeBot
 User-agent: cohere-ai
 User-agent: cohere-training-data-crawler
 User-agent: Crawlspace
 User-agent: curl
 User-agent: Diffbot
-User-agent: FacebookBot
 User-agent: Fess
 User-agent: FriendlyCrawler
 User-agent: Gensparkbot
 User-agent: GoogleOther
-User-agent: GPTBot
 User-agent: ia_archiver
 User-agent: iaskspider/2.0
 User-agent: ICC-Crawler
@@ -60,6 +52,19 @@ User-agent: wget
 User-agent: YouBot
 Disallow: /
 
+User-agent: anthropic-ai
+User-agent: ChatGPT-User
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: Claude-Web
+User-agent: ClaudeBot
+User-agent: GPTBot
+User-agent: FacebookBot
+Disallow: /
+Allow: /adv/
+Allow: /sponsored/
+
+
 User-agent: AmazonAdBot
 Allow: /
 
@@ -67,6 +72,8 @@ User-agent: OAI-SearchBot
 Disallow: /
 Allow: /teen/
 Allow: /kyoiku/support
+Allow: /adv/
+Allow: /sponsored/
 
 User-agent: Google-Extended
 Disallow: /
@@ -74,7 +81,6 @@ Allow: /news
 Allow: /*2026
 Disallow: /*result*2
 Disallow: /*2*result
-Disallow: /adv
 Disallow: /assets/*2
 Disallow: /bosai-nippon
 Disallow: /comic/*2
@@ -120,7 +126,6 @@ Disallow: /serial/webkiryu
 Disallow: /shimen/*20
 Disallow: /slides/*20
 Disallow: /slitherlink
-Disallow: /sponsored
 Disallow: /stream/*20
 Disallow: /sudoku/*20
 Disallow: /weather/*20
@@ -135,14 +140,12 @@ Allow: /teen/
 Allow: /kyoiku/support
 
 User-agent: meta-externalagent
-Disallow: /
-Allow: /teen/
-Allow: /kyoiku/support
-
 User-agent: meta-externalfetcher
 Disallow: /
 Allow: /teen/
 Allow: /kyoiku/support
+Allow: /adv/
+Allow: /sponsored/
 
 User-agent: facebookcatalog
 Disallow: /
@@ -157,6 +160,4 @@ User-agent: *
 Disallow: /wp-admin/
 Disallow: /adv/*.swf$
 Disallow: /member/
-
-
 Sitemap: https://www.yomiuri.co.jp/sitemap.xml

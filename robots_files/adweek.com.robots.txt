@@ -1,3 +1,6 @@
+User-agent: Google-Extended
+Allow: /
+
 User-agent: Googlebot
 Allow: /wp-content/plugins/
 Allow: /wp-content/themes/
@@ -48,24 +51,6 @@ Disallow: /
 User-agent: AgentDataBot
 Disallow: /
 
-# AI Data Scraper
-# https://knownagents.com/agents/ai2bot
-
-User-agent: AI2Bot
-Disallow: /
-
-# AI Data Scraper
-# https://knownagents.com/agents/ai2bot-dolma
-
-User-agent: Ai2Bot-Dolma
-Disallow: /
-
-# AI Data Scraper
-# https://knownagents.com/agents/amazonbot
-
-User-agent: Amazonbot
-Disallow: /
-
 # Undocumented AI Agent
 # https://knownagents.com/agents/anthropic-ai
 
@@ -82,12 +67,6 @@ Disallow: /
 # https://knownagents.com/agents/apifywebsitecontentcrawler
 
 User-agent: ApifyWebsiteContentCrawler
-Disallow: /
-
-# AI Data Scraper
-# https://knownagents.com/agents/applebot-extended
-
-User-agent: Applebot-Extended
 Disallow: /
 
 # Undocumented AI Agent
@@ -118,18 +97,6 @@ Disallow: /
 # https://knownagents.com/agents/authory
 
 User-agent: Authory
-Disallow: /
-
-# AI Data Scraper
-# https://knownagents.com/agents/beansllm-corpusbot
-
-User-agent: BeansLLM-CorpusBot
-Disallow: /
-
-# AI Data Scraper
-# https://knownagents.com/agents/bedrockbot
-
-User-agent: bedrockbot
 Disallow: /
 
 # AI Data Provider
@@ -168,34 +135,10 @@ Disallow: /
 User-agent: Brightbot
 Disallow: /
 
-# AI Data Scraper
-# https://knownagents.com/agents/bytespider
-
-User-agent: Bytespider
-Disallow: /
-
-# AI Data Scraper
-# https://knownagents.com/agents/ccbot
-
-User-agent: CCBot
-Disallow: /
-
-# AI Data Scraper
-# https://knownagents.com/agents/chatglm-spider
-
-User-agent: ChatGLM-Spider
-Disallow: /
-
 # Undocumented AI Agent
 # https://knownagents.com/agents/claude-web
 
 User-agent: Claude-Web
-Disallow: /
-
-# AI Data Scraper
-# https://knownagents.com/agents/claudebot
-
-User-agent: ClaudeBot
 Disallow: /
 
 # AI Data Provider
@@ -204,34 +147,10 @@ Disallow: /
 User-agent: CloudflareBrowserRenderingCrawler
 Disallow: /
 
-# AI Data Scraper
-# https://knownagents.com/agents/cloudvertexbot
-
-User-agent: CloudVertexBot
-Disallow: /
-
 # Undocumented AI Agent
 # https://knownagents.com/agents/cohere-ai
 
 User-agent: cohere-ai
-Disallow: /
-
-# AI Data Scraper
-# https://knownagents.com/agents/cohere-training-data-crawler
-
-User-agent: cohere-training-data-crawler
-Disallow: /
-
-# AI Data Scraper
-# https://knownagents.com/agents/coherebot
-
-User-agent: CohereBot
-Disallow: /
-
-# AI Data Scraper
-# https://knownagents.com/agents/cotoyogi
-
-User-agent: Cotoyogi
 Disallow: /
 
 # AI Data Provider
@@ -258,22 +177,10 @@ Disallow: /
 User-agent: CUCH.org Archive Bot
 Disallow: /
 
-# AI Data Scraper
-# https://knownagents.com/agents/datenbank-crawler
-
-User-agent: Datenbank Crawler
-Disallow: /
-
 # Scraper
 # https://knownagents.com/agents/dcrawl
 
 User-agent: dcrawl
-Disallow: /
-
-# AI Data Scraper
-# https://knownagents.com/agents/deepseekbot
-
-User-agent: DeepSeekBot
 Disallow: /
 
 # AI Data Provider
@@ -288,52 +195,16 @@ Disallow: /
 User-agent: Diffbot
 Disallow: /
 
-# AI Data Scraper
-# https://knownagents.com/agents/doubaobot
-
-User-agent: Doubaobot
-Disallow: /
-
-# AI Data Scraper
-# https://knownagents.com/agents/erniebot
-
-User-agent: ERNIEBot
-Disallow: /
-
 # AI Data Provider
 # https://knownagents.com/agents/exabot
 
 User-agent: ExaBot
 Disallow: /
 
-# AI Data Scraper
-# https://knownagents.com/agents/facebookbot
-
-User-agent: FacebookBot
-Disallow: /
-
 # AI Data Provider
 # https://knownagents.com/agents/firecrawlagent
 
 User-agent: FirecrawlAgent
-Disallow: /
-
-# AI Data Scraper
-# https://knownagents.com/agents/google-extended
-
-User-agent: Google-Extended
-Disallow: /
-
-# AI Data Scraper
-# https://knownagents.com/agents/googleother
-
-User-agent: GoogleOther
-Disallow: /
-
-# AI Data Scraper
-# https://knownagents.com/agents/gptbot
-
-User-agent: GPTBot
 Disallow: /
 
 # Undocumented AI Agent
@@ -378,12 +249,6 @@ Disallow: /
 User-agent: HTTrack 3.0
 Disallow: /
 
-# AI Data Scraper
-# https://knownagents.com/agents/hunyuan
-
-User-agent: Hunyuan
-Disallow: /
-
 # Archiver
 # https://knownagents.com/agents/ia-archiver
 
@@ -414,18 +279,6 @@ Disallow: /
 User-agent: iaskspider
 Disallow: /
 
-# AI Data Scraper
-# https://knownagents.com/agents/icc-crawler
-
-User-agent: ICC-Crawler
-Disallow: /
-
-# AI Data Scraper
-# https://knownagents.com/agents/imagespider
-
-User-agent: imageSpider
-Disallow: /
-
 # Scraper
 # https://knownagents.com/agents/indeedjobbot
 
@@ -436,12 +289,6 @@ Disallow: /
 # https://knownagents.com/agents/internet-archive
 
 User-agent: Internet Archive
-Disallow: /
-
-# AI Data Scraper
-# https://knownagents.com/agents/kangaroo-bot
-
-User-agent: Kangaroo Bot
 Disallow: /
 
 # AI Data Provider
@@ -456,18 +303,6 @@ Disallow: /
 User-agent: KeenableBot
 Disallow: /
 
-# AI Data Scraper
-# https://knownagents.com/agents/kimibot
-
-User-agent: KimiBot
-Disallow: /
-
-# AI Data Scraper
-# https://knownagents.com/agents/kimicrawler
-
-User-agent: KimiCrawler
-Disallow: /
-
 # Scraper
 # https://knownagents.com/agents/krawlerbot
 
@@ -478,24 +313,6 @@ Disallow: /
 # https://knownagents.com/agents/kunatocrawler
 
 User-agent: KunatoCrawler
-Disallow: /
-
-# AI Data Scraper
-# https://knownagents.com/agents/laion-huggingface-processor
-
-User-agent: laion-huggingface-processor
-Disallow: /
-
-# AI Data Scraper
-# https://knownagents.com/agents/lcc
-
-User-agent: LCC
-Disallow: /
-
-# AI Data Scraper
-# https://knownagents.com/agents/meta-externalagent
-
-User-agent: meta-externalagent
 Disallow: /
 
 # Scraper
@@ -510,34 +327,10 @@ Disallow: /
 User-agent: MetaJobBot
 Disallow: /
 
-# AI Data Scraper
-# https://knownagents.com/agents/micro-crawl
-
-User-agent: micro-crawl
-Disallow: /
-
 # Archiver
 # https://knownagents.com/agents/mirrorweb
 
 User-agent: mirrorweb
-Disallow: /
-
-# AI Data Scraper
-# https://knownagents.com/agents/mistralbot
-
-User-agent: MistralBot
-Disallow: /
-
-# AI Data Scraper
-# https://knownagents.com/agents/moonshotbot
-
-User-agent: MoonshotBot
-Disallow: /
-
-# AI Data Scraper
-# https://knownagents.com/agents/moonspider
-
-User-agent: MoonSpider
 Disallow: /
 
 # AI Data Provider
@@ -550,12 +343,6 @@ Disallow: /
 # https://knownagents.com/agents/netarkivindsamling
 
 User-agent: netarkivindsamling
-Disallow: /
-
-# AI Data Scraper
-# https://knownagents.com/agents/netestate-imprint-crawler
-
-User-agent: netEstate Imprint Crawler
 Disallow: /
 
 # Scraper
@@ -588,22 +375,10 @@ Disallow: /
 User-agent: Offline Explorer
 Disallow: /
 
-# AI Data Scraper
-# https://knownagents.com/agents/omgili
-
-User-agent: omgili
-Disallow: /
-
 # Scraper
 # https://knownagents.com/agents/openindexspider
 
 User-agent: OpenindexSpider
-Disallow: /
-
-# AI Data Scraper
-# https://knownagents.com/agents/pangubot
-
-User-agent: PanguBot
 Disallow: /
 
 # Scraper
@@ -622,36 +397,6 @@ Disallow: /
 # https://knownagents.com/agents/queritbot
 
 User-agent: QueritBot
-Disallow: /
-
-# AI Data Scraper
-# https://knownagents.com/agents/qwenbot
-
-User-agent: QwenBot
-Disallow: /
-
-# AI Data Scraper
-# https://knownagents.com/agents/recraft-image-dataset
-
-User-agent: recraft-image-dataset
-Disallow: /
-
-# AI Data Scraper
-# https://knownagents.com/agents/reflectionbot
-
-User-agent: ReflectionBot
-Disallow: /
-
-# AI Data Scraper
-# https://knownagents.com/agents/salamandravlm
-
-User-agent: SalamandraVLM
-Disallow: /
-
-# AI Data Scraper
-# https://knownagents.com/agents/sbintuitionsbot
-
-User-agent: SBIntuitionsBot
 Disallow: /
 
 # Scraper
@@ -702,12 +447,6 @@ Disallow: /
 User-agent: special_archiver
 Disallow: /
 
-# AI Data Scraper
-# https://knownagents.com/agents/spider
-
-User-agent: Spider
-Disallow: /
-
 # Scraper
 # https://knownagents.com/agents/statsdronebot
 
@@ -744,34 +483,16 @@ Disallow: /
 User-agent: Thinkbot
 Disallow: /
 
-# AI Data Scraper
-# https://knownagents.com/agents/timpibot
-
-User-agent: Timpibot
-Disallow: /
-
 # Archiver
 # https://knownagents.com/agents/turnitin
 
 User-agent: Turnitin
 Disallow: /
 
-# AI Data Scraper
-# https://knownagents.com/agents/velenpublicwebcrawler
-
-User-agent: VelenPublicWebCrawler
-Disallow: /
-
 # Scraper
 # https://knownagents.com/agents/web-image-collection-research
 
 User-agent: web-image-collection-research
-Disallow: /
-
-# AI Data Scraper
-# https://knownagents.com/agents/webzio-extended
-
-User-agent: webzio-extended
 Disallow: /
 
 # Undocumented AI Agent
@@ -796,12 +517,6 @@ Disallow: /
 # https://knownagents.com/agents/xy-archive-compliance-archiver
 
 User-agent: XY-Archive-Compliance-Archiver
-Disallow: /
-
-# AI Data Scraper
-# https://knownagents.com/agents/yibot
-
-User-agent: YiBot
 Disallow: /
 
 # AI Data Provider
