@@ -26,6 +26,7 @@ Disallow: /sign-in
 Disallow: /sugarfif.html
 Disallow: /wikis/*/edit
 Disallow: /wikis/*/compare/*
+Allow: /sponsored/
 
 #block crawlers
 User-agent: Amzn-SearchBot
@@ -42,6 +43,7 @@ User-agent: OAI-SearchBot
 User-agent: opencode
 User-agent: TerraCotta
 User-agent: Trae
+Allow: /sponsored/
 Disallow: /
 
 #Block AI content scrapers
@@ -256,6 +258,7 @@ Allow: /articles/dress-to-impress-codes
 Allow: /articles/ghost-of-yotei-review
 Allow: /articles/gta-6-release-date-about-18-months-behind-original-target-take-two-boss-reveals-suggesting-spring-2025-was-once-the-goal-internally
 Allow: /articles/hollow-knight-silksong-global-release-times-confirmed
+Allow: /articles/how-the-samsung-galaxy-z-fold8-has-been-optimised-for-large-screen-entertainment-multitasking-and-all-day-battery-life
 Allow: /articles/ign-awards-2025-winners
 Allow: /articles/jurassic-world-rebirth-review-scarlett-johansson-mahershala-ali
 Allow: /articles/metroid-prime-4-beyond-review
@@ -285,6 +288,7 @@ Allow: /articles/the-last-of-us-2-safe-combinations-and-codes
 Allow: /articles/video-game-release-dates-ps4-ps5-xbox-one-series-x-nintendo-switch
 Allow: /articles/what-to-expect-playstation-state-of-play-june-2026
 Allow: /articles/x-men-movies-in-order
+Allow: /articles/z-fold8-vs-previous-samsung-foldables-how-battery-performance-efficiency-and-display-experience-have-evolved
 Allow: /playlist/rchnemesis/lists/top-100-indie-games
 Allow: /wikis/007-first-light/Essential_Tips_and_Tricks
 Allow: /wikis/arc-raiders/Avian_Alarm_Project_Guide_and_How_to_Complete
@@ -351,6 +355,7 @@ Allow: /sponsored/
 Disallow: /
 
 User-agent: DuckDuckBot
+Allow: /sponsored/
 Allow: /
 
 Sitemap: https://www.ign.com/rss/sitemap-articles.xml

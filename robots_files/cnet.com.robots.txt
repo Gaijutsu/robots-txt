@@ -67,16 +67,19 @@ Disallow: /uk/*
 
 # Ziff Davis bot list
 user-agent: AddSearchBot
+user-agent: AgentDataBot
 user-agent: AI2Bot
 user-agent: Ai2Bot-DeepResearchEval
 user-agent: Ai2Bot-Dolma
 user-agent: AIWebIndex
+user-agent: AIWebIndex-Agent
 user-agent: amazon-QBusiness
 user-agent: Amazonbot
 user-agent: AmazonBuyForMe
 user-agent: Amzn-SearchBot
 user-agent: Amzn-User
 user-agent: Anchor Browser
+user-agent: AndiAgent
 user-agent: anthropic-ai
 user-agent: ApifyBot
 user-agent: ApifyWebsiteContentCrawler
@@ -86,8 +89,10 @@ user-agent: atlassian-bot
 user-agent: AutoRAG
 user-agent: AwarioSmartBot
 user-agent: AzureAI-SearchBot
+user-agent: BeansLLM-CorpusBot
 user-agent: Big Sur AI
 user-agent: bigsur.ai
+user-agent: BixelBot
 user-agent: Brandwatch
 user-agent: Bravebot
 user-agent: Brightbot
@@ -101,6 +106,8 @@ user-agent: Claude-SearchBot
 user-agent: Claude-User
 user-agent: Claude-Web
 user-agent: ClaudeBot
+user-agent: Cloudflare-AutoRAG
+user-agent: CloudflareBrowserRenderingCrawler
 user-agent: Code
 user-agent: cohere-ai
 user-agent: cohere-training-data-crawler
@@ -110,30 +117,42 @@ user-agent: Cursor
 user-agent: Datenbank Crawler
 user-agent: Datenbank-Crawler
 user-agent: DeepSeekBot
+user-agent: DesearchBot
 user-agent: Devin
 user-agent: Diffbot
 user-agent: Direqt Anomura
+user-agent: Dola-SearchBot
 user-agent: DuckAssistBot
 user-agent: Echobot Bot
 user-agent: ExaBot
+user-agent: ExaSearchBot
 user-agent: FacebookBot
 user-agent: Factset_spyderbot
 user-agent: FirecrawlAgent
 user-agent: GeistHaus-PageFetcher
 user-agent: GPTBot
+user-agent: grok-agent
+user-agent: GrokBot
+user-agent: Hunyuan
 user-agent: iAsk
 user-agent: iAskBot
 user-agent: iaskspider
 user-agent: ICC Crawler
 user-agent: ICC-Crawler
+user-agent: ImageBot
 user-agent: ImageSiftBot
 user-agent: imageSpider
+user-agent: IsonSearchBot
 user-agent: kagi-fetcher
 user-agent: Kangaroo Bot
 user-agent: Kangaroo-Bot
+user-agent: Keenable-User
+user-agent: KeenableBot
+user-agent: Kimi-Agent
 user-agent: Kimi-User
 user-agent: KlaviyoAIBot
 user-agent: Kunato
+user-agent: KunatoCrawler
 user-agent: laion-huggingface-processor
 user-agent: LCC
 user-agent: LINER Bot
@@ -159,14 +178,22 @@ user-agent: PerplexityBot
 user-agent: PetalBot
 user-agent: PhindBot
 user-agent: Poggio-Citations
+user-agent: qodercli
 user-agent: QualifiedBot
+user-agent: recraft-image-dataset
+user-agent: Reflectionbot
 user-agent: SBIntuitionsBot
+user-agent: ScryBot
 user-agent: SeekrBot
 user-agent: SemrushBot-OCOB
 user-agent: SemrushBotSwa
 user-agent: Shap-User
 user-agent: ShapBot
+user-agent: SofyaBot
+user-agent: SomethinggBot
 user-agent: Spider
+user-agent: TalarionFrontierCrawler
+user-agent: TalarionSearchBot
 user-agent: TavilyBot
 user-agent: TerraCotta
 user-agent: Timpibot
@@ -178,9 +205,15 @@ user-agent: Velen Crawler
 user-agent: VelenPublicWebCrawler
 user-agent: Webzio-Extended
 user-agent: Wrtn
+user-agent: WRTNBot
+user-agent: xAI-Grok
+user-agent: YandexAdditionalBot
+user-agent: YepBot
+user-agent: YiBot
 user-agent: YiyanBot
 user-agent: YouBot
 user-agent: ZanistaBot
+Allow: /home/fiber-cable-or-5g-internet-how-to-choose/
 Allow: /home/internet/do-you-need-symmetrical-internet-speeds-what-to-know-before-you-upgrade/
 Allow: /home/internet/dont-buy-internet-until-you-check-the-cost-per-mbps/
 Allow: /home/internet/equipment-for-fast-home-internet/
@@ -192,6 +225,7 @@ Allow: /home/internet/is-your-internet-connection-delivering-on-the-speeds-you-p
 Allow: /home/internet/lag-free-internet-how-to-find-the-right-internet-speed-for-a-family-of-4-or-more/
 Allow: /home/internet/what-are-the-different-internet-connection-types/
 Allow: /home/internet/why-your-gigabit-internet-plan-might-be-overkill/
+Allow: /home/internet/why-your-upload-speed-is-ruining-your-work-calls-and-how-to-fix-it/
 Allow: /home/internet/xfinity-vs-att-which-internet-provider-is-best/
 Allow: /home/internet/xfinity-vs-verizon-which-internet-provider-is-best/
 Allow: /home/internet/your-internet-bill-might-be-booby-trapped-heres-what-to-do/
@@ -202,6 +236,7 @@ Allow: /paid-content/cash-apps-new-kids-debit-card-what-parents-need-to-know/
 Allow: /paid-content/cricket-wireless-offers-reliable-prepaid-nationwide-5g/
 Allow: /paid-content/dji-builds-on-12-years-of-handheld-imaging-innovation-with-the-dji-osmo-360-ii/
 Allow: /paid-content/dji-osmo-pocket-4p-is-a-powerful-tool-for-independent-filmmakers/
+Allow: /paid-content/do-you-actually-need-a-separate-antivirus-vpn-and-scam-protection-mcafees-all-in-one-plans-have-you-covered/
 Allow: /paid-content/enjoy-unlimited-wi-fi-and-predictable-pricing-with-on-your-home-internet/
 Allow: /paid-content/from-tacos-to-tvs-doordash-delivers-your-game-day-essentials/
 Allow: /paid-content/galaxy-s26-camera-system-the-biggest-questions-answered-before-you-buy/
@@ -224,9 +259,11 @@ Allow: /paid-content/how-to-choose-the-right-dell-ai-laptop-for-your-workflow/
 Allow: /paid-content/how-to-get-fast-reliable-fiber-internet-at-a-predictable-transparent-price/
 Allow: /paid-content/how-to-get-your-backyard-ready-for-summer-with-lights-and-sound/
 Allow: /paid-content/how-to-time-your-next-major-appliance-purchase-for-maximum-savings/
+Allow: /paid-content/how-to-try-out-ai-glasses-from-meta-at-your-local-best-buy/
 Allow: /paid-content/how-to-watch-live-sports-and-avoid-wheres-the-game-chaos-with-xfinity/
 Allow: /paid-content/i-tried-internxt-an-encrypted-secure-cloud-storage-built-for-the-post-quantum-era/
 Allow: /paid-content/is-diy-tax-filing-right-for-you-heres-what-h-r-blocks-tools-make-possible/
+Allow: /paid-content/is-fiber-to-the-home-ftth-actually-better-than-xfinity-heres-what-the-evidence-says/
 Allow: /paid-content/is-it-time-to-upgrade-your-iphone-with-t-mobiles-trade-in-offers-the-answer-is-yes/
 Allow: /paid-content/is-wi-fi-7-worth-the-upgrade-heres-how-msis-roamii-mesh-systems-fit-in/
 Allow: /paid-content/life-changes-and-new-laws-can-affect-your-tax-refund-how-to-estimate/
@@ -290,7 +327,10 @@ Allow: /paid-content/nordictrack-rowing-machine-or-exercise-bike-which-one-will-
 Allow: /paid-content/samsung-micro-rgb-tvs-show-you-more-colors-than-ever-before/
 Allow: /paid-content/scale-your-small-business-with-fast-funding-via-loanbuilder/
 Allow: /paid-content/selling-stuff-online-what-you-could-be-on-the-hook-for-tax-wise/
+Allow: /paid-content/shop-now-save-now-12-walmart-tech-picks-at-great-prices-no-promo-code-needed/
 Allow: /paid-content/shopping-for-a-major-appliance-let-best-buy-do-the-heavy-lifting/
+Allow: /paid-content/should-you-get-the-iphone-18-now-or-wait-what-to-know-about-preorder-and-carrier-deals/
+Allow: /paid-content/stop-comparing-home-internet-providers-by-fiber-vs-cable-use-this-checklist-instead/
 Allow: /paid-content/streamline-your-weeknight-cooking-routine-with-a-multi-speed-air-fryer/
 Allow: /paid-content/studio-pilates-vs-a-home-reformer-the-math-on-how-much-youd-actually-save/
 Allow: /paid-content/roboform-for-everyday-use-ease-of-use-cost-and-getting-set-up/
@@ -301,10 +341,12 @@ Allow: /paid-content/t-mobile-fiber-vs-cable-internet-why-ultra-fast-internet-is
 Allow: /paid-content/tempos-fresh-chef-crafted-meals-make-your-meal-prep-smarter-and-tastier/
 Allow: /paid-content/the-dell-xps-13-is-subtle-luxury-in-laptop-form/
 Allow: /paid-content/the-difference-between-fiber-to-the-home-and-fiber-powered-internet/
+Allow: /paid-content/the-nordictrack-commercial-2450-combines-big-speed-with-smart-adjustment-features/
 Allow: /paid-content/the-nordictrack-treadmill-you-actually-need-for-the-12-3-30-workout/
 Allow: /paid-content/upgrade-your-home-on-a-budget-with-these-summer-appliance-rollbacks-from-walmart/
 Allow: /paid-content/upgrade-your-summer-content-with-a-portable-digital-camera/
 Allow: /paid-content/what-americans-pay-for-internet-in-2026-and-how-xfinity-helps-you-save/
+Allow: /paid-content/what-is-a-wearable-exoskeleton-and-who-actually-needs-one/
 Allow: /paid-content/whats-a-good-casetify-case-for-my-next-iphone-a-complete-guide-to-practical-protection/
 Allow: /paid-content/when-can-kids-get-a-debit-card-heres-how-cash-app-handles-every-age/
 Allow: /paid-content/how-fast-should-your-home-internet-be/
@@ -345,6 +387,8 @@ Allow: /tech/services-and-software/qualified-tips-overtime-tax-deduction-rules/
 Allow: /tech/services-and-software/self-employment-tax-guide-1099-contractor/
 Allow: /tech/services-and-software/w2-vs-1099-difference/
 Allow: /tech/services-and-software/what-is-vibe-coding-how-anyone-can-make-apps-with-the-help-of-ai/
+Allow: /tech/services-and-software/what-online-retailers-actually-do-with-your-data-after-you-check-out/
+Allow: /tech/services-and-software/what-someone-can-do-with-your-phone-number-and-how-to-protect-yourself/
 Allow: /tech/services-and-software/why-use-proxy-server-benefits-drawbacks-common-use-cases/
 Allow: /tech/services-and-software/why-would-a-business-need-to-use-a-proxy-server/
 Allow: /videos/2026-tax-season-checklist-what-you-need-before-you-file/
@@ -365,6 +409,7 @@ User-agent: Omgilibot
 User-agent: Peer39_crawler/1.0
 User-agent: Scrapy
 Disallow: /
+
 Sitemap: https://www.cnet.com/sitemap-authors.xml
 
 Sitemap: https://www.cnet.com/sitemap-google-news.xml

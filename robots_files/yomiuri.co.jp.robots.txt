@@ -77,7 +77,9 @@ Allow: /sponsored/
 
 User-agent: Google-Extended
 Disallow: /
+Allow: /adv/
 Allow: /news
+Allow: /sponsored/
 Allow: /*2026
 Disallow: /*result*2
 Disallow: /*2*result

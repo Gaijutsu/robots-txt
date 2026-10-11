@@ -1,5 +1,6 @@
 User-Agent: *
 Allow: /
+Disallow: /c/
 
 User-Agent: Googlebot
 Allow: /replatform/_next/image*
@@ -91,7 +92,3 @@ Sitemap: https://time.com/news-sitemap.xml
 Sitemap: https://time.com/branded-content-sitemap.xml
 Sitemap: https://time.com/video-sitemap.xml
 Sitemap: https://time.com/video-landing-sitemap.xml
-Sitemap: https://time.com/coupons/sitemap.xml
-Sitemap: https://time.com/archive-sitemaps.xml
-Sitemap: https://time.com/sitemap-sections.xml
-Sitemap: https://time.com/sitemap-tags.xml

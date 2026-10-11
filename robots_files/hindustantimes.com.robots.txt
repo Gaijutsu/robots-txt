@@ -37,44 +37,6 @@ Disallow: /topic/*/page-*
 Disallow: /feed-elections/*
 
 
-
-
-User-agent: AdsBot-Google
-User-agent: Mediapartners-Google
-User-agent: AmazonAdBot
-Allow: /
-Disallow: /what-now/card-details/
-Disallow: /*/url*
-Disallow: /*/imageURL
-Disallow: /fragment/
-Disallow: /Fragment/
-Disallow: /Error/
-Disallow: /error/
-Disallow: /login/
-Disallow: /intfeeds/
-Disallow: /Images/HTEditImages
-Disallow: /images/HTPopups/
-Disallow: /Images/Popup/
-Disallow: /homenew
-Disallow: /dummytestpage/
-Disallow: /brand-stories/international/*
-Disallow: /origin-pre-prod/
-Disallow: /sponsored-stories/
-Disallow: /brand-stories/
-Disallow: /brand-post/
-Disallow: /cdp/api*
-Disallow: /cdp/user*
-Disallow: /sponsored-post/
-Disallow: /hot-amazon-deals*
-Disallow: /s/*
-Disallow: /static-content/1y*
-Disallow: /static_content/1y*
-Disallow: /static-content/10s*
-Disallow: /my-ht/*
-Disallow: /author/*/page-*
-Disallow: /topic/*/page-*
-Disallow: /feed-elections/*
-
 User-agent: Googlebot-News
 Allow: /
 Disallow: /what-now/card-details/
@@ -117,13 +79,12 @@ User-agent: Facebot
 Allow: /s/
 
 User-agent: AmazonAdBot
-Allow: /trivia/
-
 User-agent: AdsBot-Google
+User-agent: Mediapartners-Google
+Allow: /
 Allow: /trivia/
 
-User-agent: Mediapartners-Google
-Allow: /trivia/
+
 
 Sitemap: https://www.hindustantimes.com/sitemap/news.xml
 Sitemap: https://www.hindustantimes.com/sitemap/index.xml
